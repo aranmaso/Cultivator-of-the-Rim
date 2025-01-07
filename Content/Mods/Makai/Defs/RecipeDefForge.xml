@@ -1,0 +1,21 @@
+<Defs>
+
+	<RecipeDef ParentName="MakaiPrimoForgeCraftBaseRawResource">
+		<defName>Makai_Manifest_CTR_SpiritStone</defName>
+		<label>Materialize Spirit Stone</label>
+		<description>Materialize Spirit Stone from Primordial Forge</description>
+		<products>
+			<CTR_SpiritStone>100</CTR_SpiritStone>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakaiPrimoForgeCraftBaseRawResource">
+		<defName>Makai_Manifest_CTR_AzureFragment</defName>
+		<label>Materialize Azure Fragment</label>
+		<description>Materialize Azure Fragment from Primordial Forge</description>
+		<products>
+			<CTR_AzureFragment>1</CTR_AzureFragment>
+		</products>
+	</RecipeDef>
+
+</Defs>
