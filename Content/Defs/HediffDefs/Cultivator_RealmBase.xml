@@ -3258,19 +3258,19 @@
 					</li>
 				</changeToNeeds>
 			</li>
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>100</maxEnergy>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>1</maxEnergy>
 				<energyRechargeRate>0.05</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -3278,10 +3278,12 @@
 
 				<absorbSound>EnergyShield_AbsorbDamage</absorbSound>
 				<resetSound>EnergyShield_Reset</resetSound>
-
+				
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+				
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -3954,19 +3956,19 @@
 				</li>
 			</changeToNeeds>
 			</li>
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>100</maxEnergy>
-				<energyRechargeRate>0.05</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>1</maxEnergy>
+				<energyRechargeRate>0.1</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -3978,6 +3980,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -4655,19 +4659,19 @@
 				</li>
 			</changeToNeeds>
 			</li>		
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>250</maxEnergy>
-				<energyRechargeRate>0.05</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>2.5</maxEnergy>
+				<energyRechargeRate>0.125</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -4679,6 +4683,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -5357,19 +5363,19 @@
 				</li>
 			</changeToNeeds>
 			</li>		
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>500</maxEnergy>
-				<energyRechargeRate>0.05</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>5</maxEnergy>
+				<energyRechargeRate>0.25</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -5381,6 +5387,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -6061,19 +6069,19 @@
 			</changeToNeeds>
 			</li>
 					
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>500</maxEnergy>
-				<energyRechargeRate>0.05</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>5</maxEnergy>
+				<energyRechargeRate>0.25</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -6085,6 +6093,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -6765,19 +6775,19 @@
 				</li>
 			</changeToNeeds>
 			</li>
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>500</maxEnergy>
-				<energyRechargeRate>0.05</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>5</maxEnergy>
+				<energyRechargeRate>0.25</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -6789,6 +6799,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -7470,19 +7482,19 @@
 				</li>
 			</changeToNeeds>
 			</li>
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>1000</maxEnergy>
-				<energyRechargeRate>0.05</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>10</maxEnergy>
+				<energyRechargeRate>0.5</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -7494,6 +7506,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -8176,19 +8190,19 @@
 					</li>
 				</changeToNeeds>
 			</li>
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>1500</maxEnergy>
-				<energyRechargeRate>0.05</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>15</maxEnergy>
+				<energyRechargeRate>0.75</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -8200,6 +8214,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -8873,19 +8889,19 @@
 					</li>
 				</changeToNeeds>
 			</li>
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>2000</maxEnergy>
-				<energyRechargeRate>0.05</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>20</maxEnergy>
+				<energyRechargeRate>1.0</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -8897,6 +8913,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -9581,19 +9599,19 @@
 					</li>
 				</changeToNeeds>
 			</li>
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>4000</maxEnergy>
-				<energyRechargeRate>0.05</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>40</maxEnergy>
+				<energyRechargeRate>2.0</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -9605,6 +9623,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Divine Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -10300,19 +10320,19 @@
 					</li>
 				</changeToNeeds>
 			</li>
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>20000</maxEnergy>
-				<energyRechargeRate>0.1</energyRechargeRate>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>200</maxEnergy>
+				<energyRechargeRate>10</energyRechargeRate>
 				<resetDelay>1000</resetDelay>
 				<energyOnReset>0.25</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -10324,6 +10344,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Divine Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
@@ -10578,19 +10600,19 @@
 					</li>
 				</changeToNeeds>
 			</li>
-			<li Class="AthenaFramework.HediffCompProperties_Shield" MayRequire="smartkar.athenaframework">
-				<maxEnergy>9999999</maxEnergy>
-				<energyRechargeRate>1</energyRechargeRate>
-				<resetDelay>1000</resetDelay>
-				<energyOnReset>0.25</energyOnReset>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>99999.99</maxEnergy>
+				<energyRechargeRate>100</energyRechargeRate>
+				<resetDelay>60</resetDelay>
+				<energyOnReset>0.5</energyOnReset>
 				
-				<blacklistedDamageDefs>
+				<ignoredDamageDefs>
 					<li>SurgicalCut</li>
 					<li>ExecutionCut</li>
-				</blacklistedDamageDefs>
+				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>1</energyPerDamageModifier>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
 				<shatterOn />
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -10602,6 +10624,8 @@
 				<displayGizmo>true</displayGizmo>
 				<gizmoTitle>Divine Qi shield</gizmoTitle>
 				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+
+				<noDisplay>true</noDisplay>
 
 				<minDrawSize>1.2</minDrawSize>
 				<maxDrawSize>1.55</maxDrawSize>
