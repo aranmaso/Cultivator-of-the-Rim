@@ -131,7 +131,7 @@
 		<researchViewY>2.20</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef>	
+	<ResearchProjectDef MayRequire="ludeon.rimworld.biotech">	
 		<defName>CTR_FertilityPillMaking</defName>
 		<label>Alchemy - Fertility Pills</label>
 		<description>boost the fertility for whoever consuming this pill</description>

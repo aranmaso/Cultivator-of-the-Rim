@@ -576,7 +576,7 @@
 		</tradeTags>		
 	</ThingDef>
 	
-	<HediffDef ParentName="CultivationDrugHediffBase">
+	<HediffDef ParentName="CultivationDrugHediffBase" MayRequire="ludeon.rimworld.biotech">
 		<defName>CTR_FertilityPill</defName>
 		<label>fertility effect</label>
 		<description>. . .</description>

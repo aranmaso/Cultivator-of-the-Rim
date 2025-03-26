@@ -470,7 +470,7 @@
 						<secondTag>Earth_Qi</secondTag>
 						<result>CTR_StoneSkinPill</result>
 					</li>
-					<li>
+					<li MayRequire="ludeon.rimworld.biotech">
 						<firstTag>Healing_Item</firstTag>
 						<secondTag>Yin_Qi</secondTag>
 						<result>CTR_FertilityPill</result>

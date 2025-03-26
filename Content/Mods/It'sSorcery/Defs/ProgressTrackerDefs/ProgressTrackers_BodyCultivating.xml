@@ -1,17 +1,24 @@
 <Defs>
 	
-	<!-- Basic Body Technique -->
 	<ItsSorceryFramework.ProgressTrackerDef ParentName = "ProgressTrackerLevelBase">
 		<progressTrackerClass>ItsSorceryFramework.ProgressTracker_Level</progressTrackerClass>
 		<defName>CTR_ProgressTrackerRPG_BodyCultivation</defName>
-		<label>Body System</label>
+		<label>Qi System</label>
 		<bgPath>UI/TechniqueBG/ACSBG</bgPath>
-		<levelRange>1~40</levelRange>
-		
 		<baseEXP>1000</baseEXP>
-		<scaling>1.1</scaling>
-		
-		<progressHediff>CTR_ProgressTrackerRPG_Hediff_BodyCultivation</progressHediff>
+		<scaling>1.1</scaling>			
+		<progressHediff>CTR_ProgressTrackerRPG_Hediff_BodyCultivation</progressHediff>		
+		<baseClass>CTR_ProgressTrackerClass_BodyCultivation</baseClass>
+	</ItsSorceryFramework.ProgressTrackerDef>
+	
+	<ItsSorceryFramework.ProgressTrackerClassDef ParentName = "ProgressTrackerClassBase">
+		<progressTrackerDef>CTR_ProgressTrackerRPG_BodyCultivation</progressTrackerDef>
+		<defName>CTR_ProgressTrackerClass_BodyCultivation</defName>
+		<label>Body System</label>
+		<levelRange>1~40</levelRange>				
+		<unlocks>
+			<li>CTR_BasicBodyTechniqueLearningTree</li>
+		</unlocks>		
 		<levelFactors>
 			<li>
 				<level>1</level>
@@ -148,7 +155,7 @@
 			<li>CTR_EXPTag_DuringJob</li>
 			<li>CTR_EXPTag_UseItemSuperQi</li>
 		</expTags>
-	</ItsSorceryFramework.ProgressTrackerDef>
+	</ItsSorceryFramework.ProgressTrackerClassDef>
 	
 	<HediffDef ParentName="ProgressTrackerHediffBase"> 
 		<defName>CTR_ProgressTrackerRPG_Hediff_BodyCultivation</defName>

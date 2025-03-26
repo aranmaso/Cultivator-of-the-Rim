@@ -385,8 +385,42 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>125</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>			
+			<MarketValue>5</MarketValue>
+			<Mass>0.25</Mass>
+			<StuffPower_Armor_Sharp>0.80</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.80</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.70</StuffPower_Armor_Heat>
+			<StuffPower_Armor_Qi>0.75</StuffPower_Armor_Qi>
+			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.25</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.25</BluntDamageMultiplier>
+			<CTR_QiDamageMultiplier>1.25</CTR_QiDamageMultiplier>
 		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<stuffProps>
+			<stuffAdjective>ancient</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<appearance>Planks</appearance>
+			<commonality>0.1</commonality>
+			<constructEffect>ConstructWood</constructEffect>
+			<color>(113,105,74)</color>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>2.25</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>0.1</Flammability>
+				<WorkToMake>2.2</WorkToMake>
+				<WorkToBuild>2.2</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
 		<costList>
             <CTR_SpiritStone>5</CTR_SpiritStone>
             <CTR_WoodFruit>1</CTR_WoodFruit>
@@ -400,6 +434,7 @@
 		<tradeTags>		
 			<li>Qi_Source_Tier2</li>
 			<li>Wood_Qi</li>
+			<li>Yang_Qi</li>			
 		</tradeTags>    
 	</ThingDef>
 	

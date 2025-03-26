@@ -73,7 +73,7 @@
 			<winterSpeedMultiplier>1.2</winterSpeedMultiplier>
 			<riverCost>1</riverCost>
 			<!-- <manhunterTargetsVehicle>false</manhunterTargetsVehicle> -->
-			<offRoadMultiplier>1.2</offRoadMultiplier>
+			<offRoadMultiplier>0.5</offRoadMultiplier>
 			<customTerrainCosts AllowTerrainWithTag="Water" PathCost="1"/>			
 			
 			<customHillinessCosts>

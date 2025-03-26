@@ -6,20 +6,20 @@
 			<Flammability>0.2</Flammability>
 		</statBases>
 		<tradeTags>
-		<!-- <li>Qi_Source</li> -->
-			<li>Spirit_Plant_Product</li>		
+			<!-- <li>Qi_Source</li> -->
+			<li>Spirit_Plant_Product</li>
 		</tradeTags>
 		<thingCategories>
 			<li>Spirit_PlantProduct</li>
 		</thingCategories>
 		<ingestible>
-		<preferability>DesperateOnly</preferability>
-		<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
 		</ingestible>
 		<comps>
 			<!-- <li Class="CompProperties_Glower"> -->
-				<!-- <glowRadius>2</glowRadius> -->
-				<!-- <glowColor>(154,230,255)</glowColor> -->
+			<!-- <glowRadius>2</glowRadius> -->
+			<!-- <glowColor>(154,230,255)</glowColor> -->
 			<!-- </li> -->
 		</comps>
 	</ThingDef>
@@ -32,7 +32,7 @@
 			<texPath>Things/Items/Plants/SpiritGrassBundle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.5</drawSize>
-		</graphicData>    
+		</graphicData>
 		<statBases>
 			<MarketValue>2</MarketValue>
 		</statBases>
@@ -41,13 +41,13 @@
 				<daysToRotStart>60</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-		</comps>    
+		</comps>
 		<tradeTags>
 			<li>Qi_Condensing_Ingredient</li>
 			<li>Neutral_Qi</li>
 			<li>Qi_Source</li>
 			<li>Qi_Source_Tier1</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="SpiritPlantYieldBase">
@@ -67,11 +67,11 @@
 				<daysToRotStart>60</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-		</comps>    
+		</comps>
 		<tradeTags>
 			<li>Cold_Qi</li>
 			<li>Yin_Qi</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="SpiritPlantYieldBase">
@@ -84,16 +84,16 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
-		</statBases>		
+		</statBases>
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>60</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-		</comps>    
-		<tradeTags>	
+		</comps>
+		<tradeTags>
 			<li>Yang_Qi</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="SpiritPlantYieldBase">
@@ -103,7 +103,7 @@
 		<graphicData>
 			<texPath>Things/Items/Plants/YinFlower</texPath>
 			<drawSize>2</drawSize>
-		</graphicData> 
+		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
 		</statBases>
@@ -112,10 +112,10 @@
 				<daysToRotStart>60</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-		</comps>    
+		</comps>
 		<tradeTags>
 			<li>Yin_Qi</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="SpiritPlantYieldBase">
@@ -131,15 +131,15 @@
 		</statBases>
 		<comps>
 			<!-- <li Class="CompProperties_Rottable"> -->
-				<!-- <daysToRotStart>60</daysToRotStart> -->
-				<!-- <rotDestroys>true</rotDestroys> -->
+			<!-- <daysToRotStart>60</daysToRotStart> -->
+			<!-- <rotDestroys>true</rotDestroys> -->
 			<!-- </li> -->
-		</comps>    
-		<tradeTags>	
+		</comps>
+		<tradeTags>
 			<li>Earth_Qi</li>
 			<li>Yang_Qi</li>
 			<li>Yin_Qi</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="SpiritPlantYieldBase">
@@ -149,7 +149,7 @@
 		<graphicData>
 			<texPath>Things/Items/Plants/WaterFruit</texPath>
 			<drawSize>1.5</drawSize>
-		</graphicData>  
+		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
 		</statBases>
@@ -158,11 +158,11 @@
 				<daysToRotStart>60</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-		</comps>    
-		<tradeTags>		
+		</comps>
+		<tradeTags>
 			<li>Water_Qi</li>
 			<li>Yin_Qi</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="SpiritPlantYieldBase">
@@ -174,18 +174,52 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<statBases>
-			<MarketValue>10</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>			
+			<MarketValue>5</MarketValue>
+			<Mass>0.25</Mass>
+			<StuffPower_Armor_Sharp>0.80</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.80</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.70</StuffPower_Armor_Heat>
+			<StuffPower_Armor_Qi>0.75</StuffPower_Armor_Qi>
+			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.25</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.25</BluntDamageMultiplier>
+			<CTR_QiDamageMultiplier>1.25</CTR_QiDamageMultiplier>
 		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<stuffProps>
+			<stuffAdjective>ancient</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<appearance>Planks</appearance>
+			<commonality>0.1</commonality>
+			<constructEffect>ConstructWood</constructEffect>
+			<color>(113,105,74)</color>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>2.25</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>0.1</Flammability>
+				<WorkToMake>2.2</WorkToMake>
+				<WorkToBuild>2.2</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
 		<comps>
 			<!-- <li Class="CompProperties_Rottable"> -->
-				<!-- <daysToRotStart>60</daysToRotStart> -->
-				<!-- <rotDestroys>true</rotDestroys> -->
+			<!-- <daysToRotStart>60</daysToRotStart> -->
+			<!-- <rotDestroys>true</rotDestroys> -->
 			<!-- </li> -->
-		</comps>    
-		<tradeTags>		
+		</comps>
+		<tradeTags>
 			<li>Wood_Qi</li>
 			<li>Yang_Qi</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="SpiritPlantYieldBase">
@@ -198,17 +232,17 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>2.5</MarketValue>
-		</statBases>		
+		</statBases>
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>60</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-		</comps>    
-		<tradeTags>		
+		</comps>
+		<tradeTags>
 			<li>Fire_Qi</li>
 			<li>Yang_Qi</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="SpiritPlantYieldBase">
@@ -235,7 +269,7 @@
 		<smeltable>true</smeltable>
 		<stuffProps>
 			<categories>
-			<li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 			<appearance>Metal</appearance>
 			<commonality>0.05</commonality>
@@ -254,14 +288,14 @@
 		</stuffProps>
 		<comps>
 			<!-- <li Class="CompProperties_Rottable"> -->
-				<!-- <daysToRotStart>60</daysToRotStart> -->
-				<!-- <rotDestroys>true</rotDestroys> -->
+			<!-- <daysToRotStart>60</daysToRotStart> -->
+			<!-- <rotDestroys>true</rotDestroys> -->
 			<!-- </li> -->
 		</comps>
-		<tradeTags>		
+		<tradeTags>
 			<li>Metal_Qi</li>
 			<li>Yin_Qi</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="SpiritPlantYieldBase">
@@ -281,10 +315,10 @@
 				<glowColor>(154,230,255)</glowColor>
 			</li>
 		</comps>
-		<tradeTags>		
+		<tradeTags>
 			<li>Immortal_Qi</li>
 			<li>Wood_Qi</li>
-		</tradeTags>    
+		</tradeTags>
 	</ThingDef>
   
   

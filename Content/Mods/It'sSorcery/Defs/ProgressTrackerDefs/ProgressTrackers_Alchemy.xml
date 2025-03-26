@@ -1,16 +1,26 @@
 <Defs>
-
+	
 	<ItsSorceryFramework.ProgressTrackerDef ParentName = "ProgressTrackerLevelBase">
 		<progressTrackerClass>ItsSorceryFramework.ProgressTracker_Level</progressTrackerClass>
 		<defName>CTR_ProgressTrackerRPG_Alchemy</defName>
 		<label>Alchemy Controling Technique</label>
 		<bgPath>UI/TechniqueBG/ACSBG</bgPath>
-		<levelRange>1~40</levelRange>
-		
 		<baseEXP>1000</baseEXP>
-		<scaling>1.1</scaling>
+		<scaling>1.1</scaling>		
+		<progressHediff>CTR_ProgressTrackerRPG_Hediff_Alchemy</progressHediff>		
+		<baseClass>CTR_ProgressTrackerClass_Alchemy</baseClass>
+	</ItsSorceryFramework.ProgressTrackerDef>
+	
+	<ItsSorceryFramework.ProgressTrackerClassDef ParentName = "ProgressTrackerClassBase">
+		<progressTrackerDef>CTR_ProgressTrackerRPG_Alchemy</progressTrackerDef>
+		<defName>CTR_ProgressTrackerClass_Alchemy</defName>
+		<label>Alchemist</label>
+		<levelRange>1~40</levelRange>		
 		
-		<progressHediff>CTR_ProgressTrackerRPG_Hediff_Alchemy</progressHediff>
+		<unlocks>
+			<li>CTR_AlchemyLearningProgress</li>
+		</unlocks>
+		
 		<levelFactors>
 			<li>
 				<level>1</level>
@@ -107,7 +117,7 @@
 			<li>CTR_EXPTag_OnSkillEXPCraftingAndIntellect</li>
 			<li>CTR_EXPTag_UseItemSuperQi</li>
 		</expTags>
-	</ItsSorceryFramework.ProgressTrackerDef>
+	</ItsSorceryFramework.ProgressTrackerClassDef>
 	
 	<HediffDef ParentName="ProgressTrackerHediffBase"> 
 		<defName>CTR_ProgressTrackerRPG_Hediff_Alchemy</defName>

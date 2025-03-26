@@ -451,7 +451,7 @@
 		<costList>
 			<CTR_SpiritStone>100</CTR_SpiritStone>
 			<CTR_ImmortalGrass>10</CTR_ImmortalGrass>
-			<CTR_FertilityPill>10</CTR_FertilityPill>
+			<CTR_FertilityPill MayRequire="ludeon.rimworld.biotech">10</CTR_FertilityPill>
 			<CTR_TalismanPaper>1</CTR_TalismanPaper>
 		</costList>
 		<comps>

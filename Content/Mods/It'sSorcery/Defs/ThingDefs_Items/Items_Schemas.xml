@@ -312,38 +312,38 @@
 	</ThingDef>	
   
 
-	<ThingDef ParentName="ISF_LearningTreeItemBase">
-		<defName>CTR_TechniqueManual_StarCaller</defName>
-		<label>Star Caller Training Manual</label>
-		<description>A item meant to create a system in your mind to organize martial knowledge.</description>
-		<graphicData>
-			<texPath>Things/Items/Manual/ManualBook_Qi</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<tradeTags>
-			<li>Technique_Manual</li>
-			<li>Cultivation_Technique</li>
-			<li>Qi_Path</li>
-		</tradeTags> 
-		<thingSetMakerTags>
-			<li>RewardStandardMidFreq</li>
-		</thingSetMakerTags>
-		<comps>
-			<li Class="ItsSorceryFramework.CompProperties_LearningTreeItem">
-				<compClass>ItsSorceryFramework.CompLearningTreeItem</compClass>
-				<useJob>UseItem</useJob>
-				<useLabel>Learn {0}</useLabel>
-				<schemaDef>CTR_QiTechnique</schemaDef>
-				<learningTrackerDef>CTR_StarCallerearningTree</learningTrackerDef>
-			</li>
-			<li Class="ItsSorceryFramework.CompProperties_UseLearningTree">
-				<schemaDef>CTR_QiTechnique</schemaDef>
-				<learningTrackerDef>CTR_StarCallerearningTree</learningTrackerDef>
-			</li>
-			<li Class="CompProperties_UseEffectArtifact">
-				<sound>PsychicAnimalPulserCast</sound>
-			</li>
-		</comps>
-	</ThingDef>	
+	<!-- <ThingDef ParentName="ISF_LearningTreeItemBase"> -->
+		<!-- <defName>CTR_TechniqueManual_StarCaller</defName> -->
+		<!-- <label>Star Caller Training Manual</label> -->
+		<!-- <description>A item meant to create a system in your mind to organize martial knowledge.</description> -->
+		<!-- <graphicData> -->
+			<!-- <texPath>Things/Items/Manual/ManualBook_Qi</texPath> -->
+			<!-- <graphicClass>Graphic_Single</graphicClass> -->
+		<!-- </graphicData> -->
+		<!-- <tradeTags> -->
+			<!-- <li>Technique_Manual</li> -->
+			<!-- <li>Cultivation_Technique</li> -->
+			<!-- <li>Qi_Path</li> -->
+		<!-- </tradeTags>  -->
+		<!-- <thingSetMakerTags> -->
+			<!-- <li>RewardStandardMidFreq</li> -->
+		<!-- </thingSetMakerTags> -->
+		<!-- <comps> -->
+			<!-- <li Class="ItsSorceryFramework.CompProperties_LearningTreeItem"> -->
+				<!-- <compClass>ItsSorceryFramework.CompLearningTreeItem</compClass> -->
+				<!-- <useJob>UseItem</useJob> -->
+				<!-- <useLabel>Learn {0}</useLabel> -->
+				<!-- <schemaDef>CTR_QiTechnique</schemaDef> -->
+				<!-- <learningTrackerDef>CTR_StarCallerearningTree</learningTrackerDef> -->
+			<!-- </li> -->
+			<!-- <li Class="ItsSorceryFramework.CompProperties_UseLearningTree"> -->
+				<!-- <schemaDef>CTR_QiTechnique</schemaDef> -->
+				<!-- <learningTrackerDef>CTR_StarCallerearningTree</learningTrackerDef> -->
+			<!-- </li> -->
+			<!-- <li Class="CompProperties_UseEffectArtifact"> -->
+				<!-- <sound>PsychicAnimalPulserCast</sound> -->
+			<!-- </li> -->
+		<!-- </comps> -->
+	<!-- </ThingDef>	 -->
   
 </Defs>

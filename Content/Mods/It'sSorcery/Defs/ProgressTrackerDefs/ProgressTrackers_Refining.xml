@@ -1,16 +1,24 @@
 <Defs>
-
+	
 	<ItsSorceryFramework.ProgressTrackerDef ParentName = "ProgressTrackerLevelBase">
 		<progressTrackerClass>ItsSorceryFramework.ProgressTracker_Level</progressTrackerClass>
 		<defName>CTR_ProgressTrackerRPG_Refining</defName>
 		<label>Refining Controling Technique</label>
 		<bgPath>UI/TechniqueBG/ACSBG</bgPath>
-		<levelRange>1~40</levelRange>
-		
 		<baseEXP>1000</baseEXP>
-		<scaling>1.1</scaling>
-		
-		<progressHediff>CTR_ProgressTrackerRPG_Hediff_Refining</progressHediff>
+		<scaling>1.1</scaling>		
+		<progressHediff>CTR_ProgressTrackerRPG_Hediff_Refining</progressHediff>		
+		<baseClass>CTR_ProgressTrackerClass_Refining</baseClass>
+	</ItsSorceryFramework.ProgressTrackerDef>
+	
+	<ItsSorceryFramework.ProgressTrackerClassDef ParentName = "ProgressTrackerClassBase">
+		<progressTrackerDef>CTR_ProgressTrackerRPG_Refining</progressTrackerDef>
+		<defName>CTR_ProgressTrackerClass_Refining</defName>
+		<label>Artifact Refiner</label>
+		<levelRange>1~40</levelRange>				
+		<unlocks>
+			<li>CTR_RefiningLearningProgress</li>
+		</unlocks>		
 		<levelFactors>
 			<li>
 				<level>1</level>
@@ -107,7 +115,7 @@
 			<li>CTR_EXPTag_OnSkillEXPCraftingAndIntellect</li>
 			<li>CTR_EXPTag_UseItemSuperQi</li>
 		</expTags>
-	</ItsSorceryFramework.ProgressTrackerDef>
+	</ItsSorceryFramework.ProgressTrackerClassDef>
 	
 	<HediffDef ParentName="ProgressTrackerHediffBase"> 
 		<defName>CTR_ProgressTrackerRPG_Hediff_Refining</defName>

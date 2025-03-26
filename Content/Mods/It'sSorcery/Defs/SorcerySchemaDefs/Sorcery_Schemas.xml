@@ -36,13 +36,13 @@
 		</energyTrackerDefs>
 		<learningTrackerDefs>
 			<li>CTR_BasicBodyTechniqueLearningProgress</li>
-			<li>CTR_BasicBodyTechniqueLearningTree</li>
-						
-			<!-- <li>CTR_RedFlameFistLearningProgress</li> -->
+			<li>CTR_BasicBodyTechniqueLearningTree</li>						
 			<li>CTR_RedFlameFistLearningTree</li>
 		</learningTrackerDefs>
 		<progressTrackerDef>CTR_ProgressTrackerRPG_BodyCultivation</progressTrackerDef>
 	</ItsSorceryFramework.SorcerySchemaDef>
+	
+	<!-- ======================== -->
 	
 	<!-- <ItsSorceryFramework.SorcerySchemaDef ParentName = "SorcerySchemaBase"> -->
 		<!-- <defName>CTR_YangGatheringTechnique</defName> -->
@@ -125,7 +125,6 @@
 		<description>a set of cultivation exercise focused on teaching the way of alchemy.</description>
 	
 		<energyTrackerDefs>
-			<!-- <li>CTR_QiEnergyTracker</li> -->
 		</energyTrackerDefs>
 		<learningTrackerDefs>
 			<li>CTR_AlchemyLearningProgress</li>
@@ -140,7 +139,6 @@
 		<description>a set of cultivation exercise focused on teaching the way of refining.</description>
 	
 		<energyTrackerDefs>
-			<!-- <li>CTR_QiEnergyTracker</li> -->
 		</energyTrackerDefs>
 		<learningTrackerDefs>
 			<li>CTR_RefiningLearningProgress</li>

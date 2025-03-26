@@ -398,7 +398,7 @@
 		</modExtensions>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="GeneralPillRecipeBase">
+	<RecipeDef ParentName="GeneralPillRecipeBase" MayRequire="ludeon.rimworld.biotech">
 		<defName>CTR_MakeCTR_FertilityPill</defName>
 		<label>make Fertility Pill</label>
 		<description>make Fertility Pill.</description>		

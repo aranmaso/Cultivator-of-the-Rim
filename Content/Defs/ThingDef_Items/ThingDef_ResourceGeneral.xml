@@ -202,6 +202,7 @@
 		<generateCommonality>0.01</generateCommonality>
 		<stuffProps>
 			<categories>
+				<li>Metallic</li>
 				<li>Stony</li>
 			</categories>
 			<color>(0,100,255)</color>

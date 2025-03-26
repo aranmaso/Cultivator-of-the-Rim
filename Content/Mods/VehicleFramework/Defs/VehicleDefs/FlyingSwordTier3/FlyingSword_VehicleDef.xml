@@ -72,7 +72,7 @@
 			
 			<defaultBiomesImpassable>false</defaultBiomesImpassable>
 			<worldSpeedMultiplier>2.5</worldSpeedMultiplier>
-			<offRoadMultiplier>1</offRoadMultiplier>
+			<offRoadMultiplier>0.5</offRoadMultiplier>
 			<winterCost>0.0</winterCost>
 			<winterSpeedMultiplier>3.5</winterSpeedMultiplier>
 			<customRoadCosts AssignDefaults="1"/>
