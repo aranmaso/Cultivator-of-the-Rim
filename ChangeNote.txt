@@ -1,0 +1,3 @@
+-allow multiple cultivation hediff to exist
+-consuming beast core now support multiple cultivation hediff(when one is full, will fill the next hediff)
+-change a lot of hediff to use 1.6 tickInterval

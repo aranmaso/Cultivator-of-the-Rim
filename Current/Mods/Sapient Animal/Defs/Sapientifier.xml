@@ -1,0 +1,89 @@
+<Defs>
+
+	<ThingDef ParentName="MechSerumBase">
+		<defName>CTR_AnimalSapientPill</defName>
+		<label>Enlightenment pill</label>
+		<description>a pill grant animal Enlightenment, making them sentient. made from Immortal Qi and Healing Item \n\nTags: Pill, Utility Item</description>
+		<graphicData>
+			<texPath>Things/Items/Pills/CTR_AnimalEnlightenment</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<Mass>0.01</Mass>
+			<Flammability>0.25</Flammability>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Cultivation_Pill</li>
+		</thingCategories>
+		<tradeTags>
+			<li>CTR_Pill</li>
+		</tradeTags>
+		<generateCommonality>0.5</generateCommonality>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>BS_UseOnTarget</useJob>
+				<useLabel>Use {0_label}</useLabel>
+				<useDuration>600</useDuration>
+				<warmupMote>Mote_ResurrectAbility</warmupMote>
+			</li>
+			<li Class="CompProperties_UseEffectDestroySelf"/>
+			<li Class="BigAndSmall.CompProperties_TargetableExtended">
+				<targetInfo>
+					<canTargetBuildings>false</canTargetBuildings>
+					<canTargetHumans>false</canTargetHumans>
+					<canTargetMechs>false</canTargetMechs>
+				</targetInfo>
+			</li>
+			<li Class="BigAndSmall.CompProperties_SwapThingDef"><sapientVersion>true</sapientVersion></li>
+		</comps>
+		<tradeTags>
+			<li>Utility_Item</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="GeneralPillRecipeBase">
+		<defName>CTR_Make_CTR_AnimalSapientPill</defName>
+		<label>make Enlightenment pill</label>
+		<description>make Enlightenment pill.</description>
+		<workAmount>500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<tradeTagsToAllow>
+						<li>Immortal_Qi</li>
+					</tradeTagsToAllow>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<tradeTagsToAllow>
+						<li>Healing_Item</li>
+					</tradeTagsToAllow>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<tradeTagsToAllow>
+				<li>Immortal_Qi</li>
+				<li>Healing_Item</li>
+			</tradeTagsToAllow>
+		</fixedIngredientFilter>
+		<researchPrerequisite>BS_SapientAnimalsResearch</researchPrerequisite>
+		<modExtensions>
+			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
+				<allowedCultivationLevel>
+					<li>CTR_Qi_GatheringOrAbove</li>
+				</allowedCultivationLevel>
+				<successfulProduct>CTR_AnimalSapientPill</successfulProduct>
+				<failedProduct>CTR_JunkPill</failedProduct>
+				<count>1~2</count>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+
+</Defs>

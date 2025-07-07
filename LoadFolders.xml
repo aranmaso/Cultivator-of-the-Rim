@@ -2,11 +2,21 @@
 <loadFolders>
   <v1.5>
 	<li>Common</li>
-	<li>Content</li>
-	<li IfModActive="zomuro.itssorcery">Content/Mods/It'sSorcery</li>
-	<li IfModNotActive="zomuro.itssorcery">Content/Mods/No Sorcery</li>
+	<li>1.5</li>
+	<li IfModActive="zomuro.itssorcery">1.5/Mods/It'sSorcery</li>
+	<li IfModNotActive="zomuro.itssorcery">1.5/Mods/No Sorcery</li>
 	<!-- IfModNotActive -->
-	<li IfModActive="aranmaho.makai">Content/Mods/Makai</li>
-	<li IfModActive="smashphil.vehicleframework">Content/Mods/VehicleFramework</li>
+	<li IfModActive="aranmaho.makai">1.5/Mods/Makai</li>
+	<li IfModActive="smashphil.vehicleframework">1.5/Mods/VehicleFramework</li>
   </v1.5>
+  <v1.6>
+	<li>Common</li>
+	<li>Current</li>
+	<li IfModActive="zomuro.itssorcery">Current/Mods/It'sSorcery</li>
+	<li IfModNotActive="zomuro.itssorcery">Current/Mods/No Sorcery</li>
+	<!-- IfModNotActive -->
+	<li IfModActive="aranmaho.makai">Current/Mods/Makai</li>
+	<li IfModActive="smashphil.vehicleframework">Current/Mods/VehicleFramework</li>
+	<li IfModActive="redmattis.sapientanimals">Current/Mods/Sapient Animal</li>
+  </v1.6>
 </loadFolders>
