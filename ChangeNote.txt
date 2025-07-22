@@ -1,3 +1,8 @@
 -allow multiple cultivation hediff to exist
 -consuming beast core now support multiple cultivation hediff(when one is full, will fill the next hediff)
 -change a lot of hediff to use 1.6 tickInterval
+-remove redundant code,
+-fix hediff disappear bug(Again)
+-qi fleck when meditating only spawn when in camera view
+-add setting to Misc tab, to disable fleck spawning entirely 
+-after lovin, cultivator has a chance to increase the cultivation of their partner

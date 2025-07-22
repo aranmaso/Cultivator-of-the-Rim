@@ -14,20 +14,20 @@
 	</Vehicles.VehicleDef>
 	
 	<Vehicles.VehicleDef Name = "CTR_VehiclePawn_SwordCombat" ParentName = "CTR_VehiclePawn_Sword" Abstract = "True">
-		<soundOneShotsOnEvent Inherit = "False" MayRequire="oskarpotocki.vanillavehiclesexpanded">
-			<li>
+		<soundOneShotsOnEvent Inherit = "False">
+			<li MayRequire="oskarpotocki.vanillavehiclesexpanded">
 				<key>PawnEntered</key>
 				<value>VVE_VehicleEnterArmored</value>
 			</li>
-			<li>
+			<li MayRequire="oskarpotocki.vanillavehiclesexpanded">
 				<key>PawnExited</key>
 				<value>VVE_VehicleEnterArmored</value>
 			</li>
-			<li>
+			<li MayRequire="oskarpotocki.vanillavehiclesexpanded">
 				<key>IgnitionOn</key>
 				<value>VVE_VehicleStart</value>
 			</li>
-			<li>
+			<li MayRequire="oskarpotocki.vanillavehiclesexpanded">
 				<key>IgnitionOff</key>
 				<value>VVE_VehicleStart</value>
 			</li>

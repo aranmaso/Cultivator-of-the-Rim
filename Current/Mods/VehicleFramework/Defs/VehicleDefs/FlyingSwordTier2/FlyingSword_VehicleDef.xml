@@ -68,7 +68,6 @@
 			</vehicleJobLimitations>
 		
 			<!-- <diagonalRotation>false</diagonalRotation> -->
-			<defaultBiomesImpassable>false</defaultBiomesImpassable>
 			<worldSpeedMultiplier>1.5</worldSpeedMultiplier>
 			<winterSpeedMultiplier>3.5</winterSpeedMultiplier>
 			<riverCost>1</riverCost>

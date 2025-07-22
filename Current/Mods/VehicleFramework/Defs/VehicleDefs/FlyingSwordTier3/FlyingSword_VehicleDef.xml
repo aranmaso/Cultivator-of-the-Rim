@@ -70,7 +70,7 @@
 			
 			<customTerrainCosts AllowTerrainWithTag="Water" PathCost="1" AssignDefaults = "1"/>
 			
-			<defaultBiomesImpassable>false</defaultBiomesImpassable>
+			<!-- <defaultBiomesImpassable>false</defaultBiomesImpassable> -->
 			<worldSpeedMultiplier>2.5</worldSpeedMultiplier>
 			<offRoadMultiplier>0.5</offRoadMultiplier>
 			<winterCost>0.0</winterCost>
