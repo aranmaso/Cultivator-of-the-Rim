@@ -21,7 +21,7 @@
 		<size>(1,3)</size>
 		<uiIconScale>1</uiIconScale>
 		
-		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
+		<!-- <vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions> -->
 		<vehicleCategory>Transport</vehicleCategory>
 		<techLevel>Medieval</techLevel>
 		<vehicleType>Land</vehicleType>
@@ -39,7 +39,7 @@
 			<MoveSpeed>25</MoveSpeed>
 			<CargoCapacity>250</CargoCapacity>
 			<RepairRate>1</RepairRate>
-			<AccelerationRate>1.5</AccelerationRate>
+			<AccelerationRate MayRequire="oskarpotocki.vanillavehiclesexpanded">1.5</AccelerationRate>
 			<FlightSpeed>75</FlightSpeed>
 		</vehicleStats>
 		
@@ -81,12 +81,12 @@
 				<Mountainous>0.5</Mountainous>
 			</customHillinessCosts>
 			
-			<customSnowCategoryTicks>
+			<customWeatherCosts>
 				<Dusting>4</Dusting>
 				<Thin>8</Thin>
 				<Medium>16</Medium>
 				<Thick>24</Thick>
-			</customSnowCategoryTicks>
+			</customWeatherCosts>
 			
 			<customBiomeCosts>
 				<li>

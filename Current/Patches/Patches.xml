@@ -10,15 +10,15 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="TropicalRainforest" or defName="TropicalSwamp" or defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert" or defName="BorealForest" or defName="Tundra" or defName="ColdBog"]/wildPlants</xpath>
 		<value>
-			<CTR_SpiritGrassPlant>0.2</CTR_SpiritGrassPlant>
-			<CTR_MoonGrass>0.05</CTR_MoonGrass>
-			<CTR_YinYangFlower>0.02</CTR_YinYangFlower>
-			<CTR_EarthTree>0.01</CTR_EarthTree>
-			<CTR_WinterLeaf>0.01</CTR_WinterLeaf>
-			<CTR_WoodLeaf>0.01</CTR_WoodLeaf>
-			<CTR_FireLeaf>0.01</CTR_FireLeaf>
-			<CTR_MetalStele>0.01</CTR_MetalStele>
-			<CTR_ChronoBeacon>0.005</CTR_ChronoBeacon>
+			<CTR_SpiritGrassPlant>0.01</CTR_SpiritGrassPlant>
+			<CTR_MoonGrass>0.01</CTR_MoonGrass>
+			<CTR_YinYangFlower>0.005</CTR_YinYangFlower>
+			<CTR_EarthTree>0.005</CTR_EarthTree>
+			<CTR_WinterLeaf>0.005</CTR_WinterLeaf>
+			<CTR_WoodLeaf>0.005</CTR_WoodLeaf>
+			<CTR_FireLeaf>0.005</CTR_FireLeaf>
+			<CTR_MetalStele>0.005</CTR_MetalStele>
+			<CTR_ChronoBeacon>0.001</CTR_ChronoBeacon>
 			<CTR_ImmortalPlant>0.001</CTR_ImmortalPlant>
 		</value>
 	</Operation>

@@ -21,6 +21,7 @@
 			<sowMinSkill>10</sowMinSkill>
 			<!-- <humanFoodPlant>true</humanFoodPlant> -->
 			<completelyIgnoreFertility>true</completelyIgnoreFertility>
+			<vacuumResistant>true</vacuumResistant>
 		</plant>
 		<tradeTags>
 			<li>Spirit_Plant</li>
