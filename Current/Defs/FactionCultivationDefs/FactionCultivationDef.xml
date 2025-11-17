@@ -1,0 +1,214 @@
+<Defs>
+
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="ludeon.rimworld.royalty">
+		<defName>CTR_EmpireLeaderCultivation</defName>
+		<label>Empire Leader</label>
+		<description>.</description>
+		<pawnKindDef>Empire_Royal_Stellarch</pawnKindDef>
+		<chance>1</chance>
+		<cultivationWeights>
+			<li>
+				<cultivationRealm>CTR_SaintKing</cultivationRealm>
+				<weight>1</weight>
+			</li>
+		</cultivationWeights>
+	</CultivatorOfTheRim.FactionCultivationDef>
+	
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="ludeon.rimworld.royalty">
+		<defName>CTR_EmpireRoyalGuardMeleeCultivation</defName>
+		<label>Empire Royal Guard</label>
+		<description>.</description>
+		<pawnKindDef>Empire_Fighter_StellicGuardMelee</pawnKindDef>
+		<chance>1</chance>
+		<cultivationWeights>
+			<li>
+				<cultivationRealm>CTR_GoldenCore</cultivationRealm>
+				<weight>0.75</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_NascentSoul</cultivationRealm>
+				<weight>0.25</weight>
+			</li>
+		</cultivationWeights>
+	</CultivatorOfTheRim.FactionCultivationDef>
+	
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="ludeon.rimworld.royalty">
+		<defName>CTR_EmpireRoyalGuardRangedCultivation</defName>
+		<label>Empire Royal Guard</label>
+		<description>.</description>
+		<pawnKindDef>Empire_Fighter_StellicGuardRanged</pawnKindDef>
+		<chance>1</chance>
+		<cultivationWeights>
+			<li>
+				<cultivationRealm>CTR_GoldenCore</cultivationRealm>
+				<weight>0.75</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_NascentSoul</cultivationRealm>
+				<weight>0.25</weight>
+			</li>
+		</cultivationWeights>
+	</CultivatorOfTheRim.FactionCultivationDef>
+	
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="ludeon.rimworld.royalty">
+		<defName>CTR_EmpireSoldierCultivation</defName>
+		<label>Empire Soldier</label>
+		<description>.</description>
+		<factionDefs>
+			<li>Empire</li>
+		</factionDefs>
+		<cultivationWeights>
+			<li>
+				<cultivationRealm>CTR_Qi_Gathering</cultivationRealm>
+				<weight>0.5</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_FoundationEstablishment</cultivationRealm>
+				<weight>0.25</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_CoreShaping</cultivationRealm>
+				<weight>0.15</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_GoldenCore</cultivationRealm>
+				<weight>0.05</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_NascentSoul</cultivationRealm>
+				<weight>0.05</weight>
+			</li>
+		</cultivationWeights>
+	</CultivatorOfTheRim.FactionCultivationDef>
+	
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="hentailoliteam.axolotl">
+		<defName>CTR_AxolotlLeaderCultivation</defName>
+		<label>Axolotl Leader</label>
+		<description>.</description>
+		<pawnKindDef>Axolotl_King</pawnKindDef>
+		<chance>1</chance>
+		<cultivationWeights>
+			<li>
+				<cultivationRealm>CTR_SaintKing</cultivationRealm>
+				<weight>1</weight>
+			</li>
+		</cultivationWeights>
+	</CultivatorOfTheRim.FactionCultivationDef>
+	
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="hentailoliteam.axolotl">
+		<defName>CTR_AxolotlSoldierCultivation</defName>
+		<label>Axolot Soldier</label>
+		<description>.</description>
+		<factionDefs>
+			<li>AxolotlWanderingDynasty</li>
+		</factionDefs>
+		<cultivationWeights>
+			<li>
+				<cultivationRealm>CTR_Qi_Gathering</cultivationRealm>
+				<weight>0.5</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_FoundationEstablishment</cultivationRealm>
+				<weight>0.25</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_CoreShaping</cultivationRealm>
+				<weight>0.15</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_GoldenCore</cultivationRealm>
+				<weight>0.05</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_NascentSoul</cultivationRealm>
+				<weight>0.05</weight>
+			</li>
+		</cultivationWeights>
+	</CultivatorOfTheRim.FactionCultivationDef>
+	
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="redmattis.heaven">
+		<defName>CTR_BSHeavenLeaderCultivation</defName>
+		<label>Red's Heaven Leader</label>
+		<description>.</description>
+		<pawnKindDef>BS_AuthorityLord</pawnKindDef>
+		<chance>1</chance>
+		<cultivationWeights>
+			<li>
+				<cultivationRealm>CTR_ImmortalSaint</cultivationRealm>
+				<weight>1</weight>
+			</li>
+		</cultivationWeights>
+	</CultivatorOfTheRim.FactionCultivationDef>
+	
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="redmattis.heaven">
+		<defName>CTR_BSHellLeaderCultivation</defName>
+		<label>Red's Hell Leader</label>
+		<description>.</description>
+		<pawnKindDef>VU_DemonPrince</pawnKindDef>
+		<chance>1</chance>
+		<cultivationWeights>
+			<li>
+				<cultivationRealm>CTR_ImmortalSaint</cultivationRealm>
+				<weight>1</weight>
+			</li>
+		</cultivationWeights>
+	</CultivatorOfTheRim.FactionCultivationDef>
+	
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="redmattis.heaven">
+		<defName>CTR_BSHeavenHellCultivation</defName>
+		<label>Red's Heaven and Hell</label>
+		<description>.</description>
+		<factionDefs>
+			<li>BS_Heaven</li>
+			<li>BS_Hell</li>
+		</factionDefs>
+		<cultivationWeights>
+			<li>
+				<cultivationRealm>CTR_Qi_Gathering</cultivationRealm>
+				<weight>0.05</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_FoundationEstablishment</cultivationRealm>
+				<weight>0.10</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_CoreShaping</cultivationRealm>
+				<weight>0.10</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_GoldenCore</cultivationRealm>
+				<weight>0.5</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_NascentSoul</cultivationRealm>
+				<weight>0.15</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_ImmortalAscension</cultivationRealm>
+				<weight>0.1</weight>
+			</li>
+			<li>
+				<cultivationRealm>CTR_TrueImmortal</cultivationRealm>
+				<weight>0.005</weight>
+			</li>
+		</cultivationWeights>
+	</CultivatorOfTheRim.FactionCultivationDef>
+	
+	<CultivatorOfTheRim.FactionCultivationDef MayRequire="aranmaho.makaitech.xenotype">
+		<defName>CTR_MakainianCultivation</defName>
+		<label>Makainian</label>
+		<description>.</description>
+		<xenotypeDefs>
+			<li>Makai_Adeltia</li>
+			<li>Makai_Demonian</li>
+			<li>Makai_Elventia</li>
+			<li>Makai_Frostlinx</li>
+			<li>Makai_Igneus</li>
+			<li>Makai_Fairin</li>
+			<li>Makai_Vulpin</li>
+			<li>Makai_Vesperia</li>
+		</xenotypeDefs>
+		<realmRank>9~17</realmRank>
+	</CultivatorOfTheRim.FactionCultivationDef>
+
+</Defs>

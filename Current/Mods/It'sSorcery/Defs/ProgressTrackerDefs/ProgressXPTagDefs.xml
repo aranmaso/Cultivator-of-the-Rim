@@ -94,7 +94,7 @@
 	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_OnSkillEXP">
 		<workerClass>ItsSorceryFramework.ProgressEXPWorker_OnSkillEXP</workerClass>
 		<defName>CTR_EXPTag_OnSkillEXP</defName>
-		<!-- <expFactor>0.1</expFactor> -->
+		<fixedEXP>0.1</fixedEXP>
 		<skillDefs>
 			<li>Melee</li>
 			<li>Shooting</li>
@@ -104,7 +104,7 @@
 	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_OnSkillEXP">
 		<workerClass>ItsSorceryFramework.ProgressEXPWorker_OnSkillEXP</workerClass>
 		<defName>CTR_EXPTag_OnSkillEXPCraftingAndIntellect</defName>
-		<!-- <expFactor>0.1</expFactor> -->
+		<fixedEXP>0.1</fixedEXP>
 		<skillDefs>
 			<li>Crafting</li>
 			<li>Intellectual</li>

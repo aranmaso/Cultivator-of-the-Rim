@@ -1178,7 +1178,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_Qi_Gathering</defName>
 		<label>Qi Gathering</label>
-		<description>the first step of cultivation, Qi has been introduced to pawn body. improve several aspect of their body greatly. pawn lifespan increase slightly.</description>
+		<description>the first step of cultivation, Qi has been introduced to pawn body. improve several aspect of their body greatly. pawn lifespan increase slightly. \n\nRequire: Pure Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 		</tags>
@@ -1588,7 +1588,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_FoundationEstablishment</defName>
 		<label>Foundation Establishment</label>
-		<description>formed a foundation in preparation for a core shaping stage. during this stage. pawn physique are improved</description>
+		<description>formed a foundation in preparation for a core shaping stage. during this stage. pawn physique are improved \n\nRequire: Pure Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -2033,7 +2033,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_CoreShaping</defName>
 		<label>Core Shaping</label>
-		<description>forming a core inside their dantian, a very important stage for cultivator. during this stage, mortal can no longer do damage to cultivator without the help of weapon of Earth grade or above</description>
+		<description>forming a core inside their dantian, a very important stage for cultivator. during this stage, mortal can no longer do damage to cultivator without the help of weapon of Earth grade or above \n\nRequire: Pure Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -2607,7 +2607,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_GoldenCore</defName>
 		<label>Golden Core</label>
-		<description>the first milestone for all cultivator. the golden core stage. pawn food and rest need are capped at a minimum of 30% also the first stage where the threat of heavenly tribulation become available to cultivator.</description>
+		<description>the first milestone for all cultivator. the golden core stage. pawn food and rest need are capped at a minimum of 30% also the first stage where the threat of heavenly tribulation become available to cultivator. \n\nRequire: Pure Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -3222,7 +3222,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_NascentSoul</defName>
 		<label>Nascent Soul</label>
-		<description>formed a nascent soul. greatly increase in combat ability, during this stage. pawn now formed a layer of Qi barrier around them for protection</description>
+		<description>formed a nascent soul. greatly increase in combat ability, during this stage. pawn now formed a layer of Qi barrier around them for protection \n\nRequire: Nascent Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -3919,7 +3919,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_Transcendent</defName>
 		<label>Transcendent</label>
-		<description>transcend the lower realm of cultivation. pawn physique greatly improved. lifespan also greatly improved.</description>
+		<description>transcend the lower realm of cultivation. pawn physique greatly improved. lifespan also greatly improved. \n\nRequire: Nascent Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -4621,7 +4621,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_HalfStep_Saint</defName>
 		<label>Half-Step Saint</label>
-		<description>half-step toward saint realm, the qi barrier is strengthened, and so is the combat capability</description>
+		<description>half-step toward saint realm, the qi barrier is strengthened, and so is the combat capability \n\nRequire: Saint Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -5324,7 +5324,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_SaintRealm</defName>
 		<label>Saint</label>
-		<description>Saint Realm, in this stage. in this stage. cultivator can no longer be harmed by mortal, no matter the mean. turret building and trap mean nothing to cultivator in this stage. even mortal with the help of extraordinary weapon wouldn't be able to harm this pawn.</description>
+		<description>Saint Realm, in this stage. in this stage. cultivator can no longer be harmed by mortal, no matter the mean. turret building and trap mean nothing to cultivator in this stage. even mortal with the help of extraordinary weapon wouldn't be able to harm this pawn. \n\nRequire: Saint Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -6028,7 +6028,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_SaintKing</defName>
 		<label>Saint King</label>
-		<description>the pinnacle of saint realm. the Saint King. the enviaronment hazard no longer concern to them.</description>
+		<description>the pinnacle of saint realm. the Saint King. the enviaronment hazard no longer concern to them. \n\nRequire: Saint Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -6734,7 +6734,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_ImmortalAscension</defName>
 		<label>Immortal Ascension</label>
-		<description>Immortal Ascension. the second milestone for cultivator, their lifespan are 10 times as long as mortal. and their power has transcend the lower realm, capable of single-handedly destroy a faction base(assuming no cultivator of the same tier are present)</description>
+		<description>Immortal Ascension. the second milestone for cultivator, their lifespan are 10 times as long as mortal. and their power has transcend the lower realm, capable of single-handedly destroy a faction base(assuming no cultivator of the same tier are present) \n\nRequire: Immortal Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -7440,7 +7440,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_TrueImmortal</defName>
 		<label>True Immortal</label>
-		<description>the True Immortal realm, revered by many mortal. few has manage to reach this level. those that do has commit an extraordinary deed.</description>
+		<description>the True Immortal realm, revered by many mortal. few has manage to reach this level. those that do has achieve numerous extraordinary deed. \n\nRequire: Immortal Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -8147,7 +8147,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_ImmortalSaint</defName>
 		<label>Immortal Saint</label>
-		<description>the peak of Immortal stage. power/sense and Qi barrier greatly improve</description>
+		<description>the peak of Immortal stage. power/sense and Qi barrier greatly improve \n\nRequire: Immortal Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -8845,7 +8845,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_HalfStep_God</defName>
 		<label>Half-Step God</label>
-		<description>half-step into godhood, pawn power almost transcend the heaven and earth.</description>
+		<description>half-step into godhood, pawn power almost transcend the heaven and earth. \n\nRequire: Immortal Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -9554,7 +9554,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_True_God</defName>
 		<label>True God</label>
-		<description>the True God realm, pawn power transcend the heaven and earth, select few manage to reach this realm, those that do has their name spread across the universe.</description>
+		<description>the True God realm, pawn power transcend the heaven and earth, select few manage to reach this realm, those that do has their name spread across the universe. \n\nRequire: Immortal Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
@@ -10274,7 +10274,7 @@
 	<HediffDef ParentName="RealmBase">
 		<defName>CTR_Creation_Realm</defName>
 		<label>Creation Realm</label>
-		<description>The creation realm, the final stage that a cultivator can ever reach, their entire being has transcended heaven and earth, and even the plains of reality itself. They hold the power to create their own "rule", to create their own Law and Dao and engrave them into the universe itself. Capable of even commanding the Law of Heaven to do their bidding. Facing against them is almost impossible, only another Creator can match a Creator. This should be the peak of cultivation, however rumor has it that once a condition are met, they can step outside the domain. perhap a fragment of the first flame can direct you to the right way?</description>
+		<description>The creation realm, the final stage that a cultivator can ever reach, their entire being has transcended heaven and earth, and even the plains of reality itself. They hold the power to create their own "rule", to create their own Law and Dao and engrave them into the universe itself. Capable of even commanding the Law of Heaven to do their bidding. Facing against them is almost impossible, only another Creator can match a Creator. This should be the peak of cultivation, however rumor has it that once a condition are met, they can step outside the domain. perhap a fragment of the first flame can direct you to the right way? \n\nRequire: Immortal Qi source</description>
 		<tags>
 			<li>CTR_Qi_GatheringOrAbove</li>
 			<li>CTR_FoundationEstablishmentOrAbove</li>
