@@ -45,6 +45,71 @@
 		<modExtensions>	
 		</modExtensions>
 	</HediffDef>
+	
+	<!-- Body Tempering Pill -->
+	<ThingDef ParentName="CultivationDrugBase">
+		<defName>CTR_BodyTemperingPill</defName>
+		<label>Body Tempering Pill</label>
+		<description>a pill made by experienced alchemist, capable of slightly increasing one body strength \n\nTags:Qi Source, Qi Source Tier1, Pure_Qi, Neutral Qi</description>
+		<graphicData>
+		  <texPath>Things/Items/Pills/CTR_BodyTemperingPill</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>		
+		<statBases>
+		  <WorkToMake>600</WorkToMake>
+		  <MarketValue>10</MarketValue>
+		  <Mass>0.01</Mass>
+		</statBases>		
+		<generateCommonality>0.75</generateCommonality>
+		<ingestible>
+		  <drugCategory>Medical</drugCategory>		  
+		  <outcomeDoers>
+			<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_GiveQi">
+				<minimumCultivationLevel>
+					<li>Mortal_Transforming</li>
+				</minimumCultivationLevel>
+				<hediffDef>CTR_BodyTemperingPillAbsorb</hediffDef>
+				<allowBodyCultivator>true</allowBodyCultivator>
+				<onlyBodyCultivator>true</onlyBodyCultivator>
+				<severity>0.01~0.01</severity>
+			</li>
+		  </outcomeDoers>
+		</ingestible>
+		<tradeTags>
+			<li>Pure_Qi</li>
+			<li>Qi_Source_Tier1</li>
+			<li>Neutral_Qi</li>
+		</tradeTags>		
+	</ThingDef>
+	
+	<HediffDef ParentName="CultivationDrugHediffBase">
+		<defName>CTR_BodyTemperingPillAbsorb</defName>
+		<label>Body Tempering Pill absorbing</label>
+		<description>. . .</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>10000</disappearsAfterTicks>
+			</li>
+			
+			<li Class="CultivatorOfTheRim.HediffCompProperties_AbsorbingPill">
+				<severityAmount>0.005</severityAmount>
+				<tickInterval>60</tickInterval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<statOffsets>
+					<CultivationSpeed>0.1</CultivationSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 
 	<!-- Qi-Condensing Pill -->
 	<ThingDef ParentName="CultivationDrugBase">

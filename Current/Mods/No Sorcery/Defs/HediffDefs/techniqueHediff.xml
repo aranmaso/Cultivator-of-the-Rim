@@ -497,5 +497,39 @@
 		<modExtensions>
 		</modExtensions>
 	</HediffDef>
+	
+	<HediffDef ParentName="TechniqueHediffBase"> 
+		<defName>CTR_AlchemyComprehension</defName>
+		<label>Alchemy Comprehension</label>
+		<description>comprehension in the way of alchemy, increase the chance of successfully completing alchemy.</description>
+		<defaultLabelColor>(85, 196, 109)</defaultLabelColor>
+		<minSeverity>0.001</minSeverity>
+		<comps>
+		</comps>
+		<stages>	
+			<li>
+				<statOffsets>
+					<AlchemySuccessChance>0.15</AlchemySuccessChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="TechniqueHediffBase"> 
+		<defName>CTR_RefinementComprehension</defName>
+		<label>Refining Comprehension</label>
+		<description>comprehension in the way of artifact refining, increase the chance of successfully refining high grade item.</description>
+		<defaultLabelColor>(85, 196, 109)</defaultLabelColor>
+		<minSeverity>0.001</minSeverity>
+		<comps>
+		</comps>
+		<stages>	
+			<li>
+				<statOffsets>
+					<RefiningSuccessChance>0.15</RefiningSuccessChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 
 </Defs>

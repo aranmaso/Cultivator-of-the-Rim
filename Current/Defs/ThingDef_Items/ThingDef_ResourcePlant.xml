@@ -121,7 +121,7 @@
 	<ThingDef ParentName="SpiritPlantYieldBase">
 		<defName>CTR_EarthFruit</defName>
 		<label>Earthen fruit</label>
-		<description>a fruit harvested from Eathen tree. contain potent Earth Qi \n\nTags:Earth Qi</description>
+		<description>a fruit harvested from Eathen tree. contain potent Earth Qi \n\nTags:Earth Qi, Yang Qi, Yin Qi</description>
 		<graphicData>
 			<texPath>Things/Items/Plants/EarthenFruit</texPath>
 			<drawSize>0.75</drawSize>

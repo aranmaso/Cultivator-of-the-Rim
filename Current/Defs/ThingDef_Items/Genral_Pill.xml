@@ -22,6 +22,9 @@
 			<ingestReportString>Taking {0}.</ingestReportString>
 			<chairSearchRadius>0</chairSearchRadius>			
 		</ingestible>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Drug">
 				<listOrder>200</listOrder>
@@ -594,6 +597,53 @@
 			<statOffsets>
 				<Fertility>5</Fertility>
 			</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<!-- Rebirth Pill -->
+	<ThingDef ParentName="GeneralPillBase">
+		<defName>CTR_RebirthPill</defName>
+		<label>Cultivation Rebirth pill</label>
+		<description>a pill that grant cultivator a chance to rebirth, condense down all their cultivation back to Qi Gathering first stage. made from Divine item and Fire Qi \n\nTags: Pill, Utility Item</description>
+		<graphicData>
+		  <texPath>Things/Items/Pills/CTR_RebirthPill</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>		
+		<statBases>
+		  <WorkToMake>600</WorkToMake>
+		  <MaxHitPoints>100</MaxHitPoints>
+		  <MarketValue>100</MarketValue>
+		  <Mass>0.01</Mass>
+		  <Flammability>0.25</Flammability>
+		</statBases>		
+		<generateCommonality>0.5</generateCommonality>
+		<ingestible>
+		  <drugCategory>Medical</drugCategory>		  
+		  <outcomeDoers>
+			<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_RebirthCultivation" />
+		  </outcomeDoers>
+		</ingestible>
+		<tradeTags>
+			<li>Utility_Item</li>
+		</tradeTags>		
+	</ThingDef>
+	
+	<HediffDef ParentName="CultivationDrugHediffBase">
+		<defName>CTR_RebirthCultivation</defName>
+		<label>rebirth</label>
+		<description>achieving rebirth through the Rebirth Pill, all cultivation condensed back down to first stage of Qi Gathering, while also retain fraction of benefit with each rebirth.</description>
+		<hediffClass>CultivatorOfTheRim.Hediff_DynamicStage</hediffClass>
+		<defaultLabelColor>(85, 196, 109)</defaultLabelColor>
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+		</comps>
+		<stages>
+			<li>		
+				<statFactors />
+				<statOffsets />
+				<capMods />
 			</li>
 		</stages>
 	</HediffDef>

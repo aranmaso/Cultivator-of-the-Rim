@@ -1,0 +1,1394 @@
+<Defs>
+
+	<!-- Patterned-Golden Core -->
+	<CultivatorOfTheRim.CultivationHediffDef ParentName="RealmBase">
+		<defName>CTR_PatternedGoldenCore</defName>
+		<label>Patterned-Golden Core</label>
+		<description>The condensed core matures into a radiant Golden Core with magnificent pattern. Power flows endlessly from it, granting immense vitality and spiritual might. The cultivator now stands firmly above the mortal world. at this stage, cultivator no longer have a need to rest and sleep, and can replenish said needs by simply absorbing Qi from the air. a Patterned-Golden Core cultivator is a rare case, and have power equivalent to a Nascent Soul Cultivator. \n\nRequire: Pure Qi source</description>
+		<tags>
+			<li>CTR_Qi_GatheringOrAbove</li>
+			<li>CTR_FoundationEstablishmentOrAbove</li>
+			<li>CTR_CoreShapingOrAbove</li>
+			<li>CTR_GoldenCoreOrAbove</li>
+			<li>CTR_NascentSoulOrAbove</li>
+		</tags>
+		<maxSeverity>48</maxSeverity>
+		<realmPower>8</realmPower>
+		<realmWeight>9</realmWeight>
+		<comps>
+			<li Class="CultivatorOfTheRim.HediffCompProperties_Cultivation">
+				<severityPerTriggerRange>0.0075~0.0075</severityPerTriggerRange>
+				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
+				<tickInterval>60</tickInterval>
+				<currentLevel>CTR_PatternedGoldenCore</currentLevel>
+				<nextLevels>
+					<li>
+						<nextRealm>CTR_DualNascentSoul</nextRealm>
+						<weight>0.85</weight>
+					</li>
+					<li>
+						<nextRealm>CTR_Transcendent</nextRealm>
+						<weight>0.15</weight>
+					</li>
+				</nextLevels>
+				<bonusHediff>
+					<li>
+						<hediffDef>CTR_PatternedGoldenCore_Bonus</hediffDef>
+					</li>
+				</bonusHediff>
+				<shouldGetTribulation>true</shouldGetTribulation>
+				<breakingThroughDuration>2500~10000</breakingThroughDuration>
+				<curves>
+					<points>
+						<li>(0, 0.95)</li>
+						<li>(1, 0.75)</li>
+						<li>(60, 0.00)</li>
+					</points>
+				</curves>
+				<changeToNeeds>
+					<li>
+						<needDef>Rest</needDef>
+						<minValue>0.75</minValue>
+					</li>
+					<li>
+						<needDef>Food</needDef>
+						<minValue>0.75</minValue>
+					</li>
+				</changeToNeeds>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial</label>
+				<minSeverity>0</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.5</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+					<ComfyTemperatureMax>45</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1</InjuryHealingFactor>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<CarryingCapacity>500</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">2</MeleeDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 1</label>
+				<minSeverity>5.3</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.5</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+					<ComfyTemperatureMax>45</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 2</label>
+				<minSeverity>10.6</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-47</ComfyTemperatureMin>
+					<ComfyTemperatureMax>47</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.1</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 3</label>
+				<minSeverity>15.9</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-49</ComfyTemperatureMin>
+					<ComfyTemperatureMax>49</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.2</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 4</label>
+				<minSeverity>21.2</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.3</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 5</label>
+				<minSeverity>26.5</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.4</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 6</label>
+				<minSeverity>31.8</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.5</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 7</label>
+				<minSeverity>37.1</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.6</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 8</label>
+				<minSeverity>42.4</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.85</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.7</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 9</label>
+				<minSeverity>48</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>3</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.85</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.8</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>700</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+		</stages>	
+	</CultivatorOfTheRim.CultivationHediffDef>	
+	<!-- Double-Nascent Soul -->
+	<CultivatorOfTheRim.CultivationHediffDef ParentName="RealmBase">
+		<defName>CTR_DualNascentSoul</defName>
+		<label>Dual-Nascent Soul</label>
+		<description>The golden core shatters, birthing an indestructible nascent soul—a miniature self that escapes bodily death to reform elsewhere. Pawns regenerate from a drop of blood, their presence warping reality around them. at this stage, cultivator are capable of forming a layer of protective Qi around them. a Double-Nascent Soul cultivator gave birth to a twin-soul rather than only one, they are much faster at cultivating compared to other Nascent Soul Cultivator \n\nRequire: Nascent Qi source</description>
+		<tags>
+			<li>CTR_Qi_GatheringOrAbove</li>
+			<li>CTR_FoundationEstablishmentOrAbove</li>
+			<li>CTR_CoreShapingOrAbove</li>
+			<li>CTR_GoldenCoreOrAbove</li>
+			<li>CTR_NascentSoulOrAbove</li>
+		</tags>
+		<maxSeverity>48</maxSeverity>
+		<realmPower>8</realmPower>
+		<realmWeight>4</realmWeight>
+		<comps>
+			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
+				<abilityDef>CTR_TearTheVoid</abilityDef>
+			</li>
+			<li Class="CultivatorOfTheRim.HediffCompProperties_CultivatorResurrect">
+				<livesLeft>1</livesLeft>
+				<replenishLivesOvertime>true</replenishLivesOvertime>
+				<timeToReplenish>60000</timeToReplenish>
+			</li>
+			<li Class="CultivatorOfTheRim.HediffCompProperties_Cultivation">
+				<severityPerTriggerRange>0.0055~0.0075</severityPerTriggerRange>
+				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
+				<tickInterval>60</tickInterval>
+				<currentLevel>CTR_DualNascentSoul</currentLevel>
+				<nextLevel>CTR_Transcendent</nextLevel>
+				<bonusHediff>
+					<li>
+						<hediffDef>CTR_DualNascentSoul_Bonus</hediffDef>
+					</li>
+				</bonusHediff>
+				<shouldGetTribulation>true</shouldGetTribulation>
+				<breakingThroughDuration>2500~10000</breakingThroughDuration>
+				<curves>
+					<points>
+						<li>(0, 0.95)</li>
+						<li>(1, 0.75)</li>
+						<li>(60, 0.00)</li>
+					</points>
+				</curves>
+				<changeToNeeds>
+					<li>
+						<needDef>Rest</needDef>
+						<minValue>0.75</minValue>
+					</li>
+					<li>
+						<needDef>Food</needDef>
+						<minValue>0.75</minValue>
+					</li>
+				</changeToNeeds>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_Shield" MayRequire="ebsg.framework">
+				<maxEnergy>1</maxEnergy>
+				<energyRechargeRate>0.05</energyRechargeRate>
+				<resetDelay>1000</resetDelay>
+				<energyOnReset>0.25</energyOnReset>
+				
+				<ignoredDamageDefs>
+					<li>SurgicalCut</li>
+					<li>ExecutionCut</li>
+				</ignoredDamageDefs>
+				
+				<blocksMeleeDamage>true</blocksMeleeDamage>
+				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<shatterOn/>
+				<absorbFleck>ExplosionFlash</absorbFleck>
+				<breakFleck>ExplosionFlash</breakFleck>
+				<shieldBreakEffecter>Shield_Break</shieldBreakEffecter>
+
+				<absorbSound>EnergyShield_AbsorbDamage</absorbSound>
+				<resetSound>EnergyShield_Reset</resetSound>
+				
+				<displayGizmo>true</displayGizmo>
+				<gizmoTitle>Qi shield</gizmoTitle>
+				<gizmoTip>A layer of protection Qi produced by cultivator of high realm.</gizmoTip>
+				
+				<noDisplay>false</noDisplay>
+
+				<minDrawSize>1.2</minDrawSize>
+				<maxDrawSize>1.55</maxDrawSize>
+				<scaleWithOwner>true</scaleWithOwner>
+				<onlyRenderWhenDrafted>true</onlyRenderWhenDrafted>
+				<graphicData>
+					<texPath>Other/ShieldBubble</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<shaderType>MoteGlow</shaderType>
+					<color>(0.8, 1.0, 1.0)</color>
+				</graphicData>
+			</li>
+		</comps>
+		<cultivationStages />
+		<stages>
+			<li>
+				<label>initial</label>
+				<minSeverity>0</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.5</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+					<ComfyTemperatureMax>45</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1</InjuryHealingFactor>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<CarryingCapacity>500</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">2</MeleeDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 1</label>
+				<minSeverity>5.3</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.5</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+					<ComfyTemperatureMax>45</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 2</label>
+				<minSeverity>10.6</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-47</ComfyTemperatureMin>
+					<ComfyTemperatureMax>47</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.1</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 3</label>
+				<minSeverity>15.9</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-49</ComfyTemperatureMin>
+					<ComfyTemperatureMax>49</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.2</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 4</label>
+				<minSeverity>21.2</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.3</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 5</label>
+				<minSeverity>26.5</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.4</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 6</label>
+				<minSeverity>31.8</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.5</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 7</label>
+				<minSeverity>37.1</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.6</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 8</label>
+				<minSeverity>42.4</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>2.5</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.85</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.7</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>600</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stage 9</label>
+				<minSeverity>48</minSeverity>
+				<totalBleedFactor>0.5</totalBleedFactor>
+				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>LungRotExposure</li>
+					<li>LungRot</li>
+				</makeImmuneTo>
+				<statOffsets>
+					<LifespanFactor>3</LifespanFactor>
+					<MeleeHitChance>5</MeleeHitChance>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+					<ImmunityGainSpeed>1.85</ImmunityGainSpeed>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+					<WorkSpeedGlobal>3</WorkSpeedGlobal>
+					<InjuryHealingFactor>1.8</InjuryHealingFactor>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Qi>0.5</ArmorRating_Qi>
+					<ToxicResistance>0.5</ToxicResistance>
+					<TechniqueEfficiency MayRequire="zomuro.itssorcery">0.5</TechniqueEfficiency>
+					<CarryingCapacity>700</CarryingCapacity>
+					<CTR_HealthMultiplier>2.75</CTR_HealthMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.90</IncomingDamageFactor>
+					<PsychicSensitivity>1.4</PsychicSensitivity>
+					<MeleeDamageFactor MayRequire="ludeon.rimworld.biotech">3</MeleeDamageFactor>
+					<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_RangeAttackDamageFactor>
+					<StaggerDurationFactor MayRequire="ludeon.rimworld.biotech">0.5</StaggerDurationFactor>
+					<RangedCooldownFactor MayRequire="ludeon.rimworld.biotech">0.5</RangedCooldownFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>1.10</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<postFactor>2</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>3</postFactor>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<postFactor>3</postFactor>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</CultivatorOfTheRim.CultivationHediffDef>
+
+</Defs>

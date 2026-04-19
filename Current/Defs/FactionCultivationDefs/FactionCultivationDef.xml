@@ -198,6 +198,7 @@
 		<defName>CTR_MakainianCultivation</defName>
 		<label>Makainian</label>
 		<description>.</description>
+		<isAllowBodyCultivation>false</isAllowBodyCultivation>
 		<xenotypeDefs>
 			<li>Makai_Adeltia</li>
 			<li>Makai_Demonian</li>
@@ -208,7 +209,8 @@
 			<li>Makai_Vulpin</li>
 			<li>Makai_Vesperia</li>
 		</xenotypeDefs>
-		<realmRank>9~17</realmRank>
+		<realmRank>9~18</realmRank>
+		<chance>1.0</chance>
 	</CultivatorOfTheRim.FactionCultivationDef>
 
 </Defs>

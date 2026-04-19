@@ -84,10 +84,10 @@
 					<key>SeaIce</key>
 					<value>1</value>
 				</li>
-				<li>
-					<key>Ocean</key>
-					<value>1</value>
-				</li>
+				<!-- <li> -->
+					<!-- <key>Ocean</key> -->
+					<!-- <value>1</value> -->
+				<!-- </li> -->
 				<li>
 					<key>Lake</key>
 					<value>1</value>

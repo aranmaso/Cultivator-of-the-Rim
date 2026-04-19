@@ -140,7 +140,7 @@
 	
 	<HediffDef ParentName="CultivationDrugHediffBase">
 		<defName>CTR_SpiritStoneAbsorb</defName>
-		<label>Qi Condensing Pill absorbing</label>
+		<label>Spirit stone qi absorbing</label>
 		<description>. . .</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
@@ -424,7 +424,7 @@
 			<categories>
 				<li>Stony</li>
 			</categories>
-			<color>(46,46,46)</color>
+			<color>(255,255,255)</color>
 			<commonality>0.02</commonality>
 			<constructEffect>ConstructMetal</constructEffect>
 			<statOffsets>
@@ -583,6 +583,130 @@
 		</comps>
 		<tradeTags>
 			<li>ExoticMisc</li>
+			<li>Nascent_Qi</li>
+			<li>Qi_Source</li>
+			<li>Qi_Source_Tier3</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>CTR_GoldenCore_Core</defName>
+		<label>Golden Core</label>
+		<description>a core formed by cultivator of golden core level. \n\nTags: Nascent Qi, Qi Source, Qi Source Tier3.</description>
+		<graphicData>
+			<texPath>Things/Items/Resources/GoldenCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.5</drawSize>
+		</graphicData>		
+		<stackLimit>10</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0.01</DeteriorationRate>
+		</statBases>		
+		<ingestible>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>120</baseIngestTicks>
+			<ingestSound>Ingest_Pill</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>absorb {0}</ingestCommandString>
+			<ingestReportString>absorb {0}.</ingestReportString>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<chairSearchRadius>0</chairSearchRadius>
+			<drugCategory>None</drugCategory>		  
+			<preferability>NeverForNutrition</preferability>
+			<outcomeDoers>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_BeastCoreAbsorption">
+				</li>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_AddOrRemoveHediff">
+					<hediffDef>CTR_QiOverload</hediffDef>
+					<severity>0.05~0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<thingCategories>
+			<li>Cultivation_Resource</li>
+		</thingCategories>
+		<comps>
+			<li>
+				<compClass>CultivatorOfTheRim.CompBeastCore</compClass>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>ExoticMisc</li>
+			<li>Nascent_Qi</li>
+			<li>Qi_Source</li>
+			<li>Qi_Source_Tier3</li>
+		</tradeTags>
+		<thingSetMakerTags>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>CTR_ImmortalCore</defName>
+		<label>Immortal Core</label>
+		<description>a core accumulated over lifetime by cultivator of True Immortal level. \n\nTags: Immortal Qi, Qi Source, Qi_Source_Tier6.</description>
+		<graphicData>
+			<texPath>Things/Items/Resources/ImmortalCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.5</drawSize>
+		</graphicData>		
+		<stackLimit>10</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0.01</DeteriorationRate>
+		</statBases>		
+		<ingestible>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>120</baseIngestTicks>
+			<ingestSound>Ingest_Pill</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>absorb {0}</ingestCommandString>
+			<ingestReportString>absorb {0}.</ingestReportString>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<chairSearchRadius>0</chairSearchRadius>
+			<drugCategory>None</drugCategory>		  
+			<preferability>NeverForNutrition</preferability>
+			<outcomeDoers>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_BeastCoreAbsorption">
+				</li>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_AddOrRemoveHediff">
+					<hediffDef>CTR_QiOverload</hediffDef>
+					<severity>0.05~0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<thingCategories>
+			<li>Cultivation_Resource</li>
+		</thingCategories>
+		<comps>
+			<li>
+				<compClass>CultivatorOfTheRim.CompBeastCore</compClass>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>ExoticMisc</li>
+			<li>Immortal_Qi</li>
+			<li>Qi_Source</li>
+			<li>Qi_Source_Tier6</li>
 		</tradeTags>
 		<thingSetMakerTags>
 		</thingSetMakerTags>

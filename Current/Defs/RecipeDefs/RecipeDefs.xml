@@ -39,7 +39,9 @@
 				<li>Qi_Source</li>
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
-		<products />
+		<products>
+			<CTR_QiCondensingPill>0</CTR_QiCondensingPill>
+		</products>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
    		 </skillRequirements>
@@ -50,6 +52,65 @@
 					<li>CTR_Qi_GatheringOrAbove</li>
 				</allowedCultivationLevel>
 				<successfulProduct>CTR_QiCondensingPill</successfulProduct>
+				<failedProduct>CTR_JunkPill</failedProduct>
+				<count>1~6</count>
+			</li>		
+		</modExtensions>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>CTR_MakeBodyTemperingPill</defName>
+		<label>make Body Tempering Pill</label>
+		<description>make Body Tempering Pill</description>
+		<workerClass>CultivatorOfTheRim.RecipeWorker_Alchemy</workerClass>
+		<jobString>doing alchemy</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
+		<!-- <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef> -->
+		<workAmount>1000</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>CTR_AlchemyFurnace_Basic</li>
+			<li>CTR_AlchemyFurnace_Intermediate</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<tradeTagsToAllow>
+						<li>Qi_Condensing_Ingredient</li>
+					</tradeTagsToAllow>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<tradeTagsToAllow>
+						<li>Fire_Qi</li>
+					</tradeTagsToAllow>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<tradeTagsToAllow>
+				<li>Qi_Condensing_Ingredient</li>
+				<li>Fire_Qi</li>
+			</tradeTagsToAllow>		
+		</fixedIngredientFilter>
+		<products>
+			<CTR_BodyTemperingPill>0</CTR_BodyTemperingPill>
+		</products>
+		<skillRequirements>
+			<Intellectual>10</Intellectual>
+   		 </skillRequirements>
+		<researchPrerequisite>CTR_QiCondensingPillMaking</researchPrerequisite>
+		<modExtensions>
+			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
+				<allowedCultivationLevel>
+					<li>CTR_Qi_GatheringOrAbove</li>
+				</allowedCultivationLevel>
+				<successfulProduct>CTR_BodyTemperingPill</successfulProduct>
 				<failedProduct>CTR_JunkPill</failedProduct>
 				<count>1~6</count>
 			</li>		
@@ -96,7 +157,7 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<products>
-			<!-- <CTR_QiCondensingPill>1</CTR_QiCondensingPill> -->
+			<CTR_NascentQiPill>0</CTR_NascentQiPill>
 		</products>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
@@ -154,7 +215,7 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<products>
-			<!-- <CTR_QiCondensingPill>1</CTR_QiCondensingPill> -->
+			<CTR_SaintQiPill>0</CTR_SaintQiPill>
 		</products>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
@@ -213,7 +274,7 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<products>
-			<!-- <CTR_QiCondensingPill>1</CTR_QiCondensingPill> -->
+			<CTR_ImmortalQiPill>0</CTR_ImmortalQiPill>
 		</products>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
@@ -466,6 +527,11 @@
 						<result>CTR_LifeSpanPill</result>
 					</li>
 					<li>
+						<firstTag>Divine</firstTag>
+						<secondTag>Fire_Qi</secondTag>
+						<result>CTR_RebirthPill</result>
+					</li>
+					<li>
 						<firstTag>Earth_Qi</firstTag>
 						<secondTag>Earth_Qi</secondTag>
 						<result>CTR_StoneSkinPill</result>
@@ -479,6 +545,248 @@
 						<firstTag>Healing_Item</firstTag>
 						<secondTag>Yin_Qi</secondTag>
 						<result>CTR_FertilityPill</result>
+					</li>
+				</combinations>
+			</li>		
+		</modExtensions>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CTR_MakeAlchemy_Generic</defName>
+		<label>perform general alchemy</label>
+		<description>doing unspecified alchemy require \n5 of two items type. \n\nthe outcome depend on the combination of first ingredient and second ingredient. invalid combination will return a junk pill.</description>
+		<workerClass>CultivatorOfTheRim.RecipeWorker_MixingIngredient</workerClass>
+		<jobString>mixing alchemy</jobString>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Drug</soundWorking>
+		<workAmount>1000</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>CTR_AlchemyFurnace_Basic</li>
+			<li>CTR_AlchemyFurnace_Intermediate</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Cultivation_Resource</li>
+						<li>Spirit_PlantProduct</li>
+						<li>Medicine</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Manufactured</li>
+						<li>Foods</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Cultivation_Resource</li>
+						<li>Spirit_PlantProduct</li>
+						<li>Medicine</li>
+						<li>ResourcesRaw</li>
+						<li>Items</li>
+						<li>Manufactured</li>
+						<li>Foods</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Cultivation_Resource</li>
+				<li>Medicine</li>
+				<li>ResourcesRaw</li>
+				<li>Spirit_PlantProduct</li>
+				<li>Items</li>
+				<li>Manufactured</li>
+				<li>Foods</li>
+			</categories>		
+		</fixedIngredientFilter>
+		<products />
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+   		 </skillRequirements>
+		<researchPrerequisite>CTR_BasicAlchemy</researchPrerequisite>
+		 <modExtensions>
+			<li Class="CultivatorOfTheRim.RecipeExtension_MixingIngredient">
+				<allowedCultivationLevel>
+					<li>CTR_Qi_GatheringOrAbove</li>
+				</allowedCultivationLevel>
+				<failedProduct>CTR_JunkPill</failedProduct>
+				<fixedIngredient>true</fixedIngredient>
+				<combinations>
+					<li>
+						<firstThing>MedicineHerbal</firstThing>
+						<secondThing>Neutroamine</secondThing>
+						<result>MedicineIndustrial</result>
+						<count>5~10</count>
+					</li>
+					<li>
+						<firstThing>MedicineIndustrial</firstThing>
+						<secondThing>Neutroamine</secondThing>
+						<result>MedicineUltratech</result>
+						<count>1~3</count>
+					</li>
+					<li>
+						<firstThing>ComponentIndustrial</firstThing>
+						<secondThing>Plasteel</secondThing>
+						<result>ComponentSpacer</result>
+						<count>1~2</count>
+					</li>
+					<li>
+						<firstThing>ComponentIndustrial</firstThing>
+						<secondThing>CTR_MetalSteleFragment</secondThing>
+						<result>ComponentSpacer</result>
+						<count>1~2</count>
+					</li>
+					<li>
+						<firstThing>Chemfuel</firstThing>
+						<secondThing>MedicineIndustrial</secondThing>
+						<result>Neutroamine</result>
+						<count>10~25</count>
+					</li>
+					<li>
+						<firstThing>Chemfuel</firstThing>
+						<secondThing>Neutroamine</secondThing>
+						<result>Neutroamine</result>
+						<count>5~25</count>
+					</li>
+					<li>
+						<firstThing>Uranium</firstThing>
+						<secondThing>Plasteel</secondThing>
+						<result>ReinforcedBarrel</result>
+						<count>1~1</count>
+					</li>
+					<li>
+						<firstThing>CTR_FireStone</firstThing>
+						<secondThing>CTR_MetalSteleFragment</secondThing>
+						<result>ReinforcedBarrel</result>
+						<count>1~1</count>
+					</li>
+					<li>
+						<firstThing>DevilstrandCloth</firstThing>
+						<secondThing>Chemfuel</secondThing>
+						<result>Synthread</result>
+						<count>5~10</count>
+					</li>
+					<li>
+						<firstThing>Synthread</firstThing>
+						<secondThing>Neutroamine</secondThing>
+						<result>Hyperweave</result>
+						<count>5~10</count>
+					</li>
+					<li>
+						<firstThing>Hyperweave</firstThing>
+						<secondThing>Neutroamine</secondThing>
+						<result>Synthread</result>
+						<count>5~10</count>
+					</li>
+					<li>
+						<firstThing>Shell_HighExplosive</firstThing>
+						<secondThing>Chemfuel</secondThing>
+						<result>Shell_Incendiary</result>
+						<count>5~6</count>
+					</li>
+					<li>
+						<firstThing>Shell_Incendiary</firstThing>
+						<secondThing>Steel</secondThing>
+						<result>Shell_HighExplosive</result>
+						<count>5~6</count>
+					</li>
+					<li>
+						<firstThing>Shell_HighExplosive</firstThing>
+						<secondThing>Uranium</secondThing>
+						<result>Shell_AntigrainWarhead</result>
+						<count>1~1</count>
+					</li>
+					<li>
+						<firstThing>Shell_HighExplosive</firstThing>
+						<secondThing>CTR_FireStone</secondThing>
+						<result>Shell_AntigrainWarhead</result>
+						<count>1~1</count>
+					</li>
+					<li>
+						<firstThing>Shell_HighExplosive</firstThing>
+						<secondThing>ComponentSpacer</secondThing>
+						<result>Shell_EMP</result>
+						<count>5~6</count>
+					</li>
+					<li>
+						<firstThing>Shell_HighExplosive</firstThing>
+						<secondThing>ComponentIndustrial</secondThing>
+						<result>Shell_Smoke</result>
+						<count>5~6</count>
+					</li>
+					<li>
+						<firstThing>Shell_Smoke</firstThing>
+						<secondThing>ComponentIndustrial</secondThing>
+						<result>Shell_Firefoam</result>
+						<count>5~6</count>
+					</li>
+					<li>
+						<firstThing>MechSerumHealer</firstThing>
+						<secondThing>MechSerumResurrector</secondThing>
+						<result>TechprofSubpersonaCore</result>
+						<count>2~5</count>
+					</li>
+					<li>
+						<firstThing>TechprofSubpersonaCore</firstThing>
+						<secondThing>MechSerumResurrector</secondThing>
+						<result>AIPersonaCore</result>
+						<count>2~5</count>
+					</li>
+					<li>
+						<firstThing>AIPersonaCore</firstThing>
+						<secondThing>TechprofSubpersonaCore</secondThing>
+						<result>MechSerumHealer</result>
+						<count>5~5</count>
+					</li>
+					<li>
+						<firstThing>MechSerumHealer</firstThing>
+						<secondThing>TechprofSubpersonaCore</secondThing>
+						<result>MechSerumResurrector</result>
+						<count>5~5</count>
+					</li>
+					<li MayRequire="aranmaho.makai">
+						<firstThing>Makai_Ingot</firstThing>
+						<secondThing>Steel</secondThing>
+						<result>Steel</result>
+						<count>100~500</count>
+					</li>
+					<li MayRequire="aranmaho.makai">
+						<firstThing>Makai_Ingot</firstThing>
+						<secondThing>Plasteel</secondThing>
+						<result>Plasteel</result>
+						<count>100~500</count>
+					</li>
+					<li MayRequire="aranmaho.makai">
+						<firstThing>Makai_Ingot</firstThing>
+						<secondThing>Uranium</secondThing>
+						<result>Uranium</result>
+						<count>100~500</count>
+					</li>
+					<li MayRequire="aranmaho.makai">
+						<firstThing>Makai_Ingot</firstThing>
+						<secondThing>Silver</secondThing>
+						<result>Silver</result>
+						<count>100~500</count>
+					</li>
+					<li MayRequire="aranmaho.makai">
+						<firstThing>Makai_Ingot</firstThing>
+						<secondThing>Gold</secondThing>
+						<result>Gold</result>
+						<count>100~500</count>
+					</li>
+					<li MayRequire="aranmaho.makai">
+						<firstThing>Makai_Stardust</firstThing>
+						<secondThing>Chemfuel</secondThing>
+						<result>Chemfuel</result>
+						<count>50~100</count>
 					</li>
 				</combinations>
 			</li>		

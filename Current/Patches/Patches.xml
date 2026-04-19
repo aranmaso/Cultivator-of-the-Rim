@@ -7,21 +7,101 @@
 		</value>
 	</Operation>
 	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="TropicalRainforest" or defName="TropicalSwamp" or defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert" or defName="BorealForest" or defName="Tundra" or defName="ColdBog"]/wildPlants</xpath>
-		<value>
-			<CTR_SpiritGrassPlant>0.01</CTR_SpiritGrassPlant>
-			<CTR_MoonGrass>0.01</CTR_MoonGrass>
-			<CTR_YinYangFlower>0.005</CTR_YinYangFlower>
-			<CTR_EarthTree>0.005</CTR_EarthTree>
-			<CTR_WinterLeaf>0.005</CTR_WinterLeaf>
-			<CTR_WoodLeaf>0.005</CTR_WoodLeaf>
-			<CTR_FireLeaf>0.005</CTR_FireLeaf>
-			<CTR_MetalStele>0.005</CTR_MetalStele>
-			<CTR_ChronoBeacon>0.001</CTR_ChronoBeacon>
-			<CTR_ImmortalPlant>0.001</CTR_ImmortalPlant>
-		</value>
-	</Operation>
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="TropicalRainforest" or defName="TropicalSwamp" or defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert" or defName="BorealForest" or defName="Tundra" or defName="ColdBog"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_SpiritGrassPlant>0.01</CTR_SpiritGrassPlant> -->
+			<!-- <CTR_MoonGrass>0.01</CTR_MoonGrass> -->
+			<!-- <CTR_YinYangFlower>0.005</CTR_YinYangFlower> -->
+			<!-- <CTR_ChronoBeacon>0.0005</CTR_ChronoBeacon> -->
+			<!-- <CTR_ChronoStele>0.0005</CTR_ChronoStele> -->
+			<!-- <CTR_ImmortalPlant>0.001</CTR_ImmortalPlant> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="TropicalRainforest" or defName="TropicalSwamp"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_EarthTree>0.01</CTR_EarthTree> -->
+			<!-- <CTR_WoodLeaf>0.005</CTR_WoodLeaf> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/BiomeDef[defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_FireLeaf>0.01</CTR_FireLeaf> -->
+			<!-- <CTR_MetalStele>0.01</CTR_MetalStele> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/BiomeDef[defName="BorealForest" or defName="Tundra" or defName="ColdBog" or defName="IceSheet" or defName="SeaIce"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_WinterLeaf>0.005</CTR_WinterLeaf> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>RimWorld - Odyssey</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/BiomeDef[defName="LavaField"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_FireLeaf>2</CTR_FireLeaf> -->
+			<!-- <CTR_MetalStele>1</CTR_MetalStele> -->
+		<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>RimWorld - Odyssey</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/BiomeDef[defName="GlacialPlain"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_WinterLeaf>0.5</CTR_WinterLeaf> -->
+		<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>RimWorld - Odyssey</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_SpiritGrassPlant>0.01</CTR_SpiritGrassPlant> -->
+			<!-- <CTR_MoonGrass>0.01</CTR_MoonGrass> -->
+			<!-- <CTR_YinYangFlower>0.005</CTR_YinYangFlower> -->
+			<!-- <CTR_ChronoBeacon>0.0005</CTR_ChronoBeacon> -->
+			<!-- <CTR_ChronoStele>0.0005</CTR_ChronoStele> -->
+			<!-- <CTR_ImmortalPlant>0.001</CTR_ImmortalPlant> -->
+		<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>RimWorld - Odyssey</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/BiomeDef[defName="Glowforest"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_SpiritGrassPlant>0.01</CTR_SpiritGrassPlant> -->
+			<!-- <CTR_MoonGrass>0.01</CTR_MoonGrass> -->
+			<!-- <CTR_YinYangFlower>0.005</CTR_YinYangFlower> -->
+			<!-- <CTR_ChronoBeacon>0.0005</CTR_ChronoBeacon> -->
+			<!-- <CTR_ChronoStele>0.0005</CTR_ChronoStele> -->
+			<!-- <CTR_ImmortalPlant>0.01</CTR_ImmortalPlant> -->
+		<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	
 	<!-- <Operation Class="PatchOperationAdd"> -->
 		<!-- <xpath>Defs/FactionDef/caravanTraderKinds</xpath> -->
 		<!-- <value> -->
@@ -145,6 +225,22 @@
 		</value>
 	</Operation>
 	
+	<Operation Class="CultivatorOfTheRim.PatchOperationAddCultivatorTraderCaravan">
+		<xpath>Defs/FactionDef/caravanTraderKinds</xpath>
+		<value>
+			<li>Caravan_CultivationResource</li>
+			<li>Caravan_CultivationPill</li>
+			<li>Caravan_CultivationTechnique</li>
+		</value>
+	</Operation>
 	
+	<Operation Class="CultivatorOfTheRim.PatchOperationAddCultivatorTraderBase">
+		<xpath>Defs/FactionDef/baseTraderKinds</xpath>
+		<value>
+			<li>Caravan_CultivationResource</li>
+			<li>Caravan_CultivationPill</li>
+			<li>Caravan_CultivationTechnique</li>
+		</value>
+	</Operation>
 
 </Patch>

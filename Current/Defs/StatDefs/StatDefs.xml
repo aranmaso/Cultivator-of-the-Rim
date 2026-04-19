@@ -4,7 +4,7 @@
 		<defName>CTR_PawnCultivation</defName>
 		<label>Cultivation</label>
 		<displayOrder>105</displayOrder>
-		<displayAllByDefault>false</displayAllByDefault>
+		<displayAllByDefault>true</displayAllByDefault>
 	</StatCategoryDef>
 
 	<StatDef Name="CultivationBaseStat" Abstract="True">
@@ -50,7 +50,7 @@
 		<category>CTR_PawnCultivation</category>
 		<defaultBaseValue>0</defaultBaseValue>
 		<toStringStyle>PercentZero</toStringStyle>
-		<showOnAnimals>false</showOnAnimals>
+		<showOnAnimals>true</showOnAnimals>
 		<minValue>0</minValue>
 		<maxValue>1</maxValue>
 		<displayPriorityInCategory>290</displayPriorityInCategory>

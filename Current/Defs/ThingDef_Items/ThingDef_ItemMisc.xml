@@ -1,0 +1,193 @@
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Cultivation_SkillBook</defName>
+		<label>manual</label>
+		<parent>Cultivation_Root</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+		<iconPath>Things/Items/Manual/ManualBook_Qi</iconPath>
+	</ThingCategoryDef>
+	
+	<ThingDef Name="CTR_GuideBookBase" ParentName="ResourceBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Items/Manual/ManualBook_Qi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Items/Manual/ManualBook_Qi</uiIconPath>
+		<thingCategories Inherit="false">
+			<li>Cultivation_SkillBook</li>
+		</thingCategories>
+		<tradeTags>
+			<!-- <li>Technique_Manual</li> -->
+			<!-- <li>Cultivation_Technique</li> -->
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>0.2</Mass>
+			<DeteriorationRate>2.0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<comps>
+		</comps>
+		<costList>
+			<WoodLog>1</WoodLog>
+		</costList>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>CraftingSpot</li>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
+				<li>CTR_AlchemyFurnace_Basic</li>
+				<li>CTR_AlchemyFurnace_Intermediate</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="CTR_GuideBookBase">
+		<defName>CTR_CultivationGuideBookVolOne</defName>
+		<label>Cultivation How-to Vol.1</label>
+		<description>Cultivation how-to \n\n&lt;color=#00D1DC&gt;Qi based Cultivation&lt;/color&gt;\nQi-based cultivation, or Qi Cultivation for short, is a mainstream way of cultivating immortality.
+
+to being the path of Qi Cultivation, first pawn must consume a Tribulation Remnant, or a Qi-Condensing Pill.
+Tribulation Remnant can be acquired by visiting spot that been struck by lightning, there a small chance a tribulation remnant will be left behind. the lightning doesn't have to be natural, artificial lightning work to(so long as it come from the sky. ie. modded ability that summon lightning)
+
+Qi-Condensing pill can either be made by a skilled alchemist, or be bought from Pill Trader.
+
+Qi Cultivating is relatively simply, pawn just meditate, and they will passively absorb Qi from surrounding, the speed can be increase by having more Qi Source item in the 20 radius area around cultivator. optionally, pawn with special Qi-Type affinity can gain significantly more by having infused item with matching type in range.
+
+&lt;color=#D7DC00&gt;Body Cultivation&lt;/color&gt;
+to begin the path of Body Cultivation, first pawn must consume Body tempering pill.
+
+Body Cultivation is special, they are much more powerful compare to Qi Cultivator of similar level, their body have several times more HP. their melee damage factor is a lot higher, and they also have incredibly high regeneration.
+
+and mainly, their breakthrough never fail, and will never incur heavenly tribulation
+
+the trade-off is that the only way to improve cultivation level of a body cultivator is through fighting, their cultivation improve when taking damage, or dealing melee damage, and can't be improve by any other way. 
+
+Body Cultivator take pride in their body, and will refuse to wield weapon in melee combat(only if B&amp;S Gene is active). and will reject most form of body modification(except implant).
+
+continue in Vol.2</description>
+	</ThingDef>
+	
+	<ThingDef ParentName="CTR_GuideBookBase">
+		<defName>CTR_CultivationGuideBookVolTwo</defName>
+		<label>Cultivation How-to Vol.2</label>
+		<description>&lt;color=#00D1DC&gt;Damage Calculation&lt;/color&gt;
+keyword
+-Mortal - pawn without cultivation.
+-Item Grade - weapon or apparel with grade above mortal will have effect in altering final damage.
+
+Cultivator of the Rim use a different damage calculation behind the scene, by default. once cultivator reach Core Shaping realm(or Martial Master for Body Cultvator), they will only take 1% damage from mortal. and once they reach Saint realm(or Martial Emperor realm) they no longer take any damage from mortal.
+
+however, before Saint realm, mortal are still able to overcome the damage penalty by using weapon with high Grade,
+-Ordinary Grade - will do 10% of original damage.
+-Earth Grade - 20%.
+-Heaven Grade - 25%.
+-Mysterious Grade - 50%.
+-Divine Grade - 50%.
+-Emperor Grade - 50%.
+-Dao Grade - 80%.
+
+&lt;color=#00D1DC&gt;Cultivator vs. Cultivator&lt;/color&gt;
+
+when two cultvator fight, if two are in the same realm(or same realm power), the one with higher stage will do 25% more damage, while the one with lower stage will do 25% less damage.
+
+if the two realm differ in realm power, and they are at or above Core Shaping realm power. by default, if the attacker are 4 realm below the opponent, they will do 0% damage, otherwise the damage calculation will be
+original damage / realm power different.
+if attacker realm are 4 higher than opponent, they will do 200% damage, otherwise they will do up to 150% damage based on realm power different.
+
+&lt;color=#00D1DC&gt;Qi Damage&lt;/color&gt;
+
+Qi Cultivator have special gimmick where once they are at Qi Gathering realm or above, they will do 10%~20% of the original damage as Qi Damage</description>
+	</ThingDef>
+	
+	<ThingDef ParentName="CTR_GuideBookBase">
+		<defName>CTR_CultivationGuideBookVolThree</defName>
+		<label>Cultivation How-to Vol.3</label>
+		<description>&lt;color=#00D1DC&gt;Item Grade&lt;/color&gt;
+
+in Cultivator of the Rim, weapon and armor can spawn with grade, the grade determine how it affect the final damage the pawn dealt or receive.
+
+&lt;color=#00D1DC&gt;Armor Grade&lt;/color&gt;
+
+Armor Grade will reduce the incoming damage the pawn take, by default in mod setting this will be in Singular mode, meaning only the apparel with the highest grade will take effect.
+
+ie. T-Shirt with Earth grade(x0.85), Pant with Heaven grade(x0.825), helmet with Dao grade(x0.5)
+only helmet with Dao grade will take effect and lower damage by 50%, if multiple item of the same grade exist, only one will take effect.
+
+in Multiplicative mode(enabled in mod setting.) all apparel will stack multiplicatively
+
+ie.T-Shirt Earth grade(x0.85), Pant with Mysterious grade(x0.8), Helmet with Dao grade(x0.5)
+will result in = 100% * 0.85 * 0.8 * 0.5 = 34% damage received.</description>
+	</ThingDef>
+	
+	<ThingDef ParentName="CTR_GuideBookBase">
+		<defName>CTR_CultivationGuideBookVolFour</defName>
+		<label>Cultivation How-to Vol.4</label>
+		<description>&lt;color=#00D1DC&gt;Cultivation Realm&lt;/color&gt;
+
+&lt;color=#00D1DC&gt;Qi Cultvator&lt;/color&gt;	
+"Mortal Transformation"
+	-Body Tempering
+	-Marrow Cleansing
+	-Bone Forging
+"Lower-Qi Cultivating"
+	-Qi Gathering
+	-Foundation Establishment
+	-Core Shaping
+	-Golded Core
+	-Nascent Soul
+	-Transcendent
+"Upper-Qi cultivating"
+	-Half-Step Saint
+	-Saint
+	-Saint King
+"Heaven Ascending"
+	-Immortal Ascension
+	-True Immortal
+	-Immortal Saint
+	-Half-Step God
+	-True God
+"Domain Ascending"
+	-Creation
+	-Outside the Domain
+
+&lt;color=#00D1DC&gt;Body Cultvation&lt;/color&gt;	
+"Mortal Transformation"
+	-Martial Apprentice
+"Lower-Qi Cultivating"
+	-Martial Warrior
+	-Martial Master
+	-Great Martial Master
+	-Martial Lord
+	-Martial King
+"Upper-Qi cultivating"
+	-Martial Grandmaster
+	-Martial Emperor
+	-Martial Supreme
+"Heaven Ascending"
+	-Martial Sovereign
+	-Martial Transcendent
+	-Physical Body's Eight Gates
+	-Dharma Body
+	-Martial Dao</description>
+	</ThingDef>
+	
+	<ThingDef ParentName="CTR_GuideBookBase">
+		<defName>CTR_CultivationGuideBookVolFive</defName>
+		<label>Cultivation How-to Vol.5</label>
+		<description>text.todo.WIP.StillThinking.BrainHamsterWorkingOvertime</description>
+	</ThingDef>
+
+</Defs>

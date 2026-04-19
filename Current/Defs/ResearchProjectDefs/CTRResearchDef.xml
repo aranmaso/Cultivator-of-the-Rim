@@ -279,6 +279,22 @@
 		<researchViewX>5.00</researchViewX>
 		<researchViewY>1.60</researchViewY>
 	</ResearchProjectDef>
+	
+	<ResearchProjectDef>	
+		<defName>CTR_RebirthPillMaking</defName>
+		<label>Alchemy - Rebirth Pills</label>
+		<description>condense down one cultivation back to the start, incresing the quality of one foundation.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+		<requiredResearchFacilities />
+		<prerequisites>
+			<li>CTR_AdvancedAlchemy</li>
+		</prerequisites>
+		<tab>CTR_Alchemy_ResearchTab</tab>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>2.20</researchViewY>
+	</ResearchProjectDef>
 
 
 	<!-- Basic Talisman -->

@@ -74,6 +74,9 @@
 			</tradeTagsToAllow>
 		</fixedIngredientFilter>
 		<researchPrerequisite>BS_SapientAnimalsResearch</researchPrerequisite>
+		<products>
+			<CTR_AnimalSapientPill>0</CTR_AnimalSapientPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>

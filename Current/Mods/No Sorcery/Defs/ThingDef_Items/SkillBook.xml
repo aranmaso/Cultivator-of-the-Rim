@@ -1,12 +1,6 @@
 <Defs>
 
-	<ThingCategoryDef>
-		<defName>Cultivation_SkillBook</defName>
-		<label>manual</label>
-		<parent>Cultivation_Root</parent>
-		<resourceReadoutRoot>true</resourceReadoutRoot>
-		<iconPath>Things/Items/Manual/ManualBook_Qi</iconPath>
-	</ThingCategoryDef>
+	
 	
 	<ThingDef Name="CTR_SkillBookBase" ParentName="BookBase" Abstract="true">
 		<graphicData>
@@ -340,7 +334,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_Xuanwu_Fist</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Xuanwu Fist</benefitString>
 					</li>
 				</doers>
@@ -378,7 +372,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_Xuanwu_Shell</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Invincible Shell</benefitString>
 					</li>
 				</doers>
@@ -416,7 +410,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_Xuanwu_ReflectShell</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Mirror Shell</benefitString>
 					</li>
 				</doers>
@@ -468,7 +462,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_Suzaku_FireFeather</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Fire Feather</benefitString>
 					</li>
 				</doers>
@@ -506,7 +500,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_Suzaku_FireOfRebirth</hediffDef>
-						<learnChance>0.02</learnChance>
+						<learnChance>0.05</learnChance>
 						<benefitString>Flame of Rebirth</benefitString>
 					</li>
 				</doers>
@@ -558,7 +552,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_RedFlameFist_CleansingFlame</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Cleansing Flame</benefitString>
 					</li>
 				</doers>
@@ -596,7 +590,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_RedFlameFist_FireSkin</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Fire Coated Skin</benefitString>
 					</li>
 				</doers>
@@ -634,7 +628,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_RedFlameFist_CometFist</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Comet Fist</benefitString>
 					</li>
 				</doers>
@@ -686,7 +680,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_StarCaller_NightAbsorption</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Star Adapting</benefitString>
 					</li>
 				</doers>
@@ -724,7 +718,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_StarCaller_FallingStar</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Falling Star Strike</benefitString>
 					</li>
 				</doers>
@@ -762,7 +756,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_StarCaller_NightAffinity</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Night Affinity</benefitString>
 					</li>
 				</doers>
@@ -800,7 +794,7 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_StarCaller_NightWarlord</hediffDef>
-						<learnChance>0.05</learnChance>
+						<learnChance>0.1</learnChance>
 						<benefitString>Night Warlord</benefitString>
 					</li>
 				</doers>
@@ -838,8 +832,110 @@
 				<doers>
 					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
 						<hediffDef>CTR_StarCaller_LordOfTheNight</hediffDef>
-						<learnChance>0.02</learnChance>
+						<learnChance>0.05</learnChance>
 						<benefitString>Lord of the Night</benefitString>
+					</li>
+				</doers>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<RulePackDef>
+		<defName>CTR_Namer_SkillBook_Alchemy</defName>
+		<rulePack>
+			<rulesStrings>
+
+				<li>title->[titleAuthoredNoSubject]</li>
+
+				<li>titleAuthoredNoSubject->The Teaching of Alchemy</li>
+				<li>titleAuthoredNoSubject->The Tome of Alchemy</li>
+				<li>titleAuthoredNoSubject->The Manual of Alchemy</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<ThingDef ParentName="CTR_SkillBookBase">
+		<defName>CTR_SkillBook_Alchemy</defName>
+		<label>Alchemy manual</label>
+		<description>A book which focuses on teaching the way of alchemy.</description>
+		<graphicData>
+			<texPath>Things/Items/Manual/ManualBook_Qi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Book">
+				<nameMaker>CTR_Namer_SkillBook_Alchemy</nameMaker>
+				<descriptionMaker>CTR_Description_Novel</descriptionMaker>
+				<ageYearsRange>100~1000</ageYearsRange>
+				<openGraphic>
+					<texPath>Things/Item/Book/Textbook/Textbook_Open</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.7</drawSize>
+				</openGraphic>
+				<verticalGraphic>
+					<texPath>Things/Items/Manual/ManualBook</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<addTopAltitudeBias>true</addTopAltitudeBias>
+				</verticalGraphic>
+				<doers>
+					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
+						<hediffDef>CTR_AlchemyComprehension</hediffDef>
+						<learnChance>0.1</learnChance>
+						<benefitString>Alchemy Comprehension</benefitString>
+					</li>
+				</doers>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<RulePackDef>
+		<defName>CTR_Namer_SkillBook_Refining</defName>
+		<rulePack>
+			<rulesStrings>
+
+				<li>title->[titleAuthoredNoSubject]</li>
+
+				<li>titleAuthoredNoSubject->The Teaching of Refining</li>
+				<li>titleAuthoredNoSubject->The Tome of Refining</li>
+				<li>titleAuthoredNoSubject->The Manual of Refining</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<ThingDef ParentName="CTR_SkillBookBase">
+		<defName>CTR_SkillBook_Refining</defName>
+		<label>Refining manual</label>
+		<description>A book which focuses on teaching the way of Refining.</description>
+		<graphicData>
+			<texPath>Things/Items/Manual/ManualBook_Qi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Book">
+				<nameMaker>CTR_Namer_SkillBook_Refining</nameMaker>
+				<descriptionMaker>CTR_Description_Novel</descriptionMaker>
+				<ageYearsRange>100~1000</ageYearsRange>
+				<openGraphic>
+					<texPath>Things/Item/Book/Textbook/Textbook_Open</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.7</drawSize>
+				</openGraphic>
+				<verticalGraphic>
+					<texPath>Things/Items/Manual/ManualBook</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<addTopAltitudeBias>true</addTopAltitudeBias>
+				</verticalGraphic>
+				<doers>
+					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
+						<hediffDef>CTR_RefinementComprehension</hediffDef>
+						<learnChance>0.1</learnChance>
+						<benefitString>Refining Comprehension</benefitString>
 					</li>
 				</doers>
 			</li>

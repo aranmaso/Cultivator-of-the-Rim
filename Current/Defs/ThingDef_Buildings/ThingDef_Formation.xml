@@ -27,6 +27,8 @@
 		<canOverlapZones>true</canOverlapZones>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>CultivatorOfTheRim</designationCategory>
+		<clearBuildingArea>false</clearBuildingArea>
+		
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>BuildingsMisc</li>
@@ -67,6 +69,7 @@
 				<checkInterval>120</checkInterval>
 				<totalDuration>5000</totalDuration>
 				<spiritStoneCost>10</spiritStoneCost>
+				<activeDelay>60</activeDelay>
 				<uiIcon>Things/Buildings/Formation/PatternB/PatternB_A</uiIcon>
 			</li>
 		</comps>
@@ -130,6 +133,7 @@
 				<checkInterval>120</checkInterval>
 				<totalDuration>5000</totalDuration>
 				<spiritStoneCost>10</spiritStoneCost>
+				<activeDelay>60</activeDelay>
 				<uiIcon>Things/Buildings/Formation/PatternA/PatternA_A</uiIcon>
 			</li>
 		</comps>
@@ -193,6 +197,7 @@
 				<checkInterval>120</checkInterval>
 				<totalDuration>5000</totalDuration>
 				<spiritStoneCost>10</spiritStoneCost>
+				<activeDelay>60</activeDelay>
 				<uiIcon>Things/Buildings/Formation/PatternC/PatternC_A</uiIcon>
 			</li>
 		</comps>
@@ -257,6 +262,7 @@
 				<checkInterval>120</checkInterval>
 				<totalDuration>5000</totalDuration>
 				<spiritStoneCost>10</spiritStoneCost>
+				<activeDelay>60</activeDelay>
 				<uiIcon>Things/Buildings/Formation/PatternH/PatternH_A</uiIcon>
 			</li>
 		</comps>
@@ -347,6 +353,7 @@
 				<checkInterval>120</checkInterval>
 				<totalDuration>20000</totalDuration>
 				<spiritStoneCost>10</spiritStoneCost>
+				<activeDelay>60</activeDelay>
 				<uiIcon>Things/Buildings/Formation/PatternD/PatternD_A</uiIcon>
 			</li>
 		</comps>
@@ -406,8 +413,9 @@
 				<isOnlyTargetFriendly>true</isOnlyTargetFriendly>
 				<radius>10</radius>
 				<checkInterval>120</checkInterval>
-				<totalDuration>5000</totalDuration>
-				<spiritStoneCost>10</spiritStoneCost>
+				<totalDuration>10000</totalDuration>
+				<spiritStoneCost>20</spiritStoneCost>
+				<activeDelay>60</activeDelay>
 				<uiIcon>Things/Buildings/Formation/PatternE/PatternE_A</uiIcon>
 			</li>
 		</comps>
@@ -468,6 +476,7 @@
 				<checkInterval>250</checkInterval>
 				<totalDuration>5000</totalDuration>
 				<spiritStoneCost>10</spiritStoneCost>
+				<activeDelay>60</activeDelay>
 				<uiIcon>Things/Buildings/Formation/PatternF/PatternF_A</uiIcon>
 			</li>
 		</comps>
@@ -510,6 +519,7 @@
 				<checkInterval>120</checkInterval>
 				<totalDuration>5000</totalDuration>
 				<spiritStoneCost>10</spiritStoneCost>
+				<activeDelay>60</activeDelay>
 				<uiIcon>Things/Buildings/Formation/PatternG/PatternG_A</uiIcon>
 			</li>
 		</comps>

@@ -1,0 +1,120 @@
+<Defs>
+
+	<HediffDef Name="RareCultivationRealmBase" Abstract="True">
+		<description>a special effect granted by rare cultivation realm.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(115, 255, 241)</defaultLabelColor>
+		<initialSeverity>0.001</initialSeverity>
+		<minSeverity>0.001</minSeverity>
+		<tags Inherit="False">
+			<li>CTR_RareRealmBonus</li>
+		</tags>
+		<isBad>false</isBad>
+		<priceImpact>true</priceImpact>
+		<comps>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef ParentName="RareCultivationRealmBase">
+		<defName>CTR_FoundationEstablishment_ASGrade</defName>
+		<label>Foundation(Above Standard)</label>
+		<description>a foundation formed with above standard quality, grant slight boost to the speed at which Cultivator improve.</description>
+		<isBad>false</isBad>
+		<comps />
+		<stages>
+			<li>
+				<statFactors>
+					<CultivationSpeed>1.1</CultivationSpeed>				
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RareCultivationRealmBase">
+		<defName>CTR_FoundationEstablishment_SuperiorGrade</defName>
+		<label>Foundation(Superior)</label>
+		<description>a foundation formed with superior quality, grant moderate boost to the speed at which Cultivator improve.</description>
+		<isBad>false</isBad>
+		<comps />
+		<stages>
+			<li>
+				<statFactors>
+					<CultivationSpeed>1.25</CultivationSpeed>				
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RareCultivationRealmBase">
+		<defName>CTR_FoundationEstablishment_PerfectionGrade</defName>
+		<label>Foundation(Perfection)</label>
+		<description>a foundation formed with perfected quality, grant significant boost to the speed at which Cultivator improve.</description>
+		<isBad>false</isBad>
+		<comps />
+		<stages>
+			<li>
+				<statFactors>
+					<CultivationSpeed>1.5</CultivationSpeed>				
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RareCultivationRealmBase">
+		<defName>CTR_PatternedGoldenCore_Bonus</defName>
+		<label>Patterned-Golden Core</label>
+		<description>a rare situation where one golden core form with a strange pattern on it, cultivator of with this phenomenon are equivalent to a Nascent Soul realm.</description>
+		<isBad>false</isBad>
+		<comps />
+		<stages>
+			<li>
+				<statFactors>
+					<CultivationSpeed>1.25</CultivationSpeed>				
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RareCultivationRealmBase">
+		<defName>CTR_DualNascentSoul_Bonus</defName>
+		<label>Dual-Nascent Soul</label>
+		<description>a rare situation where one form a twin Nascent Soul, they cultivate much faster than other, and have one extra lives.</description>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="CultivatorOfTheRim.HediffCompProperties_CultivatorResurrect">
+				<livesLeft>1</livesLeft>
+				<replenishLivesOvertime>true</replenishLivesOvertime>
+				<timeToReplenish>60000</timeToReplenish>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<CultivationSpeed>2.0</CultivationSpeed>				
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RareCultivationRealmBase">
+		<defName>CTR_Transcendent_SaintTouch</defName>
+		<label>Saint Touched</label>
+		<description>a rare situation where one gain enlightment from breaking through into the Transcendent realm and being able to perceive Saint Qi ahead of time, this individual is blessed by Heavenly Dao and capable of cultivating faster, while also having greater luck in Refinement and Alchemy.</description>
+		<isBad>false</isBad>
+		<comps />
+		<stages>
+			<li>
+				<statFactors>
+					<CultivationSpeed>2.0</CultivationSpeed>				
+					<AlchemySuccessChance>1.5</AlchemySuccessChance>				
+					<RefiningSuccessChance>1.5</RefiningSuccessChance>		
+					<RefiningSuccessChance>1.5</RefiningSuccessChance>
+					<CTR_DantianDamageChance>0.5</CTR_DantianDamageChance>
+					<TribulationChance>0.5</TribulationChance>
+					<CTR_Qi_AbsorptionMultiplier>1.25</CTR_Qi_AbsorptionMultiplier>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

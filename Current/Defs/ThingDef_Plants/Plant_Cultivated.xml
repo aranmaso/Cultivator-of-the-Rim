@@ -15,13 +15,28 @@
 			<fertilitySensitivity>0.1</fertilitySensitivity>
 			<growDays>7</growDays>
 			<visualSizeRange>0.3~0.8</visualSizeRange>
-			<wildOrder>2</wildOrder>
+			<wildOrder>3</wildOrder>
 			<purpose>Health</purpose>
 			<sowWork>250</sowWork>
 			<sowMinSkill>10</sowMinSkill>
 			<!-- <humanFoodPlant>true</humanFoodPlant> -->
 			<completelyIgnoreFertility>true</completelyIgnoreFertility>
 			<vacuumResistant>true</vacuumResistant>
+			<dieIfNoSunlight>false</dieIfNoSunlight>
+			<dieFromToxicFallout>false</dieFromToxicFallout>
+			<!-- <wildTerrainTags> -->
+				<!-- <li>Soil</li> -->
+				<!-- <li>Water</li> -->
+				<!-- <li>WaterMarshy</li> -->
+				<!-- <li>River</li> -->
+				<!-- <li>WaterFreshShallow</li> -->
+				<!-- <li>WaterFreshShallowStill</li> -->
+				<!-- <li>WaterFreshShallowMoving</li> -->
+				<!-- <li>Mud</li> -->
+				<!-- <li>Ice</li> -->
+				<!-- <li>NaturalRock</li> -->
+				<!-- <li>Road</li> -->
+			<!-- </wildTerrainTags> -->
 		</plant>
 		<tradeTags>
 			<li>Spirit_Plant</li>
@@ -64,6 +79,21 @@
 			
 			<wildClusterRadius>10</wildClusterRadius>
 			<wildClusterWeight>600</wildClusterWeight>
+			
+			<wildBiomes>
+				<TemperateForest>0.1</TemperateForest>
+				<TemperateSwamp>0.1</TemperateSwamp>
+				<TropicalRainforest>0.1</TropicalRainforest>
+				<TropicalSwamp>0.1</TropicalSwamp>
+				<AridShrubland>0.1</AridShrubland>
+				<Desert>0.1</Desert>
+				<ExtremeDesert>0.1</ExtremeDesert>
+				<BorealForest>0.1</BorealForest>
+				<Tundra>0.1</Tundra>
+				<ColdBog>0.1</ColdBog>
+				<Grasslands MayRequire="ludeon.rimworld.odyssey">0.1</Grasslands>
+				<Glowforest MayRequire="ludeon.rimworld.odyssey">0.1</Glowforest>
+			</wildBiomes>		
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -122,8 +152,23 @@
 				<li>CTR_SpiritPlantCultivationBasic</li>
 			</sowResearchPrerequisites>
 			
-			<wildClusterRadius>3</wildClusterRadius>
+			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>100</wildClusterWeight>
+			
+			<wildBiomes>
+				<TemperateForest>0.01</TemperateForest>
+				<TemperateSwamp>0.01</TemperateSwamp>
+				<TropicalRainforest>0.01</TropicalRainforest>
+				<TropicalSwamp>0.01</TropicalSwamp>
+				<AridShrubland>0.01</AridShrubland>
+				<Desert>0.01</Desert>
+				<ExtremeDesert>0.01</ExtremeDesert>
+				<BorealForest>0.01</BorealForest>
+				<Tundra>0.01</Tundra>
+				<ColdBog>0.01</ColdBog>
+				<Grasslands MayRequire="ludeon.rimworld.odyssey">0.01</Grasslands>
+				<Glowforest MayRequire="ludeon.rimworld.odyssey">0.01</Glowforest>
+			</wildBiomes>	
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -184,6 +229,21 @@
 		  
 			<wildClusterRadius>2</wildClusterRadius>
 			<wildClusterWeight>400</wildClusterWeight>
+			
+			<wildBiomes>
+				<TemperateForest>0.005</TemperateForest>
+				<TemperateSwamp>0.005</TemperateSwamp>
+				<TropicalRainforest>0.005</TropicalRainforest>
+				<TropicalSwamp>0.005</TropicalSwamp>
+				<AridShrubland>0.005</AridShrubland>
+				<Desert>0.005</Desert>
+				<ExtremeDesert>0.005</ExtremeDesert>
+				<BorealForest>0.005</BorealForest>
+				<Tundra>0.005</Tundra>
+				<ColdBog>0.005</ColdBog>
+				<Grasslands MayRequire="ludeon.rimworld.odyssey">0.005</Grasslands>
+				<Glowforest MayRequire="ludeon.rimworld.odyssey">0.005</Glowforest>
+			</wildBiomes>	
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -248,6 +308,27 @@
 			
 			<wildClusterRadius>1</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
+			
+			<wildBiomes>
+				<TemperateForest>0.01</TemperateForest>
+				<TemperateSwamp>0.01</TemperateSwamp>
+				<TropicalRainforest>0.01</TropicalRainforest>
+				<TropicalSwamp>0.01</TropicalSwamp>
+			</wildBiomes>
+			
+			<wildTerrainTags>
+				<li>Soil</li>
+				<li>Water</li>
+				<li>WaterMarshy</li>
+				<li>River</li>
+				<li>WaterFreshShallow</li>
+				<li>WaterFreshShallowStill</li>
+				<li>WaterFreshShallowMoving</li>
+				<li>Mud</li>
+				<li>Ice</li>
+				<li>NaturalRock</li>
+				<li>Road</li>
+			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -325,6 +406,28 @@
 			
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
+			
+			<wildBiomes>
+				<BorealForest>0.005</BorealForest>
+				<Tundra>0.005</Tundra>
+				<ColdBog>0.01</ColdBog>
+				<IceSheet>0.01</IceSheet>
+				<SeaIce>0.01</SeaIce>
+			</wildBiomes>
+			
+			<wildTerrainTags>
+				<li>Soil</li>
+				<li>Water</li>
+				<li>WaterMarshy</li>
+				<li>River</li>
+				<li>WaterFreshShallow</li>
+				<li>WaterFreshShallowStill</li>
+				<li>WaterFreshShallowMoving</li>
+				<li>Mud</li>
+				<li>Ice</li>
+				<li>NaturalRock</li>
+				<li>Road</li>
+			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -408,6 +511,27 @@
 			
 			<wildClusterRadius>1</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
+			
+			<wildBiomes>
+				<TemperateForest>0.005</TemperateForest>
+				<TemperateSwamp>0.005</TemperateSwamp>
+				<TropicalRainforest>0.005</TropicalRainforest>
+				<TropicalSwamp>0.005</TropicalSwamp>
+			</wildBiomes>
+			
+			<wildTerrainTags>
+				<li>Soil</li>
+				<li>Water</li>
+				<li>WaterMarshy</li>
+				<li>River</li>
+				<li>WaterFreshShallow</li>
+				<li>WaterFreshShallowStill</li>
+				<li>WaterFreshShallowMoving</li>
+				<li>Mud</li>
+				<li>Ice</li>
+				<li>NaturalRock</li>
+				<li>Road</li>
+			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -476,7 +600,7 @@
 			<purpose>Health</purpose>
 			<visualSizeRange>0.2~1.2</visualSizeRange>
 			
-			<minGrowthTemperature>40</minGrowthTemperature>
+			<minGrowthTemperature>25</minGrowthTemperature>
 			<maxGrowthTemperature>1000</maxGrowthTemperature>
 			
 			<minOptimalGrowthTemperature>40</minOptimalGrowthTemperature>
@@ -488,6 +612,13 @@
 		  
 			<wildClusterRadius>6</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
+			
+			<wildBiomes>
+				<AridShrubland>0.01</AridShrubland>
+				<Desert>0.01</Desert>
+				<ExtremeDesert>0.01</ExtremeDesert>
+				<LavaField MayRequire="ludeon.rimworld.odyssey">2</LavaField>
+			</wildBiomes>
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -568,6 +699,13 @@
 		  
 			<wildClusterRadius>1</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
+			
+			<wildBiomes>
+				<AridShrubland>0.01</AridShrubland>
+				<Desert>0.01</Desert>
+				<ExtremeDesert>0.01</ExtremeDesert>
+				<LavaField MayRequire="ludeon.rimworld.odyssey">1</LavaField>
+			</wildBiomes>
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -647,6 +785,35 @@
 			</sowResearchPrerequisites>
 			
 			<harvestTag>Wood</harvestTag>
+			
+			<wildBiomes>
+				<TemperateForest>0.0005</TemperateForest>
+				<TemperateSwamp>0.0005</TemperateSwamp>
+				<TropicalRainforest>0.0005</TropicalRainforest>
+				<TropicalSwamp>0.0005</TropicalSwamp>
+				<AridShrubland>0.0005</AridShrubland>
+				<Desert>0.0005</Desert>
+				<ExtremeDesert>0.0005</ExtremeDesert>
+				<BorealForest>0.0005</BorealForest>
+				<Tundra>0.0005</Tundra>
+				<ColdBog>0.0005</ColdBog>
+				<Grasslands MayRequire="ludeon.rimworld.odyssey">0.0005</Grasslands>
+				<Glowforest MayRequire="ludeon.rimworld.odyssey">0.0005</Glowforest>
+			</wildBiomes>
+			
+			<wildTerrainTags>
+				<li>Soil</li>
+				<li>Water</li>
+				<li>WaterMarshy</li>
+				<li>River</li>
+				<li>WaterFreshShallow</li>
+				<li>WaterFreshShallowStill</li>
+				<li>WaterFreshShallowMoving</li>
+				<li>Mud</li>
+				<li>Ice</li>
+				<li>NaturalRock</li>
+				<li>Road</li>
+			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>5.9</specialDisplayRadius>
 		<comps>
@@ -661,7 +828,7 @@
 				<ignoreTemp>true</ignoreTemp>
 				<sourceName>Qi Source</sourceName>
 				<consumeSource>true</consumeSource>
-				<healSelf>false</healSelf>
+				<healSelf>true</healSelf>
 				<radius>5.9</radius>
 				<destroyOnConsume>false</destroyOnConsume>
 				<sourceDamagePerTrigger>1</sourceDamagePerTrigger>
@@ -722,6 +889,35 @@
 			
 			<wildClusterRadius>1</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
+			
+			<wildBiomes>
+				<TemperateForest>0.0005</TemperateForest>
+				<TemperateSwamp>0.0005</TemperateSwamp>
+				<TropicalRainforest>0.0005</TropicalRainforest>
+				<TropicalSwamp>0.0005</TropicalSwamp>
+				<AridShrubland>0.0005</AridShrubland>
+				<Desert>0.0005</Desert>
+				<ExtremeDesert>0.0005</ExtremeDesert>
+				<BorealForest>0.0005</BorealForest>
+				<Tundra>0.0005</Tundra>
+				<ColdBog>0.0005</ColdBog>
+				<Grasslands MayRequire="ludeon.rimworld.odyssey">0.0005</Grasslands>
+				<Glowforest MayRequire="ludeon.rimworld.odyssey">0.0005</Glowforest>
+			</wildBiomes>
+			
+			<wildTerrainTags>
+				<li>Soil</li>
+				<li>Water</li>
+				<li>WaterMarshy</li>
+				<li>River</li>
+				<li>WaterFreshShallow</li>
+				<li>WaterFreshShallowStill</li>
+				<li>WaterFreshShallowMoving</li>
+				<li>Mud</li>
+				<li>Ice</li>
+				<li>NaturalRock</li>
+				<li>Road</li>
+			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>5.9</specialDisplayRadius>
 		<comps>
@@ -738,7 +934,7 @@
 				<sourceName>Qi Source</sourceName>
 				<specialSourceName>Time Law</specialSourceName>
 				<consumeSource>false</consumeSource>
-				<healSelf>false</healSelf>
+				<healSelf>true</healSelf>
 				<radius>5.9</radius>
 				<destroyOnConsume>false</destroyOnConsume>
 				<sourceDamagePerTrigger>1</sourceDamagePerTrigger>
@@ -799,6 +995,21 @@
 			
 			<wildClusterRadius>1</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
+			
+			<wildBiomes>
+				<TemperateForest>0.001</TemperateForest>
+				<TemperateSwamp>0.001</TemperateSwamp>
+				<TropicalRainforest>0.001</TropicalRainforest>
+				<TropicalSwamp>0.001</TropicalSwamp>
+				<AridShrubland>0.001</AridShrubland>
+				<Desert>0.001</Desert>
+				<ExtremeDesert>0.001</ExtremeDesert>
+				<BorealForest>0.001</BorealForest>
+				<Tundra>0.001</Tundra>
+				<ColdBog>0.001</ColdBog>
+				<Grasslands MayRequire="ludeon.rimworld.odyssey">0.001</Grasslands>
+				<Glowforest MayRequire="ludeon.rimworld.odyssey">0.001</Glowforest>
+			</wildBiomes>
 		</plant>
 		<specialDisplayRadius>5</specialDisplayRadius>
 		<comps>

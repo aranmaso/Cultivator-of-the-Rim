@@ -51,6 +51,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_FleshHealingPillMaking</researchPrerequisite>
+		<products>
+			<CTR_HealingPill>0</CTR_HealingPill>
+		</products>		
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -93,6 +96,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_ColdResistPillMaking</researchPrerequisite>
+		<products>
+			<CTR_ColdResistPill>0</CTR_ColdResistPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -135,6 +141,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_HeatResistPillMaking</researchPrerequisite>
+		<products>
+			<CTR_HeatResistPill>0</CTR_HeatResistPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -177,6 +186,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_DantianRepairPillMaking</researchPrerequisite>
+		<products>
+			<CTR_DantianRepairPill>0</CTR_DantianRepairPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -219,6 +231,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_ImproveAbsorptionPillMaking</researchPrerequisite>
+		<products>
+			<CTR_ImproveAbsorptionPill>0</CTR_ImproveAbsorptionPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -261,6 +276,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_ImproveReflexPillMaking</researchPrerequisite>
+		<products>
+			<CTR_ImproveReflexPill>0</CTR_ImproveReflexPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -303,6 +321,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_ImproveGWSPillMaking</researchPrerequisite>
+		<products>
+			<CTR_ImproveGWSPill>0</CTR_ImproveGWSPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -345,6 +366,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_LifeSpanPillMaking</researchPrerequisite>
+		<products>
+			<CTR_LifeSpanPill>0</CTR_LifeSpanPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -386,6 +410,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_StoneSkinPillMaking</researchPrerequisite>
+		<products>
+			<CTR_StoneSkinPill>0</CTR_StoneSkinPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -428,6 +455,9 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_FertilityPillMaking</researchPrerequisite>
+		<products>
+			<CTR_FertilityPill>0</CTR_FertilityPill>
+		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
 				<allowedCultivationLevel>
@@ -436,6 +466,51 @@
 				<successfulProduct>CTR_FertilityPill</successfulProduct>
 				<failedProduct>CTR_JunkPill</failedProduct>
 				<count>1~10</count>
+			</li>		
+		</modExtensions>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GeneralPillRecipeBase">
+		<defName>CTR_MakeCTR_RebirthPill</defName>
+		<label>make Rebirth Pill</label>
+		<description>make Rebirth Pill.</description>		
+		<workAmount>500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<tradeTagsToAllow>
+						<li>Fire_Qi</li>
+					</tradeTagsToAllow>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<tradeTagsToAllow>
+						<li>Divine</li>
+					</tradeTagsToAllow>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<tradeTagsToAllow>
+				<li>Fire_Qi</li>
+				<li>Divine</li>
+			</tradeTagsToAllow>		
+		</fixedIngredientFilter>
+		<researchPrerequisite>CTR_RebirthPillMaking</researchPrerequisite>
+		<products>
+			<CTR_RebirthPill>0</CTR_RebirthPill>
+		</products>
+		<modExtensions>
+			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
+				<allowedCultivationLevel>
+					<li>CTR_TranscendentOrAbove</li>
+				</allowedCultivationLevel>
+				<successfulProduct>CTR_RebirthPill</successfulProduct>
+				<failedProduct>CTR_JunkPill</failedProduct>
+				<count>1~3</count>
 			</li>		
 		</modExtensions>
 	</RecipeDef>

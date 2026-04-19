@@ -69,7 +69,7 @@
 		
 			<!-- <diagonalRotation>false</diagonalRotation> -->
 			<worldSpeedMultiplier>1.5</worldSpeedMultiplier>
-			<winterSpeedMultiplier>3.5</winterSpeedMultiplier>
+			<winterSpeedMultiplier>1</winterSpeedMultiplier>
 			<riverCost>1</riverCost>
 			<!-- <manhunterTargetsVehicle>False</manhunterTargetsVehicle> -->
 			<offRoadMultiplier>0.5</offRoadMultiplier>
@@ -97,10 +97,10 @@
 					<key>SeaIce</key>
 					<value>1</value>
 				</li>
-				<li>
-					<key>Ocean</key>
-					<value>1</value>
-				</li>
+				<!-- <li> -->
+					<!-- <key>Ocean</key> -->
+					<!-- <value>1</value> -->
+				<!-- </li> -->
 				<li>
 					<key>Lake</key>
 					<value>1</value>

@@ -3,7 +3,7 @@
 
 	<!-- CompItemGrade -->
 	<GradeInt>Grade: {0}</GradeInt>
-	<GradeLabel> ({0} Grade)</GradeLabel>
+	<GradeLabel> 【{0} Grade】</GradeLabel>
 	<ItemGrade_Mortal>&lt;color=#734647&gt;Mortal&lt;/color&gt;</ItemGrade_Mortal>
 	<ItemGrade_Ordinary>&lt;color=#FFFFFF&gt;Ordinary&lt;/color&gt;</ItemGrade_Ordinary>
 	<ItemGrade_Earth>&lt;color=#7FD4E3&gt;Earth&lt;/color&gt;</ItemGrade_Earth>
@@ -15,7 +15,7 @@
 	
 	<!-- CompPillGrade -->
 	<PillInt>Grade: {0}</PillInt>
-	<PillLabel> ({0} Grade) </PillLabel>
+	<PillLabel> 【{0} Grade】</PillLabel>
 	<PillGrade_Spirit>Spirit</PillGrade_Spirit>
 	<PillGrade_Earth>Earth</PillGrade_Earth>
 	<PillGrade_Heaven>Heaven</PillGrade_Heaven>
@@ -41,6 +41,9 @@
 	<CTR_StaminaTrackerDisabledReason>Pawn doesn't have enough Stamina to use</CTR_StaminaTrackerDisabledReason>
 	
 	<AlreadyLearned>{USER_labelShort} already learned {1}</AlreadyLearned>
-
+	
+	<!-- Hediff -->
+	<CTR_BodyCultivationBreakthrough_Maxed>{0} has reach the peak, there no more higher realm than {1}.</CTR_BodyCultivationBreakthrough_Maxed>
+	<CTR_BodyCultivationBreakthrough_RealmNotMaxed>{0} realm hasn't reach it peak state yet.</CTR_BodyCultivationBreakthrough_RealmNotMaxed>
 
 </LanguageData>

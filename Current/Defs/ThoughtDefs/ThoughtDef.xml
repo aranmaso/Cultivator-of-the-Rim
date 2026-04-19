@@ -13,5 +13,42 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-
+	
+	<ThoughtDef>
+		<defName>CTR_BodyCultivatorPurist</defName>
+		<workerClass>CultivatorOfTheRim.ThoughtWorker_BodyCultivation</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>body cultivator squeamish</label>
+				<description>I hate having this unnatural enhancement. a body cultivator does not need artificial part!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>body cultivator disgusted</label>
+				<description>Two artificial enhancements are sullying my natural, pure body. It makes me sick to think of it.</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+			<li>
+				<label>body cultivator violated</label>
+				<description>Three artificial enhancements violate my body's pure flesh. I shudder when I think of it... and these objects shudder with me.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<li>
+				<label>body cultivator horrified</label>
+				<description>I have four artificial enhancements; it's like I'm becoming a robot. What a horrifying sensation.</description>
+				<baseMoodEffect>-25</baseMoodEffect>
+			</li>
+			<li>
+				<label>body cultivator nightmare</label>
+				<description>Five artificial enhancements... Is there anything left of me? Or am I just a robot that thinks it's human?</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+			<li>
+				<label>I have become what I hate</label>
+				<description>I asked for the exact opposite of this!</description>
+				<baseMoodEffect>-50</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

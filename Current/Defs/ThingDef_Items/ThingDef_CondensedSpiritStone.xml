@@ -109,6 +109,37 @@
             <CTR_SpiritStone>1</CTR_SpiritStone>
         </costList>
 		
+		<ingestible>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>120</baseIngestTicks>
+			<ingestSound>Ingest_Pill</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<chairSearchRadius>0</chairSearchRadius> 
+			<preferability>NeverForNutrition</preferability>
+			<outcomeDoers>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_GiveQi">
+					<minimumCultivationLevel>
+						<li>CTR_Qi_GatheringOrAbove</li>
+					</minimumCultivationLevel>
+					<hediffDef>CTR_SpiritStone2xAbsorb</hediffDef>
+					<backlashHediffDef>CTR_QiOverload</backlashHediffDef>
+					<notForMortal>true</notForMortal>
+					<severity>0.1~0.5</severity>
+				</li>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_AddOrRemoveHediff">
+					<hediffDef>CTR_QiOverload</hediffDef>
+					<severity>0.05~0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		
 		<statBases>
 			<MarketValue>10</MarketValue>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -145,15 +176,74 @@
 			<li>Qi_Source_Tier2</li>
 		</tradeTags>
 	</ThingDef>
+	<HediffDef ParentName="CultivationDrugHediffBase">
+		<defName>CTR_SpiritStone2xAbsorb</defName>
+		<label>Spirit stone(2x) qi absorbing</label>
+		<description>. . .</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>1440</disappearsAfterTicks>
+			</li>
+			
+			<li Class="CultivatorOfTheRim.HediffCompProperties_AbsorbingPill">
+				<severityAmount>0.075</severityAmount>
+				<tickInterval>60</tickInterval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<statOffsets>
+					<CultivationSpeed>0.1</CultivationSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 	
 	<ThingDef ParentName="CondensedSpiritStoneBase">
 		<defName>CTR_SpiritStone_Condensed_3X</defName>
 		<label>condensed spirit stone 3x</label>
-		<description>condensed spirit stone, this spirit stone has been condensed 3 times as much. \n\nTags:Qi Source,Qi Source Tier 3, Neutral Qi</description>	
+		<description>condensed spirit stone, this spirit stone has been condensed 3 times as much.\n\nOnly cultivator of Core Shaping or above can absorb it directly. \n\nTags:Qi Source,Qi Source Tier 3, Neutral Qi</description>	
 		
 		<costList>
             <CTR_SpiritStone_Condensed_2X>1</CTR_SpiritStone_Condensed_2X>
         </costList>
+		
+		<ingestible>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>120</baseIngestTicks>
+			<ingestSound>Ingest_Pill</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<chairSearchRadius>0</chairSearchRadius> 
+			<preferability>NeverForNutrition</preferability>
+			<outcomeDoers>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_GiveQi">
+					<minimumCultivationLevel>
+						<li>CTR_CoreShapingOrAbove</li>
+					</minimumCultivationLevel>
+					<hediffDef>CTR_SpiritStone3xAbsorb</hediffDef>
+					<backlashHediffDef>CTR_QiOverload</backlashHediffDef>
+					<notForMortal>true</notForMortal>
+					<severity>0.1~0.5</severity>
+				</li>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_AddOrRemoveHediff">
+					<hediffDef>CTR_QiOverload</hediffDef>
+					<severity>0.05~0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
 		
 		<statBases>
 			<MarketValue>20</MarketValue>
@@ -191,15 +281,74 @@
 			<li>Qi_Source_Tier3</li>
 		</tradeTags>
 	</ThingDef>
+	<HediffDef ParentName="CultivationDrugHediffBase">
+		<defName>CTR_SpiritStone3xAbsorb</defName>
+		<label>Spirit stone(3x) qi absorbing</label>
+		<description>. . .</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>1440</disappearsAfterTicks>
+			</li>
+			
+			<li Class="CultivatorOfTheRim.HediffCompProperties_AbsorbingPill">
+				<severityAmount>0.1</severityAmount>
+				<tickInterval>60</tickInterval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<statOffsets>
+					<CultivationSpeed>0.1</CultivationSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 	
 	<ThingDef ParentName="CondensedSpiritStoneBase">
 		<defName>CTR_SpiritStone_Condensed_4X</defName>
 		<label>condensed spirit stone 4x</label>
-		<description>condensed spirit stone, this spirit stone has been condensed 4 times as much. \n\nTags:Qi Source,Qi Source Tier 4, Neutral Qi</description>	
+		<description>condensed spirit stone, this spirit stone has been condensed 4 times as much.\n\nOnly cultivator of Transcendent or above can absorb it directly. \n\nTags:Qi Source,Qi Source Tier 4, Neutral Qi</description>	
 		
 		<costList>
             <CTR_SpiritStone_Condensed_3X>1</CTR_SpiritStone_Condensed_3X>
         </costList>
+		
+		<ingestible>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>120</baseIngestTicks>
+			<ingestSound>Ingest_Pill</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<chairSearchRadius>0</chairSearchRadius> 
+			<preferability>NeverForNutrition</preferability>
+			<outcomeDoers>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_GiveQi">
+					<minimumCultivationLevel>
+						<li>CTR_TranscendentOrAbove</li>
+					</minimumCultivationLevel>
+					<hediffDef>CTR_SpiritStone4xAbsorb</hediffDef>
+					<backlashHediffDef>CTR_QiOverload</backlashHediffDef>
+					<notForMortal>true</notForMortal>
+					<severity>0.1~0.5</severity>
+				</li>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_AddOrRemoveHediff">
+					<hediffDef>CTR_QiOverload</hediffDef>
+					<severity>0.05~0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
 		
 		<statBases>
 			<MarketValue>40</MarketValue>
@@ -237,15 +386,74 @@
 			<li>Qi_Source_Tier4</li>
 		</tradeTags>
 	</ThingDef>
+	<HediffDef ParentName="CultivationDrugHediffBase">
+		<defName>CTR_SpiritStone4xAbsorb</defName>
+		<label>Spirit stone(4x) qi absorbing</label>
+		<description>. . .</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>1320</disappearsAfterTicks>
+			</li>
+			
+			<li Class="CultivatorOfTheRim.HediffCompProperties_AbsorbingPill">
+				<severityAmount>0.5</severityAmount>
+				<tickInterval>60</tickInterval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<statOffsets>
+					<CultivationSpeed>0.1</CultivationSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 	
 	<ThingDef ParentName="CondensedSpiritStoneBase">
 		<defName>CTR_SpiritStone_Condensed_5X</defName>
 		<label>condensed spirit stone 5x</label>
-		<description>condensed spirit stone, this spirit stone has been condensed 5 times as much. \n\nTags:Qi Source,Qi Source Tier 5, Neutral Qi</description>		
+		<description>condensed spirit stone, this spirit stone has been condensed 5 times as much.\n\nOnly cultivator of Saint King Or Above can absorb it directly. \n\nTags:Qi Source,Qi Source Tier 5, Neutral Qi</description>		
 		
 		<costList>
             <CTR_SpiritStone_Condensed_4X>1</CTR_SpiritStone_Condensed_4X>
         </costList>
+		
+		<ingestible>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>120</baseIngestTicks>
+			<ingestSound>Ingest_Pill</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<chairSearchRadius>0</chairSearchRadius> 
+			<preferability>NeverForNutrition</preferability>
+			<outcomeDoers>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_GiveQi">
+					<minimumCultivationLevel>
+						<li>CTR_SaintKingOrAbove</li>
+					</minimumCultivationLevel>
+					<hediffDef>CTR_SpiritStone5xAbsorb</hediffDef>
+					<backlashHediffDef>CTR_QiOverload</backlashHediffDef>
+					<notForMortal>true</notForMortal>
+					<severity>0.1~0.5</severity>
+				</li>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_AddOrRemoveHediff">
+					<hediffDef>CTR_QiOverload</hediffDef>
+					<severity>0.05~0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
 		
 		<statBases>
 			<MarketValue>80</MarketValue>
@@ -283,15 +491,74 @@
 			<li>Qi_Source_Tier5</li>
 		</tradeTags>
 	</ThingDef>
+	<HediffDef ParentName="CultivationDrugHediffBase">
+		<defName>CTR_SpiritStone5xAbsorb</defName>
+		<label>Spirit stone(5x) qi absorbing</label>
+		<description>. . .</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>2160</disappearsAfterTicks>
+			</li>
+			
+			<li Class="CultivatorOfTheRim.HediffCompProperties_AbsorbingPill">
+				<severityAmount>1.00</severityAmount>
+				<tickInterval>60</tickInterval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<statOffsets>
+					<CultivationSpeed>0.1</CultivationSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 	
 	<ThingDef ParentName="CondensedSpiritStoneBase">
 		<defName>CTR_SpiritStone_Condensed_6X</defName>
 		<label>condensed spirit stone 6x</label>
-		<description>condensed spirit stone, this spirit stone has been condensed 6 times as much. \n\nTags:Qi Source,Qi Source Tier 6, Neutral Qi</description>	
+		<description>condensed spirit stone, this spirit stone has been condensed 6 times as much.\n\nOnly cultivator of Immortal Saint or above can absorb it directly. \n\nTags:Qi Source,Qi Source Tier 6, Neutral Qi</description>	
 		
 		<costList>
             <CTR_SpiritStone_Condensed_5X>1</CTR_SpiritStone_Condensed_5X>
         </costList>
+		
+		<ingestible>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>120</baseIngestTicks>
+			<ingestSound>Ingest_Pill</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<chairSearchRadius>0</chairSearchRadius> 
+			<preferability>NeverForNutrition</preferability>
+			<outcomeDoers>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_GiveQi">
+					<minimumCultivationLevel>
+						<li>CTR_ImmortalSaintOrAbove</li>
+					</minimumCultivationLevel>
+					<hediffDef>CTR_SpiritStone6xAbsorb</hediffDef>
+					<backlashHediffDef>CTR_QiOverload</backlashHediffDef>
+					<notForMortal>true</notForMortal>
+					<severity>0.1~0.5</severity>
+				</li>
+				<li Class="CultivatorOfTheRim.IngestionOutcomeDoer_AddOrRemoveHediff">
+					<hediffDef>CTR_QiOverload</hediffDef>
+					<severity>0.05~0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
 		
 		<statBases>
 			<MarketValue>160</MarketValue>
@@ -329,5 +596,33 @@
 			<li>Qi_Source_Tier6</li>
 		</tradeTags>
 	</ThingDef>
+	<HediffDef ParentName="CultivationDrugHediffBase">
+		<defName>CTR_SpiritStone6xAbsorb</defName>
+		<label>Spirit stone(6x) qi absorbing</label>
+		<description>. . .</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<!-- <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor> -->
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>true</showRemainingTime>
+				<disappearsAfterTicks>7440</disappearsAfterTicks>
+			</li>
+			
+			<li Class="CultivatorOfTheRim.HediffCompProperties_AbsorbingPill">
+				<severityAmount>1.00</severityAmount>
+				<tickInterval>60</tickInterval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<statOffsets>
+					<CultivationSpeed>0.1</CultivationSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 
 </Defs>
