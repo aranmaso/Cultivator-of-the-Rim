@@ -584,6 +584,7 @@
 		<tradeTags>
 			<li>ExoticMisc</li>
 			<li>Nascent_Qi</li>
+			<li>Neutral_Qi</li>
 			<li>Qi_Source</li>
 			<li>Qi_Source_Tier3</li>
 		</tradeTags>
@@ -645,6 +646,7 @@
 		<tradeTags>
 			<li>ExoticMisc</li>
 			<li>Nascent_Qi</li>
+			<li>Neutral_Qi</li>
 			<li>Qi_Source</li>
 			<li>Qi_Source_Tier3</li>
 		</tradeTags>
@@ -705,6 +707,7 @@
 		<tradeTags>
 			<li>ExoticMisc</li>
 			<li>Immortal_Qi</li>
+			<li>Neutral_Qi</li>
 			<li>Qi_Source</li>
 			<li>Qi_Source_Tier6</li>
 		</tradeTags>

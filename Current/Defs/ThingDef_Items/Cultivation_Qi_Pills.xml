@@ -24,6 +24,9 @@
 			<ingestReportString>Taking {0}.</ingestReportString>
 			<chairSearchRadius>0</chairSearchRadius>			
 		</ingestible>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Drug">
 				<listOrder>200</listOrder>
@@ -77,7 +80,6 @@
 		</ingestible>
 		<tradeTags>
 			<li>Pure_Qi</li>
-			<li>Qi_Source_Tier1</li>
 			<li>Neutral_Qi</li>
 		</tradeTags>		
 	</ThingDef>

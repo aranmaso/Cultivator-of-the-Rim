@@ -195,7 +195,7 @@
 	</ItsSorceryFramework.SorceryDef>	
 	
 	<ItsSorceryFramework.SorceryDef ParentName="SorceryBase">
-		<sorcerySchema>CTR_QiTechnique</sorcerySchema>
+		<sorcerySchema>CTR_BasicBodyTechnique</sorcerySchema>
 		<defName>CTR_WaveOfFire</defName>
 		<label>Wave of Fire</label>
 		<description>cover target in temporary layer of armor</description>

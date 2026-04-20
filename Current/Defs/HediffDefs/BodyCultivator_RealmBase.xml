@@ -39,21 +39,22 @@
 		<maxSeverity>10</maxSeverity>
 		<realmPower>1</realmPower>
 		<realmWeight>15</realmWeight>
+		<nextLevel>CTR_MartialWarrior</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialWarrior</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -630,21 +631,22 @@
 		<maxSeverity>25</maxSeverity>
 		<realmPower>4</realmPower>
 		<realmWeight>12</realmWeight>
+		<nextLevel>CTR_MartialMaster</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialMaster</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -1301,21 +1303,22 @@
 		<maxSeverity>50</maxSeverity>
 		<realmPower>6</realmPower>
 		<realmWeight>10</realmWeight>
+		<nextLevel>CTR_GreatMartialMaster</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_GreatMartialMaster</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -1972,21 +1975,22 @@
 		<maxSeverity>75</maxSeverity>
 		<realmPower>7</realmPower>
 		<realmWeight>9</realmWeight>
+		<nextLevel>CTR_MartialLord</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialLord</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -2082,7 +2086,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.65</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.65</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2153,7 +2157,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.65</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.65</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2224,7 +2228,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.65</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.65</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2295,7 +2299,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.65</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.65</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2366,7 +2370,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.65</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.65</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2437,7 +2441,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.65</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.65</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2508,7 +2512,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.5</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.5</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2579,7 +2583,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.5</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.5</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2650,7 +2654,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.5</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.5</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2721,7 +2725,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.5</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.5</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2775,21 +2779,22 @@
 		<maxSeverity>100</maxSeverity>
 		<realmPower>8</realmPower>
 		<realmWeight>8</realmWeight>
+		<nextLevel>CTR_MartialKing</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialKing</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -2827,7 +2832,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.5</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.5</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2898,7 +2903,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.45</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.45</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -2969,7 +2974,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.45</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.45</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3040,7 +3045,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.45</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.45</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3111,7 +3116,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.45</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.45</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3182,7 +3187,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.45</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.45</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3253,7 +3258,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.45</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.45</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3324,7 +3329,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.45</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.45</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3395,7 +3400,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.45</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.45</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3466,7 +3471,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.45</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.45</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3537,7 +3542,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3592,21 +3597,22 @@
 		<maxSeverity>125</maxSeverity>
 		<realmPower>9</realmPower>
 		<realmWeight>7</realmWeight>
+		<nextLevel>CTR_MartialGrandmaster</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialGrandmaster</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -3644,7 +3650,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3715,7 +3721,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3786,7 +3792,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3857,7 +3863,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3928,7 +3934,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -3999,7 +4005,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4070,7 +4076,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4141,7 +4147,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4212,7 +4218,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4283,7 +4289,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4354,7 +4360,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4392,7 +4398,7 @@
 				</capMods>
 			</li>
 		</stages>
-	</CultivatorOfTheRim.CultivationHediffDef>			
+	</CultivatorOfTheRim.CultivationHediffDef>
 	<!-- Martial Grandmaster /Half-Step Saint-->
 	<CultivatorOfTheRim.CultivationHediffDef ParentName="BodyCultivatorRealmBase">
 		<defName>CTR_MartialGrandmaster</defName>
@@ -4410,21 +4416,22 @@
 		<maxSeverity>150</maxSeverity>
 		<realmPower>10</realmPower>
 		<realmWeight>6</realmWeight>
+		<nextLevel>CTR_MartialEmperor</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialEmperor</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -4462,7 +4469,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.4</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.4</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4533,7 +4540,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4604,7 +4611,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4675,7 +4682,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4746,7 +4753,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4817,7 +4824,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4888,7 +4895,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -4959,7 +4966,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5030,7 +5037,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5101,7 +5108,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5172,7 +5179,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5229,21 +5236,22 @@
 		<maxSeverity>200</maxSeverity>
 		<realmPower>11</realmPower>
 		<realmWeight>5</realmWeight>
+		<nextLevel>CTR_MartialSupreme</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialSupreme</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -5281,7 +5289,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5352,7 +5360,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5423,7 +5431,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5494,7 +5502,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5565,7 +5573,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5636,7 +5644,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5707,7 +5715,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5778,7 +5786,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5849,7 +5857,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5920,7 +5928,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -5991,7 +5999,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6049,21 +6057,22 @@
 		<maxSeverity>400</maxSeverity>
 		<realmPower>12</realmPower>
 		<realmWeight>4</realmWeight>
+		<nextLevel>CTR_MartialSovereign</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialSovereign</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -6101,7 +6110,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6172,7 +6181,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6243,7 +6252,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6314,7 +6323,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6385,7 +6394,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6456,7 +6465,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6527,7 +6536,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6598,7 +6607,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6669,7 +6678,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6740,7 +6749,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6811,7 +6820,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6870,21 +6879,22 @@
 		<maxSeverity>800</maxSeverity>
 		<realmPower>13</realmPower>
 		<realmWeight>3</realmWeight>
+		<nextLevel>CTR_MartialTranscendent</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialTranscendent</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -6922,7 +6932,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -6993,7 +7003,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7064,7 +7074,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7135,7 +7145,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7206,7 +7216,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7277,7 +7287,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7348,7 +7358,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7419,7 +7429,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7490,7 +7500,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7561,7 +7571,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7632,7 +7642,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7692,21 +7702,22 @@
 		<maxSeverity>1600</maxSeverity>
 		<realmPower>14</realmPower>
 		<realmWeight>2</realmWeight>
+		<nextLevel>CTR_PBEG</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_PBEG</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -7744,7 +7755,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7815,7 +7826,7 @@
 					<ArmorRating_Qi>0.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7886,7 +7897,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -7957,7 +7968,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8028,7 +8039,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.3</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.3</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8099,7 +8110,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8170,7 +8181,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8241,7 +8252,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8312,7 +8323,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8383,7 +8394,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8454,7 +8465,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8516,31 +8527,35 @@
 		<maxSeverity>3200</maxSeverity>
 		<realmPower>16</realmPower>
 		<realmWeight>1</realmWeight>
+		<nextLevel>CTR_DhamaBody</nextLevel>
 		<comps>
 			<!-- <li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator"> -->
-				<!-- <abilityDef>CTR_TearTheVoid</abilityDef> -->
+			<!-- <abilityDef>CTR_TearTheVoid</abilityDef> -->
 			<!-- </li> -->
 			<li Class="CultivatorOfTheRim.HediffCompProperties_BodyCultivation">
 				<severityPerDamageTaken>0.01~0.05</severityPerDamageTaken>
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_DhamaBody</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<cultivationStages>
 			<li>
+				<label>stabilizing</label>
 				<minSeverity>0</minSeverity>
+				<empty>true</empty>
 			</li>
 			<li>
+				<label>Shock - 惊</label>
 				<minSeverity>2800</minSeverity>
 				<abilities>
 					<li>CTR_TearTheVoid</li>
@@ -8582,7 +8597,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8653,7 +8668,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8724,7 +8739,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8795,7 +8810,7 @@
 					<ArmorRating_Qi>0.75</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.2</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.2</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8866,7 +8881,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.1</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.1</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -8937,7 +8952,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0.1</StaggerDurationFactor>					
+					<StaggerDurationFactor>0.1</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9008,7 +9023,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9081,7 +9096,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9154,7 +9169,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9217,6 +9232,7 @@
 		<maxSeverity>6400</maxSeverity>
 		<realmPower>17</realmPower>
 		<realmWeight>0.05</realmWeight>
+		<nextLevel>CTR_MartialDao</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -9226,15 +9242,15 @@
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialDao</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -9274,7 +9290,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9347,7 +9363,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9420,7 +9436,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9493,7 +9509,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9566,7 +9582,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9630,6 +9646,7 @@
 		<maxSeverity>12800</maxSeverity>
 		<realmPower>18</realmPower>
 		<realmWeight>0.005</realmWeight>
+		<nextLevel>CTR_MartialDao</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -9639,15 +9656,15 @@
 				<severityPerDamageDealt>0.005~0.01</severityPerDamageDealt>
 				<tickInterval>250</tickInterval>
 				<nextLevel>CTR_MartialDao</nextLevel>
-				<nextLevels />
-				<bonusHediff />
+				<nextLevels/>
+				<bonusHediff/>
 				<bonusGenes>
 					<li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
 				</bonusGenes>
 				<canGetTrib>false</canGetTrib>
 				<breakingThroughDuration>2500~5000</breakingThroughDuration>
 				<uiIcon>UI/UIicon/BreakthroughIcon</uiIcon>
-				<changeToNeeds />
+				<changeToNeeds/>
 			</li>
 		</comps>
 		<stages>
@@ -9687,7 +9704,7 @@
 					<ArmorRating_Qi>1.00</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9760,7 +9777,7 @@
 					<ArmorRating_Qi>1.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9833,7 +9850,7 @@
 					<ArmorRating_Qi>1.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9906,7 +9923,7 @@
 					<ArmorRating_Qi>1.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>
@@ -9979,7 +9996,7 @@
 					<ArmorRating_Qi>1.5</ArmorRating_Qi>
 				</statOffsets>
 				<statFactors>
-					<StaggerDurationFactor>0</StaggerDurationFactor>					
+					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
 				<capMods>
 					<li>

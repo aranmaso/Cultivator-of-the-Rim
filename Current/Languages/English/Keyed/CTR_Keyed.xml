@@ -45,5 +45,14 @@
 	<!-- Hediff -->
 	<CTR_BodyCultivationBreakthrough_Maxed>{0} has reach the peak, there no more higher realm than {1}.</CTR_BodyCultivationBreakthrough_Maxed>
 	<CTR_BodyCultivationBreakthrough_RealmNotMaxed>{0} realm hasn't reach it peak state yet.</CTR_BodyCultivationBreakthrough_RealmNotMaxed>
-
+	
+	<CTR_BaseCultivationBreakthrough_Maxed>CTR_BodyCultivationBreakthrough_Maxed</CTR_BaseCultivationBreakthrough_Maxed>
+	<CTR_BaseCultivationBreakthrough_RealmNotMaxed>{0} realm hasn't reach it peak state yet.</CTR_BaseCultivationBreakthrough_RealmNotMaxed>
+	
+	<CTR_BreakthroughInProcess>{0} in the process of breakingthrough</CTR_BreakthroughInProcess>
+	
+	<CTR_BreakthroughLabel>Attempt to Breakthrough: {0}</CTR_BreakthroughLabel>
+	<CTR_BreakthroughDesc>Attempt to Breakthrough: {0}</CTR_BreakthroughDesc>
+	
+	<ITab_Cultivation>Cultivation</ITab_Cultivation>
 </LanguageData>

@@ -61,6 +61,18 @@
 	</HediffDef>
 	
 	<HediffDef ParentName="RareCultivationRealmBase">
+		<defName>CTR_CrackedGoldenCore</defName>
+		<label>Cracked-Golden Core</label>
+		<description>golden Core form a slight crack, preparing to shatter into Nascent Soul</description>
+		<isBad>false</isBad>
+		<comps />
+		<stages>
+			<li>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RareCultivationRealmBase">
 		<defName>CTR_PatternedGoldenCore_Bonus</defName>
 		<label>Patterned-Golden Core</label>
 		<description>a rare situation where one golden core form with a strange pattern on it, cultivator of with this phenomenon are equivalent to a Nascent Soul realm.</description>

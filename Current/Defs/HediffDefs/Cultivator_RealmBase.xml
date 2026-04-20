@@ -213,6 +213,7 @@
 		<maxSeverity>1</maxSeverity>
 		<realmPower>1</realmPower>
 		<realmWeight>15</realmWeight>
+		<nextLevel>CTR_MarrowCleansing</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_Cultivation">
 				<severityPerTriggerRange>0.001~0.005</severityPerTriggerRange>
@@ -506,6 +507,7 @@
 		<maxSeverity>1</maxSeverity>
 		<realmPower>2</realmPower>
 		<realmWeight>14</realmWeight>		
+		<nextLevel>CTR_BoneForging</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_Cultivation">
 				<severityPerTriggerRange>0.001~0.005</severityPerTriggerRange>
@@ -853,6 +855,7 @@
 		<maxSeverity>6</maxSeverity>
 		<realmPower>3</realmPower>
 		<realmWeight>13</realmWeight>
+		<nextLevel>CTR_Qi_Gathering</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_Cultivation">
 				<severityPerTriggerRange>0.005~0.0075</severityPerTriggerRange>
@@ -1218,6 +1221,7 @@
 		<maxSeverity>12</maxSeverity>
 		<realmPower>4</realmPower>
 		<realmWeight>12</realmWeight>
+		<nextLevel>CTR_FoundationEstablishment</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_Cultivation">
 				<severityPerTriggerRange>0.0075~0.010</severityPerTriggerRange>
@@ -1649,6 +1653,24 @@
 		<maxSeverity>12</maxSeverity>
 		<realmPower>5</realmPower>
 		<realmWeight>11</realmWeight>
+		<nextLevel>CTR_CoreShaping</nextLevel>
+		<bonusHediff>
+			<li>
+				<hediffDef>CTR_FoundationEstablishment_ASGrade</hediffDef>
+				<chance>0.2</chance>
+				<onlyOne>True</onlyOne>
+			</li>
+			<li>
+				<hediffDef>CTR_FoundationEstablishment_SuperiorGrade</hediffDef>
+				<chance>0.1</chance>
+				<onlyOne>True</onlyOne>
+			</li>
+			<li>
+				<hediffDef>CTR_FoundationEstablishment_PerfectionGrade</hediffDef>
+				<chance>0.05</chance>
+				<onlyOne>True</onlyOne>
+			</li>
+		</bonusHediff>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_Cultivation">
 				<severityPerTriggerRange>0.0055~0.0075</severityPerTriggerRange>
@@ -1656,23 +1678,7 @@
 				<tickInterval>60</tickInterval>
 				<currentLevel>CTR_FoundationEstablishment</currentLevel>
 				<nextLevel>CTR_CoreShaping</nextLevel>
-				<bonusHediff>
-					<li>
-						<hediffDef>CTR_FoundationEstablishment_ASGrade</hediffDef>
-						<chance>0.2</chance>
-						<onlyOne>True</onlyOne>
-					</li>
-					<li>
-						<hediffDef>CTR_FoundationEstablishment_SuperiorGrade</hediffDef>
-						<chance>0.1</chance>
-						<onlyOne>True</onlyOne>
-					</li>
-					<li>
-						<hediffDef>CTR_FoundationEstablishment_PerfectionGrade</hediffDef>
-						<chance>0.05</chance>
-						<onlyOne>True</onlyOne>
-					</li>
-				</bonusHediff>
+				<bonusHediff />
 				<shouldGetTribulation>false</shouldGetTribulation>
 				<breakingThroughDuration>2500~10000</breakingThroughDuration>
 				<curves>
@@ -2132,6 +2138,16 @@
 		<maxSeverity>18</maxSeverity>
 		<realmPower>6</realmPower>
 		<realmWeight>10</realmWeight>
+		<nextLevels>
+			<li>
+				<nextRealm>CTR_GoldenCore</nextRealm>
+				<weight>0.85</weight>
+			</li>
+			<li>
+				<nextRealm>CTR_PatternedGoldenCore</nextRealm>
+				<weight>0.15</weight>
+			</li>
+		</nextLevels>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_Cultivation">
 				<severityPerTriggerRange>0.0055~0.0075</severityPerTriggerRange>
@@ -2739,6 +2755,16 @@
 		<maxSeverity>24</maxSeverity>
 		<realmPower>7</realmPower>
 		<realmWeight>9</realmWeight>
+		<nextLevels>
+			<li>
+				<nextRealm>CTR_NascentSoul</nextRealm>
+				<weight>0.9</weight>
+			</li>
+			<li>
+				<nextRealm>CTR_DualNascentSoul</nextRealm>
+				<weight>0.1</weight>
+			</li>
+		</nextLevels>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_Cultivation">
 				<severityPerTriggerRange>0.0075~0.0075</severityPerTriggerRange>
@@ -2777,6 +2803,20 @@
 				</changeToNeeds>
 			</li>
 		</comps>
+		<cultivationStages>
+			<li>
+				<label>initial</label>
+				<minSeverity>0</minSeverity>
+				<empty>true</empty>
+			</li>
+			<li>
+				<label>stage 8</label>
+				<minSeverity>18.6669</minSeverity>
+				<hediffsGained>
+					<li>CTR_CrackedGoldenCore</li>
+				</hediffsGained>
+			</li>
+		</cultivationStages>
 		<stages>
 			<li>
 				<label>initial</label>
@@ -3387,6 +3427,7 @@
 		<maxSeverity>48</maxSeverity>
 		<realmPower>8</realmPower>
 		<realmWeight>8</realmWeight>
+		<nextLevel>CTR_Transcendent</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -3461,6 +3502,15 @@
 				</graphicData>
 			</li>
 		</comps>
+		<cultivationStages>
+			<li>
+				<label>initial</label>
+				<minSeverity>0</minSeverity>
+				<hediffsRemoved>
+					<li>CTR_CrackedGoldenCore</li>
+				</hediffsRemoved>
+			</li>
+		</cultivationStages>
 		<stages>
 			<li>
 				<label>initial</label>
@@ -4117,6 +4167,22 @@
 		<maxSeverity>64</maxSeverity>
 		<realmPower>9</realmPower>
 		<realmWeight>7</realmWeight>
+		<bonusHediff>
+			<li>
+				<hediffDef>CTR_Transcendent_SaintTouch</hediffDef>
+				<chance>0.1</chance>
+			</li>
+		</bonusHediff>
+		<nextLevels>
+			<li>
+				<nextRealm>CTR_HalfStep_Saint</nextRealm>
+				<weight>0.95</weight>
+			</li>
+			<li>
+				<nextRealm>CTR_SaintRealm</nextRealm>
+				<weight>0.05</weight>
+			</li>
+		</nextLevels>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -4142,12 +4208,7 @@
 						<weight>0.05</weight>
 					</li>
 				</nextLevels>
-				<bonusHediff>
-					<li>
-						<hediffDef>CTR_Transcendent_SaintTouch</hediffDef>
-						<chance>0.1</chance>
-					</li>
-				</bonusHediff>
+				<bonusHediff />
 				<shouldGetTribulation>true</shouldGetTribulation>
 				<breakingThroughDuration>2500~10000</breakingThroughDuration>
 				<curves>
@@ -4867,6 +4928,7 @@
 		<maxSeverity>88</maxSeverity>
 		<realmPower>10</realmPower>
 		<realmWeight>6</realmWeight>
+		<nextLevel>CTR_SaintRealm</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -5602,6 +5664,7 @@
 		<maxSeverity>110</maxSeverity>
 		<realmPower>11</realmPower>
 		<realmWeight>5</realmWeight>
+		<nextLevel>CTR_SaintKing</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -6348,6 +6411,7 @@
 		<maxSeverity>150</maxSeverity>
 		<realmPower>12</realmPower>
 		<realmWeight>4</realmWeight>
+		<nextLevel>CTR_ImmortalAscension</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -7096,6 +7160,7 @@
 		<maxSeverity>180</maxSeverity>
 		<realmPower>13</realmPower>
 		<realmWeight>3</realmWeight>
+		<nextLevel>CTR_TrueImmortal</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -7844,6 +7909,7 @@
 		<maxSeverity>360</maxSeverity>
 		<realmPower>14</realmPower>
 		<realmWeight>2</realmWeight>
+		<nextLevel>CTR_ImmortalSaint</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -8593,6 +8659,16 @@
 		<maxSeverity>720</maxSeverity>
 		<realmPower>15</realmPower>
 		<realmWeight>1</realmWeight>
+		<nextLevels>
+			<li>
+				<nextRealm>CTR_HalfStep_God</nextRealm>
+				<weight>0.99</weight>
+			</li>
+			<li>
+				<nextRealm>CTR_True_God</nextRealm>
+				<weight>0.01</weight>
+			</li>
+		</nextLevels>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -9343,6 +9419,7 @@
 		<maxSeverity>1080</maxSeverity>
 		<realmPower>16</realmPower>
 		<realmWeight>0.5</realmWeight>
+		<nextLevel>CTR_True_God</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -10094,6 +10171,7 @@
 		<maxSeverity>1240</maxSeverity>
 		<realmPower>17</realmPower>
 		<realmWeight>0.03</realmWeight>
+		<nextLevel>CTR_Creation_Realm</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -10857,6 +10935,7 @@
 		<maxSeverity>2480</maxSeverity>
 		<realmPower>19</realmPower>
 		<realmWeight>0.005</realmWeight>
+		<nextLevel>CTR_Creation_Realm</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -10938,6 +11017,7 @@
 				<!-- <multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity> -->
 				<totalBleedFactor>0.5</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>1000</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -11005,6 +11085,7 @@
 				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
 				<totalBleedFactor>0.5</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>2000</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -11070,6 +11151,7 @@
 				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
 				<totalBleedFactor>0.5</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10000</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -11158,6 +11240,7 @@
 		<maxSeverity>4960</maxSeverity>
 		<realmPower>20</realmPower>
 		<realmWeight>0.005</realmWeight>
+		<nextLevel MayRequire="aranmaho.makai">CTR_OutsidetheDomain</nextLevel>
 		<comps>
 			<li Class="CultivatorOfTheRim.HediffCompProperties_GiveAbilityCultivator">
 				<abilityDef>CTR_TearTheVoid</abilityDef>
@@ -11245,6 +11328,7 @@
 				<!-- <multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity> -->
 				<totalBleedFactor>0.5</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>1000</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -11312,6 +11396,7 @@
 				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
 				<totalBleedFactor>0.5</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>2000</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -11373,10 +11458,11 @@
 			</li>
 			<li>
 				<label>Peak</label>
-				<minSeverity>2480</minSeverity>
+				<minSeverity>4960</minSeverity>
 				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
 				<totalBleedFactor>0.5</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>1000000</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>

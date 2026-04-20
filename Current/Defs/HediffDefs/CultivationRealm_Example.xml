@@ -1,0 +1,152 @@
+<Defs>
+
+	<CultivatorOfTheRim.CultivationHediffDef ParentName="RealmBase" Abstract="True">
+		<defName>CTR_MyAwesomeCultivationRealmA</defName>
+		<label>Realm A</label>
+		<description>desc.</description>
+		<hediffClass>CultivatorOfTheRim.Hediff_CultivationBase</hediffClass>
+		<!-- tags is used for determine realm ranking power, used for alchemy and damage calculation -->
+		<tags>
+			<li>CTR_Qi_GatheringOrAbove</li>
+			<li>CTR_FoundationEstablishmentOrAbove</li>
+			<li>CTR_CoreShapingOrAbove</li>
+			<li>CTR_GoldenCoreOrAbove</li>
+			<li>CTR_NascentSoulOrAbove</li>
+			<li>CTR_TranscendentOrAbove</li>
+			<li>CTR_HalfStep_SaintOrAbove</li>
+			<li>CTR_SaintRealmOrAbove</li>
+			<li>CTR_SaintKingOrAbove</li>
+			<li>CTR_ImmortalAscensionOrAbove</li>
+			<li>CTR_TrueImmortalOrAbove</li>
+			<li>CTR_ImmortalSaintOrAbove</li>
+			<li>CTR_HalfStep_GodOrAbove</li>
+			<li>CTR_True_GodOrAbove</li>
+			<li>CTR_Semi_Creation_RealmOrAbove</li>
+			<li>CTR_Creation_RealmOrAbove</li>
+		</tags>
+		<!-- max "exp" for cultivation -->
+		<maxSeverity>100</maxSeverity>
+		<!-- realm power determine the current level this cultivation realm is in. this is use for damage calculation -->
+		<realmPower>8</realmPower>
+		<!-- the weight for which this cultivation realm get picked for randomization -->
+		<realmWeight>4</realmWeight>
+		<!-- the next realm this cultivation realm will lead to when breakingthrough -->
+		<nextLevel>CTR_MyAwesomeCultivationRealmB</nextLevel>
+		<!-- if this realm can lead to multiple realm, this provide a weighted list -->
+		<nextLevels>
+			<li>
+				<nextRealm>CTR_MyAwesomeCultivationRealmB</nextRealm>
+				<weight>0.9</weight>
+			</li>
+			<li>
+				<nextRealm>CTR_MyAwesomeSuperRareCultivationRealm</nextRealm>
+				<weight>0.1</weight>
+			</li>
+		</nextLevels>
+		<!-- upon gaining this realm provide a hediffs -->
+		<bonusHediff>
+			<li>
+				<hediffDef>CTR_DualNascentSoul_Bonus</hediffDef>
+				<chance>1.00</chance>
+				<!-- if true, will stop other hediff from providing upon this hediff apply -->
+				<onlyOne>false</onlyOne>
+			</li>
+		</bonusHediff>
+		<!-- can pawn get heavenly tribulation when breakthrough TO this realm -->
+		<canGetTribulation>false</canGetTribulation>
+		<!-- if true, pawn will face tribulation regardless of chance. -->
+		<guaranteedTribulation>false</guaranteedTribulation>
+		<!-- how long it take for pawn to finish breakthrough -->
+		<breakthroughDuration>2500~5000</breakthroughDuration>
+		<!-- how often does tribulation strike at default -->
+		<tribulationStrikeInterval>250</tribulationStrikeInterval>
+		<!-- icon -->
+		<breakthroughUiIcon>UI/UIicon/BreakthroughIcon</breakthroughUiIcon>
+		<!-- cultivation stage determine special benefit from each stage, the minSeverity should match the HediffDef stages -->
+		<cultivationStages>
+			<li>
+				<label>initial</label>
+				<minSeverity>0</minSeverity>
+				<!-- set this to True if this stage doesn't have any benefit, not mandatory but it just help skip iterating over this stage. -->
+				<empty>true</empty>
+			</li>
+			<li>
+				<label>stage 1</label>
+				<minSeverity>5.3</minSeverity>
+				<!-- if TRUE, all benefit gained from THIS specific stage will be lost if this hediff is removed -->
+				<isRemoveOnHediffLost>false</isRemoveOnHediffLost>
+				<hediffChance>
+					<li>
+						<hediffDef>CTR_DualNascentSoul_Bonus</hediffDef>
+						<chance>1.00</chance>
+						<!-- if true, will stop other hediff from providing upon this hediff apply -->
+						<onlyOne>false</onlyOne>
+					</li>
+					<li>
+						<hediffDef>CTR_DualNascentSoul_Bonus</hediffDef>
+						<chance>1.00</chance>
+						<!-- if true, will stop other hediff from providing upon this hediff apply -->
+						<onlyOne>false</onlyOne>
+					</li>
+				</hediffChance>
+				<!-- gain hediff upon reaching this stage -->
+				<hediffsGained>
+					<li>HediffDef</li>
+				</hediffsGained>
+				<!-- if pawn have any hediff contained within this list, it will be removed -->
+				<hediffsRemoved>
+					<li>Anesthetic</li>
+				</hediffsRemoved>
+				<!-- gain this ability upon reaching this stage -->
+				<abilities>
+					<li>abilityDef</li>
+				</abilities>
+				<!-- remove ability if pawn have any matching -->
+				<removeAbilities>
+					<li>abilityDef</li>
+				</removeAbilities>
+				<!-- gain gene if pawn doesn't already have it -->
+				<geneDefs>
+					<li>geneDef</li>
+				</geneDefs>
+				<!-- add genes as xenogene -->
+				<isXenogene>true</isXenogene>
+				<!-- remove gene if pawn have any matching -->
+				<geneDefsRemove>
+					<li>geneDef</li>
+				</geneDefsRemove>
+				<!-- give traits to pawn -->
+				<traitDefs>
+					<CTR_NaturalYinBody />
+					<SpeedOffset>2</SpeedOffset>
+				</traitDefs>
+				<removeTraitDefs>
+					<CTR_NaturalYinBody />
+					<SpeedOffset>2</SpeedOffset>					
+				</removeTraitDefs>
+				<!-- only used for special attachable thing, like Fire -->
+				<attachableThing>
+					<li>ThingDefWithAttachableThingSubClass</li>
+				</attachableThing>
+				<!-- if pawn have any attachableThing on them,it will be remove -->
+				<removeAttachedThing>
+					<li>Fire</li>
+				</removeAttachedThing>
+				<sendLetter>false</sendLetter>
+				<letterLabel>letterName string</letterLabel>
+				<letterDesc>letterDesc string</letterDesc>
+			</li>
+		</cultivationStages>
+		<stages>
+			<li>
+				<label>initial</label>
+				<minSeverity>0</minSeverity>
+			</li>
+			<li>
+				<label>stage 1</label>
+				<minSeverity>5.3</minSeverity>
+			</li>
+		</stages>
+	</CultivatorOfTheRim.CultivationHediffDef>
+
+</Defs>
