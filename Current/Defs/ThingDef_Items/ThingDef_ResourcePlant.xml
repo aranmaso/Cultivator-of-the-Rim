@@ -45,8 +45,8 @@
 		<tradeTags>
 			<li>Qi_Condensing_Ingredient</li>
 			<li>Neutral_Qi</li>
-			<li>Qi_Source</li>
-			<li>Qi_Source_Tier1</li>
+			<!-- <li>Qi_Source</li> -->
+			<!-- <li>Qi_Source_Tier1</li> -->
 		</tradeTags>
 	</ThingDef>
 	

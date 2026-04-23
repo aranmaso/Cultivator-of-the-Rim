@@ -97,7 +97,7 @@
 		<title>Goldenspoon</title>
 		<titleShort>Young Master</titleShort>
 		<defName>CTR_ArrogantYoungMaster</defName>
-		<description>[PAWN_nameDef] was born in a wealthy family. with a golden spoon in his mouth. this cause [PAWN_objective] to be extremely arrogant and greedy </description>
+		<description>[PAWN_nameDef] was born in a wealthy family. with a golden spoon in his mouth. this cause [PAWN_objective] to be extremely arrogant and greedy</description>
 		<spawnCategories>
 			<li>Outlander</li>
 			<li>Offworld</li>

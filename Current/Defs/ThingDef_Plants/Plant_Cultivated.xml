@@ -106,7 +106,7 @@
 			<li Class="CultivatorOfTheRim.PlantExtension_SpiritPlant">
 				<requireSource>true</requireSource>
 				<sourceName>Qi Source</sourceName>
-				<consumeSource>true</consumeSource>
+				<consumeSource>false</consumeSource>
 				<radius>4</radius>
 				<destroyOnConsume>false</destroyOnConsume>
 				<sourceDamagePerTrigger>1</sourceDamagePerTrigger>
@@ -114,6 +114,7 @@
 					<li>Qi_Source</li>
 				</allowedTags>
 				<excludedThing>
+					<li>CTR_SpiritGrassPlant</li>
 					<li>CTR_SpiritGrass</li>
 				</excludedThing>
 				<allowedCultivation>CTR_Qi_GatheringOrAbove</allowedCultivation>
