@@ -15,6 +15,8 @@
 		<xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/tradeTags</xpath>
 		<value>
 			<li>Neutral_Qi</li>
+			<li>Pure_Qi</li>
+			<li>Nascent_Qi</li>
 			<li>Qi_Source</li>
 			<li>Qi_Source_Tier3</li>
 			<li>Unlimited_Source</li>
@@ -36,6 +38,8 @@
 		<xpath>Defs/ThingDef[defName="AnimusStone"]/tradeTags</xpath>
 		<value>
 			<li>Neutral_Qi</li>
+			<li>Pure_Qi</li>
+			<li>Nascent_Qi</li>
 			<li>Qi_Source</li>
 			<li>Qi_Source_Tier3</li>
 			<li>Unlimited_Source</li>
@@ -62,6 +66,8 @@
 					<xpath>Defs/ThingDef[defName="Plant_TreeGauranlen"]/tradeTags</xpath>
 					<value>
 						<li>Neutral_Qi</li>
+						<li>Pure_Qi</li>
+						<li>Nascent_Qi</li>
 						<li>Qi_Source</li>
 						<li>Qi_Source_Tier3</li>
 						<li>Unlimited_Source</li>

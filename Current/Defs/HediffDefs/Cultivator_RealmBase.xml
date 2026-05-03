@@ -1243,7 +1243,7 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>0.5</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1285,7 +1285,7 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>2</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1327,7 +1327,7 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>4</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1372,7 +1372,7 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>6</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1417,7 +1417,7 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>7</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1462,7 +1462,7 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>8</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1507,7 +1507,7 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>9</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1552,7 +1552,7 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>10</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1597,7 +1597,7 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>12</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1694,7 +1694,7 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>0.5</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1742,7 +1742,7 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>2</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1790,7 +1790,7 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>4</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1838,7 +1838,7 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>6</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1886,7 +1886,7 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>7</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1934,7 +1934,7 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>8</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -1982,7 +1982,7 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>9</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -2030,7 +2030,7 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>10</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -2078,7 +2078,7 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>12</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -2180,7 +2180,7 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>1.5</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2229,7 +2229,7 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>2</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>1.5</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2286,7 +2286,7 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>4</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>1.6</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2343,7 +2343,7 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>6</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>1.7</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2400,7 +2400,7 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>8</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>1.8</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2457,7 +2457,7 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>10</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>1.9</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2514,7 +2514,7 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>12</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.0</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2571,7 +2571,7 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>14</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.1</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2628,7 +2628,7 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>16</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.2</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2685,7 +2685,7 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>18</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.5</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2821,7 +2821,7 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.5</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2880,7 +2880,7 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>0.5</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.5</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2939,7 +2939,7 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>2.6667</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.5</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -2998,7 +2998,7 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>5.3334</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.55</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3057,7 +3057,7 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>8.0001</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.60</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3116,7 +3116,7 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>10.6668</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.65</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3175,7 +3175,7 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>13.3335</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.65</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3234,7 +3234,7 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>16.0002</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.70</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3293,7 +3293,7 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>18.6669</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>2.70</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3352,7 +3352,7 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>24</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.5</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3475,7 +3475,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -3515,7 +3515,7 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.5</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3576,7 +3576,7 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>5.3</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.5</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3639,7 +3639,7 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>10.6</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.6</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3703,7 +3703,7 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>15.9</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.6</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3767,7 +3767,7 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>21.2</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.6</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3831,7 +3831,7 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>26.5</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.6</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3895,7 +3895,7 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>31.8</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.6</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -3959,7 +3959,7 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>37.1</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.6</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -4023,7 +4023,7 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>42.4</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.6</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -4087,7 +4087,7 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>48</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.6</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -4241,7 +4241,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -4272,8 +4272,9 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>3.6</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4336,8 +4337,9 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>7.1111</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4400,8 +4402,9 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>14.2222</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4464,8 +4467,9 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>21.3333</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4528,8 +4532,9 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>28.4444</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4592,8 +4597,9 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>35.5555</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4656,8 +4662,9 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>42.6666</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4720,8 +4727,9 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>49.7777</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4784,8 +4792,9 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>56.8888</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4848,8 +4857,9 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>64</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -4976,7 +4986,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -5004,11 +5014,13 @@
 			</li>
 		</comps>
 		<stages>
+            <!-- initial -->
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5068,11 +5080,13 @@
 					</li>
 				</capMods>
 			</li>
+            <!-- stage 1 -->
 			<li>
 				<label>stage 1</label>
 				<minSeverity>9.7778</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5132,11 +5146,13 @@
 					</li>
 				</capMods>
 			</li>
+            <!-- stage 2 -->
 			<li>
 				<label>stage 2</label>
 				<minSeverity>19.5556</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5196,11 +5212,13 @@
 					</li>
 				</capMods>
 			</li>
+            <!-- stage 3 -->
 			<li>
 				<label>stage 3</label>
 				<minSeverity>29.3334</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5260,11 +5278,13 @@
 					</li>
 				</capMods>
 			</li>
+            <!-- stage 4 -->
 			<li>
 				<label>stage 4</label>
 				<minSeverity>39.1112</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5324,11 +5344,13 @@
 					</li>
 				</capMods>
 			</li>
+            <!-- stage 5 -->
 			<li>
 				<label>stage 5</label>
 				<minSeverity>48.8890</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5388,11 +5410,13 @@
 					</li>
 				</capMods>
 			</li>
+            <!-- stage 6 -->
 			<li>
 				<label>stage 6</label>
 				<minSeverity>58.6668</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5452,11 +5476,13 @@
 					</li>
 				</capMods>
 			</li>
+            <!-- stage 7 -->
 			<li>
 				<label>stage 7</label>
 				<minSeverity>68.4446</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5516,11 +5542,13 @@
 					</li>
 				</capMods>
 			</li>
+            <!-- stage 8 -->
 			<li>
 				<label>stage 8</label>
 				<minSeverity>78.2224</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5580,11 +5608,13 @@
 					</li>
 				</capMods>
 			</li>
+            <!-- stage 9 -->
 			<li>
 				<label>stage 9</label>
 				<minSeverity>88</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5712,7 +5742,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -5743,8 +5773,9 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5808,8 +5839,9 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>12.2222</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5873,8 +5905,9 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>24.4444</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -5938,8 +5971,9 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>36.6666</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6003,8 +6037,9 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>48.8888</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6068,8 +6103,9 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>61.1110</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6133,8 +6169,9 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>73.3332</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6198,8 +6235,9 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>85.5554</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6263,8 +6301,9 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>97.7776</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6328,8 +6367,9 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>110</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6460,7 +6500,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -6491,8 +6531,9 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>4</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6556,8 +6597,9 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>16.6667</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>5</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6621,8 +6663,9 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>33.3334</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>6</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6686,8 +6729,9 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>50.0001</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>6</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6751,8 +6795,9 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>66.6668</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>6</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6816,8 +6861,9 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>83.3335</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>7</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6881,8 +6927,9 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>100.0002</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>7</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -6946,8 +6993,9 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>116.6669</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>8</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7011,8 +7059,9 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>133.3336</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>9</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7076,8 +7125,9 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>150</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>10</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7208,7 +7258,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -7239,8 +7289,9 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7304,8 +7355,9 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>20</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7369,8 +7421,9 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>40</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7434,8 +7487,9 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>60</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7499,8 +7553,9 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>80</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7564,8 +7619,9 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>100</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7629,8 +7685,9 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>120</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7694,8 +7751,9 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>140</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7759,8 +7817,9 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>160</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7824,8 +7883,9 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>180</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>10</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -7957,7 +8017,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -7988,8 +8048,9 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8053,8 +8114,9 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>40</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8118,8 +8180,9 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>80</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8183,8 +8246,9 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>120</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8248,8 +8312,9 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>160</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8313,8 +8378,9 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>200</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8378,8 +8444,9 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>240</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8443,8 +8510,9 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>280</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8508,8 +8576,9 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>320</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8573,8 +8642,9 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>360</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
+				<regeneration>25</regeneration>
 				<makeImmuneTo>
 					<li>Flu</li>
 					<li>Plague</li>
@@ -8726,7 +8796,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -8757,7 +8827,8 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -8821,7 +8892,8 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>80</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -8885,7 +8957,8 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>160</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -8949,7 +9022,8 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>240</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9013,7 +9087,8 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>320</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9077,7 +9152,8 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>400</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9141,7 +9217,8 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>480</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9205,7 +9282,8 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>560</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9269,7 +9347,8 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>640</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9333,7 +9412,8 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>720</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9467,7 +9547,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -9498,7 +9578,8 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9563,7 +9644,8 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>120</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9628,7 +9710,8 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>240</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9693,7 +9776,8 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>360</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9758,7 +9842,8 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>480</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9823,7 +9908,8 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>600</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9888,7 +9974,8 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>720</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -9953,7 +10040,8 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>840</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10018,7 +10106,8 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>960</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10083,7 +10172,8 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>1080</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10219,7 +10309,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -10250,7 +10340,8 @@
 			<li>
 				<label>initial</label>
 				<minSeverity>0</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10316,7 +10407,8 @@
 			<li>
 				<label>stage 1</label>
 				<minSeverity>138</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10382,7 +10474,8 @@
 			<li>
 				<label>stage 2</label>
 				<minSeverity>276</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10448,7 +10541,8 @@
 			<li>
 				<label>stage 3</label>
 				<minSeverity>413</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10514,7 +10608,8 @@
 			<li>
 				<label>stage 4</label>
 				<minSeverity>551</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10580,7 +10675,8 @@
 			<li>
 				<label>stage 5</label>
 				<minSeverity>689</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10646,7 +10742,8 @@
 			<li>
 				<label>stage 6</label>
 				<minSeverity>827</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10712,7 +10809,8 @@
 			<li>
 				<label>stage 7</label>
 				<minSeverity>964</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10778,7 +10876,8 @@
 			<li>
 				<label>stage 8</label>
 				<minSeverity>1102</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10844,7 +10943,8 @@
 			<li>
 				<label>stage 9</label>
 				<minSeverity>1240</minSeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
+				<regeneration>25</regeneration>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<makeImmuneTo>
 					<li>Flu</li>
@@ -10983,7 +11083,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -11015,7 +11115,7 @@
 				<label>initial</label>
 				<minSeverity>0.001</minSeverity>
 				<!-- <multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity> -->
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<regeneration>1000</regeneration>
 				<makeImmuneTo>
@@ -11083,7 +11183,7 @@
 				<label>Condensing</label>
 				<minSeverity>100.00</minSeverity>
 				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<regeneration>2000</regeneration>
 				<makeImmuneTo>
@@ -11149,7 +11249,7 @@
 				<label>Peak</label>
 				<minSeverity>2480</minSeverity>
 				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<regeneration>10000</regeneration>
 				<makeImmuneTo>
@@ -11289,7 +11389,7 @@
 				</ignoredDamageDefs>
 				
 				<blocksMeleeDamage>true</blocksMeleeDamage>
-				<energyPerDamageModifier>0.01</energyPerDamageModifier>
+				<energyPerDamageModifier>0.05</energyPerDamageModifier>
 				<shatterOn/>
 				<absorbFleck>ExplosionFlash</absorbFleck>
 				<breakFleck>ExplosionFlash</breakFleck>
@@ -11326,7 +11426,7 @@
 				<label>initial</label>
 				<minSeverity>0.001</minSeverity>
 				<!-- <multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity> -->
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<regeneration>1000</regeneration>
 				<makeImmuneTo>
@@ -11394,7 +11494,7 @@
 				<label>Condensing</label>
 				<minSeverity>100.00</minSeverity>
 				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<regeneration>2000</regeneration>
 				<makeImmuneTo>
@@ -11460,7 +11560,7 @@
 				<label>Peak</label>
 				<minSeverity>4960</minSeverity>
 				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
-				<totalBleedFactor>0.5</totalBleedFactor>
+				<totalBleedFactor>0.25</totalBleedFactor>
 				<naturalHealingFactor>12</naturalHealingFactor>
 				<regeneration>1000000</regeneration>
 				<makeImmuneTo>

@@ -1,0 +1,131 @@
+<Defs>
+
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedWeapon</defName>
+        <label>allow graded weapons</label>
+        <parentCategory>Weapons</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedWeapon</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_ItemGrade</workerClass>
+    </SpecialThingFilterDef>
+
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedOrdinaryWeapon</defName>
+        <label>allow Ordinary grade</label>
+        <parentCategory>Weapons</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedOrdinaryWeapon</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_OrdinaryGrade</workerClass>
+    </SpecialThingFilterDef>
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedOrdinaryApparel</defName>
+        <label>allow Ordinary grade</label>
+        <parentCategory>Apparel</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedOrdinaryApparel</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_OrdinaryGrade</workerClass>
+    </SpecialThingFilterDef>
+
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedEarthWeapon</defName>
+        <label>allow Earth grade</label>
+        <parentCategory>Weapons</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedEarthWeapon</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_EarthGrade</workerClass>
+    </SpecialThingFilterDef>
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedEarthApparel</defName>
+        <label>allow Earth grade</label>
+        <parentCategory>Apparel</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedEarthApparel</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_EarthGrade</workerClass>
+    </SpecialThingFilterDef>
+
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedHeavenWeapon</defName>
+        <label>allow Heaven grade</label>
+        <parentCategory>Weapons</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedHeavenWeapon</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_HeavenGrade</workerClass>
+    </SpecialThingFilterDef>
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedHeavenApparel</defName>
+        <label>allow Heaven grade</label>
+        <parentCategory>Apparel</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedHeavenApparel</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_HeavenGrade</workerClass>
+    </SpecialThingFilterDef>
+
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedMysteriousWeapon</defName>
+        <label>allow Mysterious grade</label>
+        <parentCategory>Weapons</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedMysteriousWeapon</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_MysteriousGrade</workerClass>
+    </SpecialThingFilterDef>
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedMysteriousApparel</defName>
+        <label>allow Mysterious grade</label>
+        <parentCategory>Apparel</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedMysteriousApparel</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_MysteriousGrade</workerClass>
+    </SpecialThingFilterDef>
+
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedDivineWeapon</defName>
+        <label>allow Divine grade</label>
+        <parentCategory>Weapons</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedDivineWeapon</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_DivineGrade</workerClass>
+    </SpecialThingFilterDef>
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedDivineApparel</defName>
+        <label>allow Divine grade</label>
+        <parentCategory>Apparel</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedDivineApparel</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_DivineGrade</workerClass>
+    </SpecialThingFilterDef>
+
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedEmperorWeapon</defName>
+        <label>allow Emperor grade</label>
+        <parentCategory>Weapons</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedEmperorWeapon</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_EmperorGrade</workerClass>
+    </SpecialThingFilterDef>
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedEmperorApparel</defName>
+        <label>allow Emperor grade</label>
+        <parentCategory>Apparel</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedEmperorApparel</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_EmperorGrade</workerClass>
+    </SpecialThingFilterDef>
+
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedDaoWeapon</defName>
+        <label>allow Dao grade</label>
+        <parentCategory>Weapons</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedDaoWeapon</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_DaoGrade</workerClass>
+    </SpecialThingFilterDef>
+    <SpecialThingFilterDef>
+        <defName>CTR_AllowGradedDaoApparel</defName>
+        <label>allow Dao grade</label>
+        <parentCategory>Apparel</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>CTR_AllowGradedDaoApparel</saveKey>
+        <workerClass>CultivatorOfTheRim.SpecialThingFilterWorker_DaoGrade</workerClass>
+    </SpecialThingFilterDef>
+
+</Defs>

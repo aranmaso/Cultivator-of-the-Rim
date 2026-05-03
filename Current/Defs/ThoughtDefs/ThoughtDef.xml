@@ -36,18 +36,18 @@
 			</li>
 			<li>
 				<label>body cultivator horrified</label>
-				<description>I have four artificial enhancements; it's like I'm becoming a robot. What a horrifying sensation.</description>
+				<description>I have four artificial enhancements; it's like I'm becoming a robot. My precious body that I've been cultivated has been tainted.</description>
 				<baseMoodEffect>-25</baseMoodEffect>
 			</li>
 			<li>
 				<label>body cultivator nightmare</label>
-				<description>Five artificial enhancements... Is there anything left of me? Or am I just a robot that thinks it's human?</description>
+				<description>Five artificial enhancements... Is there anything left of me that is flesh? I won't accept this!</description>
 				<baseMoodEffect>-30</baseMoodEffect>
 			</li>
 			<li>
 				<label>I have become what I hate</label>
-				<description>I asked for the exact opposite of this!</description>
-				<baseMoodEffect>-50</baseMoodEffect>
+				<description>turn me back, or else.</description>
+				<baseMoodEffect>-100</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

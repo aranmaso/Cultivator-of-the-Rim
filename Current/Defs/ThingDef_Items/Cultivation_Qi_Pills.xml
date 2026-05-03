@@ -31,6 +31,12 @@
 			<li Class="CompProperties_Drug">
 				<listOrder>200</listOrder>
 			</li>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Consume {0_label}</useLabel>
+				<useDuration>1000</useDuration>
+			</li>
+			<li Class="CompProperties_UseEffectDestroySelf" />
 		</comps>
 	</ThingDef>
 	
@@ -78,6 +84,17 @@
 			</li>
 		  </outcomeDoers>
 		</ingestible>
+		<comps>
+			<li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeQiPill">
+				<minimumCultivationLevel>
+					<li>Mortal_Transforming</li>
+				</minimumCultivationLevel>
+				<hediffDef>CTR_BodyTemperingPillAbsorb</hediffDef>
+				<allowBodyCultivator>true</allowBodyCultivator>
+				<onlyBodyCultivator>true</onlyBodyCultivator>
+				<severity>0.01~0.01</severity>
+			</li>
+		</comps>
 		<tradeTags>
 			<li>Pure_Qi</li>
 			<li>Neutral_Qi</li>
@@ -141,6 +158,15 @@
 			</li>
 		  </outcomeDoers>
 		</ingestible>
+		<comps>
+			<li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeQiPill">
+				<minimumCultivationLevel>
+					<li>CTR_Qi_GatheringOrAbove</li>
+				</minimumCultivationLevel>
+				<hediffDef>CTR_QiCondensingPillAbsorb</hediffDef>
+				<notForMortal>false</notForMortal>
+			</li>
+		</comps>
 		<tradeTags>
 			<li>Pure_Qi</li>
 			<li>Qi_Source_Tier1</li>
@@ -212,6 +238,16 @@
 			</li>
 		  </outcomeDoers>
 		</ingestible>
+		<comps>
+			<li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeQiPill">
+				<minimumCultivationLevel>
+					<li>CTR_GoldenCoreOrAbove</li>
+				</minimumCultivationLevel>
+				<hediffDef>CTR_NascentQiPillAbsorb</hediffDef>
+				<backlashHediffDef>CTR_NascentQiPillBacklash</backlashHediffDef>
+				<notForMortal>true</notForMortal>
+			</li>
+		</comps>
 		<tradeTags>
 			<li>Nascent_Qi</li>
 			<li>Neutral_Qi</li>
@@ -321,6 +357,19 @@
 			</li>
 		  </outcomeDoers>
 		</ingestible>
+		<comps>
+			<li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeQiPill">
+				<minimumCultivationLevel>
+					<li>CTR_TranscendentOrAbove</li>
+					<li>CTR_HalfStep_SaintOrAbove</li>
+				</minimumCultivationLevel>
+				<hediffDef>CTR_SaintQiPillAbsorb</hediffDef>
+				<backlashHediffDef>CTR_SaintQiPillBacklash</backlashHediffDef>
+				<notForMortal>true</notForMortal>
+				<lethalForMortal>true</lethalForMortal>
+				<severity>0.5~1</severity>
+			</li>
+		</comps>
 		<tradeTags>
 			<li>Saint_Qi</li>
 			<li>Neutral_Qi</li>
@@ -420,6 +469,19 @@
 				</li>
 			</outcomeDoers>
 		</ingestible>
+		<comps>
+			<li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeQiPill">
+				<minimumCultivationLevel>
+					<li>CTR_SaintKingOrAbove</li>
+					<li>CTR_ImmortalAscensionOrAbove</li>
+				</minimumCultivationLevel>
+				<hediffDef>CTR_ImmortalQiPillAbsorb</hediffDef>
+				<backlashHediffDef>CTR_ImmortalQiPillBacklash</backlashHediffDef>
+				<notForMortal>true</notForMortal>
+				<lethalForMortal>true</lethalForMortal>
+				<severity>0.5~1</severity>
+			</li>
+		</comps>
 		<tradeTags>
 			<li>Immortal_Qi</li>
 			<li>Neutral_Qi</li>
@@ -530,6 +592,16 @@
 		  </outcomeDoers>
 		</ingestible>
 		<comps>
+			<li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeQiPill">
+				<severity>-0.01~-0.1</severity>
+			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeGenericPill">
+                <hediffDef>CTR_BackPain</hediffDef>
+				<severity>1</severity>
+				<baseDuration>5000</baseDuration>
+            </li>
+		</comps>
+		<comps>
 			<li Class="CompProperties_Drug">
 				<listOrder>200</listOrder>
 			</li>
@@ -589,6 +661,11 @@
 			</li>
 		  </outcomeDoers>
 		</ingestible>
+        <comps>
+			<li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeQiPill">
+				<Hediffchance>0.5</Hediffchance>
+			</li>
+		</comps>
 		<tradeTags>
 			<li>Immortal_Qi</li>
 			<li>Neutral_Qi</li>

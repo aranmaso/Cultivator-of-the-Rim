@@ -20,6 +20,7 @@
 				<canTargetSelf>True</canTargetSelf>
 				<canTargetAnimals>True</canTargetAnimals>
 				<canTargetItems>True</canTargetItems>
+                <canTargetBuildings>false</canTargetBuildings>
 			</targetParams>
 		</verbProperties>
 		<comps>

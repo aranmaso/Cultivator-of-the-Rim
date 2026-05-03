@@ -24,19 +24,18 @@
 			<vacuumResistant>true</vacuumResistant>
 			<dieIfNoSunlight>false</dieIfNoSunlight>
 			<dieFromToxicFallout>false</dieFromToxicFallout>
-			<!-- <wildTerrainTags> -->
-				<!-- <li>Soil</li> -->
-				<!-- <li>Water</li> -->
-				<!-- <li>WaterMarshy</li> -->
-				<!-- <li>River</li> -->
-				<!-- <li>WaterFreshShallow</li> -->
-				<!-- <li>WaterFreshShallowStill</li> -->
-				<!-- <li>WaterFreshShallowMoving</li> -->
-				<!-- <li>Mud</li> -->
-				<!-- <li>Ice</li> -->
-				<!-- <li>NaturalRock</li> -->
-				<!-- <li>Road</li> -->
-			<!-- </wildTerrainTags> -->
+			<wildTerrainTags>
+				<li>Soil</li>
+				<!-- <li>Water</li>
+				<li>WaterMarshy</li>
+				<li>River</li>
+				<li>WaterFreshShallow</li>
+				<li>WaterFreshShallowStill</li>
+				<li>WaterFreshShallowMoving</li> -->
+				<li>Mud</li>
+				<li>Ice</li>
+				<li>NaturalRock</li>
+			</wildTerrainTags>
 		</plant>
 		<tradeTags>
 			<li>Spirit_Plant</li>
@@ -316,20 +315,6 @@
 				<TropicalRainforest>0.01</TropicalRainforest>
 				<TropicalSwamp>0.01</TropicalSwamp>
 			</wildBiomes>
-			
-			<wildTerrainTags>
-				<li>Soil</li>
-				<li>Water</li>
-				<li>WaterMarshy</li>
-				<li>River</li>
-				<li>WaterFreshShallow</li>
-				<li>WaterFreshShallowStill</li>
-				<li>WaterFreshShallowMoving</li>
-				<li>Mud</li>
-				<li>Ice</li>
-				<li>NaturalRock</li>
-				<li>Road</li>
-			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -415,20 +400,6 @@
 				<IceSheet>0.01</IceSheet>
 				<SeaIce>0.01</SeaIce>
 			</wildBiomes>
-			
-			<wildTerrainTags>
-				<li>Soil</li>
-				<li>Water</li>
-				<li>WaterMarshy</li>
-				<li>River</li>
-				<li>WaterFreshShallow</li>
-				<li>WaterFreshShallowStill</li>
-				<li>WaterFreshShallowMoving</li>
-				<li>Mud</li>
-				<li>Ice</li>
-				<li>NaturalRock</li>
-				<li>Road</li>
-			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -519,20 +490,6 @@
 				<TropicalRainforest>0.005</TropicalRainforest>
 				<TropicalSwamp>0.005</TropicalSwamp>
 			</wildBiomes>
-			
-			<wildTerrainTags>
-				<li>Soil</li>
-				<li>Water</li>
-				<li>WaterMarshy</li>
-				<li>River</li>
-				<li>WaterFreshShallow</li>
-				<li>WaterFreshShallowStill</li>
-				<li>WaterFreshShallowMoving</li>
-				<li>Mud</li>
-				<li>Ice</li>
-				<li>NaturalRock</li>
-				<li>Road</li>
-			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>4</specialDisplayRadius>
 		<comps>
@@ -801,20 +758,6 @@
 				<Grasslands MayRequire="ludeon.rimworld.odyssey">0.0005</Grasslands>
 				<Glowforest MayRequire="ludeon.rimworld.odyssey">0.0005</Glowforest>
 			</wildBiomes>
-			
-			<wildTerrainTags>
-				<li>Soil</li>
-				<li>Water</li>
-				<li>WaterMarshy</li>
-				<li>River</li>
-				<li>WaterFreshShallow</li>
-				<li>WaterFreshShallowStill</li>
-				<li>WaterFreshShallowMoving</li>
-				<li>Mud</li>
-				<li>Ice</li>
-				<li>NaturalRock</li>
-				<li>Road</li>
-			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>5.9</specialDisplayRadius>
 		<comps>
@@ -905,20 +848,6 @@
 				<Grasslands MayRequire="ludeon.rimworld.odyssey">0.0005</Grasslands>
 				<Glowforest MayRequire="ludeon.rimworld.odyssey">0.0005</Glowforest>
 			</wildBiomes>
-			
-			<wildTerrainTags>
-				<li>Soil</li>
-				<li>Water</li>
-				<li>WaterMarshy</li>
-				<li>River</li>
-				<li>WaterFreshShallow</li>
-				<li>WaterFreshShallowStill</li>
-				<li>WaterFreshShallowMoving</li>
-				<li>Mud</li>
-				<li>Ice</li>
-				<li>NaturalRock</li>
-				<li>Road</li>
-			</wildTerrainTags>
 		</plant>
 		<specialDisplayRadius>5.9</specialDisplayRadius>
 		<comps>

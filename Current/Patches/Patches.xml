@@ -225,8 +225,9 @@
 		</value>
 	</Operation>
 	
-	<Operation Class="CultivatorOfTheRim.PatchOperationAddCultivatorTraderCaravan">
+	<Operation Class="CultivatorOfTheRim.PatchOperationAdd_SettingDependent">
 		<xpath>Defs/FactionDef/caravanTraderKinds</xpath>
+        <key>CTR.CaravanTraderKind</key>
 		<value>
 			<li>Caravan_CultivationResource</li>
 			<li>Caravan_CultivationPill</li>
@@ -234,12 +235,27 @@
 		</value>
 	</Operation>
 	
-	<Operation Class="CultivatorOfTheRim.PatchOperationAddCultivatorTraderBase">
+	<Operation Class="CultivatorOfTheRim.PatchOperationAdd_SettingDependent">
 		<xpath>Defs/FactionDef/baseTraderKinds</xpath>
+        <key>CTR.BaseTraderKind</key>
 		<value>
 			<li>Caravan_CultivationResource</li>
 			<li>Caravan_CultivationPill</li>
 			<li>Caravan_CultivationTechnique</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="CultivatorOfTheRim.PatchOperationAdd_SettingDependent">
+		<xpath>Defs/ThingDef[@Name="SpiritPlantBase"]/plant/wildTerrainTags</xpath>
+        <key>CTR.SpiritPlantGrowAnywhere</key>
+		<value>
+			<li>Water</li>
+            <li>WaterMarshy</li>
+            <li>River</li>
+            <li>WaterFreshShallow</li>
+            <li>WaterFreshShallowStill</li>
+            <li>WaterFreshShallowMoving</li>
+            <!-- <li>Road</li> -->
 		</value>
 	</Operation>
 

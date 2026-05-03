@@ -12,4 +12,21 @@
 		</match>
 	</Operation>
 
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[sbz] Neat Storage</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="sbz_OpenShelf" 
+                or defName="sbz_TwoTierDisplayShelf" 
+                or defName="sbz_DisplayShelf" 
+                or defName="sbz_SmallDisplayShelf" 
+                or defName="sbz_TallDisplayShelf" 
+                or defName="sbz_NarrowTallDisplayShelf"]/building/fixedStorageSettings/filter/categories</xpath>
+			<value>
+				<li>Cultivation_Root</li>
+			</value>
+		</match>
+	</Operation>
+
 </Patch>

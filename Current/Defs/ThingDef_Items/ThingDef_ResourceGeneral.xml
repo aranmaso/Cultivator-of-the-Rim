@@ -573,6 +573,22 @@
 				</li>
 			</outcomeDoers>
 		</ingestible>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Absorb {0_label}</useLabel>
+                <useDuration>120</useDuration>
+            </li>
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectBeastCoreAbsorption" />
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeGenericPill">
+                <hediffDef>CTR_QiOverload</hediffDef>
+                <severity>0.05~0.1</severity>
+            </li>
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectPlaySound">
+                <soundDef>PsychicSoothePulserCast</soundDef>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf" />
+        </comps>
 		<thingCategories>
 			<li>Cultivation_Resource</li>
 		</thingCategories>
@@ -635,6 +651,22 @@
 				</li>
 			</outcomeDoers>
 		</ingestible>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Absorb {0_label}</useLabel>
+                <useDuration>120</useDuration>
+            </li>
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectBeastCoreAbsorption" />
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeGenericPill">
+                <hediffDef>CTR_QiOverload</hediffDef>
+                <severity>0.05~0.1</severity>
+            </li>
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectPlaySound">
+                <soundDef>PsychicSoothePulserCast</soundDef>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf" />
+        </comps>
 		<thingCategories>
 			<li>Cultivation_Resource</li>
 		</thingCategories>
@@ -696,6 +728,22 @@
 				</li>
 			</outcomeDoers>
 		</ingestible>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Absorb {0_label}</useLabel>
+                <useDuration>120</useDuration>
+            </li>
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectBeastCoreAbsorption" />
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectConsumeGenericPill">
+                <hediffDef>CTR_QiOverload</hediffDef>
+                <severity>0.05~0.1</severity>
+            </li>
+            <li Class="CultivatorOfTheRim.CompProperties_UseEffectPlaySound">
+                <soundDef>PsychicSoothePulserCast</soundDef>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf" />
+        </comps>
 		<thingCategories>
 			<li>Cultivation_Resource</li>
 		</thingCategories>
