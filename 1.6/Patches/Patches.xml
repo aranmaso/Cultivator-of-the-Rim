@@ -1,0 +1,262 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/StatDef[defName="MarketValue"]/parts</xpath>
+		<value>
+			<li Class="CultivatorOfTheRim.StatPart_GradeWorth"/>
+			<li Class="CultivatorOfTheRim.StatPart_BeastCore"/>
+		</value>
+	</Operation>
+	
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="TropicalRainforest" or defName="TropicalSwamp" or defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert" or defName="BorealForest" or defName="Tundra" or defName="ColdBog"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_SpiritGrassPlant>0.01</CTR_SpiritGrassPlant> -->
+			<!-- <CTR_MoonGrass>0.01</CTR_MoonGrass> -->
+			<!-- <CTR_YinYangFlower>0.005</CTR_YinYangFlower> -->
+			<!-- <CTR_ChronoBeacon>0.0005</CTR_ChronoBeacon> -->
+			<!-- <CTR_ChronoStele>0.0005</CTR_ChronoStele> -->
+			<!-- <CTR_ImmortalPlant>0.001</CTR_ImmortalPlant> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="TropicalRainforest" or defName="TropicalSwamp"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_EarthTree>0.01</CTR_EarthTree> -->
+			<!-- <CTR_WoodLeaf>0.005</CTR_WoodLeaf> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/BiomeDef[defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_FireLeaf>0.01</CTR_FireLeaf> -->
+			<!-- <CTR_MetalStele>0.01</CTR_MetalStele> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/BiomeDef[defName="BorealForest" or defName="Tundra" or defName="ColdBog" or defName="IceSheet" or defName="SeaIce"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_WinterLeaf>0.005</CTR_WinterLeaf> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>RimWorld - Odyssey</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/BiomeDef[defName="LavaField"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_FireLeaf>2</CTR_FireLeaf> -->
+			<!-- <CTR_MetalStele>1</CTR_MetalStele> -->
+		<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>RimWorld - Odyssey</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/BiomeDef[defName="GlacialPlain"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_WinterLeaf>0.5</CTR_WinterLeaf> -->
+		<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>RimWorld - Odyssey</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_SpiritGrassPlant>0.01</CTR_SpiritGrassPlant> -->
+			<!-- <CTR_MoonGrass>0.01</CTR_MoonGrass> -->
+			<!-- <CTR_YinYangFlower>0.005</CTR_YinYangFlower> -->
+			<!-- <CTR_ChronoBeacon>0.0005</CTR_ChronoBeacon> -->
+			<!-- <CTR_ChronoStele>0.0005</CTR_ChronoStele> -->
+			<!-- <CTR_ImmortalPlant>0.001</CTR_ImmortalPlant> -->
+		<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>RimWorld - Odyssey</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/BiomeDef[defName="Glowforest"]/wildPlants</xpath> -->
+		<!-- <value> -->
+			<!-- <CTR_SpiritGrassPlant>0.01</CTR_SpiritGrassPlant> -->
+			<!-- <CTR_MoonGrass>0.01</CTR_MoonGrass> -->
+			<!-- <CTR_YinYangFlower>0.005</CTR_YinYangFlower> -->
+			<!-- <CTR_ChronoBeacon>0.0005</CTR_ChronoBeacon> -->
+			<!-- <CTR_ChronoStele>0.0005</CTR_ChronoStele> -->
+			<!-- <CTR_ImmortalPlant>0.01</CTR_ImmortalPlant> -->
+		<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/FactionDef/caravanTraderKinds</xpath> -->
+		<!-- <value> -->
+			<!-- <li>Caravan_CultivationResource</li> -->
+			<!-- <li>Caravan_CultivationPill</li> -->
+			<!-- <li>Caravan_CultivationTechnique</li> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationConditional"> -->
+		<!-- <xpath>Defs/FactionDef/caravanTraderKinds</xpath> -->
+		<!-- <nomatch Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/FactionDef</xpath> -->
+			<!-- <value> -->
+				<!-- <caravanTraderKinds> -->
+					<!-- <li>Caravan_CultivationResource</li> -->
+					<!-- <li>Caravan_CultivationPill</li> -->
+					<!-- <li>Caravan_CultivationTechnique</li> -->
+				<!-- </caravanTraderKinds> -->
+			<!-- </value> -->
+		<!-- </nomatch> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/FactionDef/caravanTraderKinds</xpath> -->
+			<!-- <value> -->
+				<!-- <li>Caravan_CultivationResource</li> -->
+				<!-- <li>Caravan_CultivationPill</li> -->
+				<!-- <li>Caravan_CultivationTechnique</li> -->
+			<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationConditional"> -->
+		<!-- <xpath>Defs/FactionDef/baseTraderKinds</xpath> -->
+		<!-- <nomatch Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/FactionDef</xpath> -->
+			<!-- <value> -->
+				<!-- <baseTraderKinds> -->
+					<!-- <li>Caravan_CultivationResource</li> -->
+					<!-- <li>Caravan_CultivationPill</li> -->
+					<!-- <li>Caravan_CultivationTechnique</li> -->
+				<!-- </baseTraderKinds> -->
+			<!-- </value> -->
+		<!-- </nomatch> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/FactionDef/baseTraderKinds</xpath> -->
+			<!-- <value> -->
+				<!-- <li>Caravan_CultivationResource</li> -->
+				<!-- <li>Caravan_CultivationPill</li> -->
+				<!-- <li>Caravan_CultivationTechnique</li> -->
+			<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>MakaiTech</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationReplace"> -->
+			<!-- <xpath>Defs/HediffDef[defName="CTR_Creation_Realm"]/comps/li[@Class="CultivatorOfTheRim.HediffCompProperties_Cultivation"]/nextLevel</xpath> -->
+			<!-- <value> -->
+				<!-- <nextLevel>CTR_OutsidetheDomain</nextLevel> -->
+			<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MakaiTech</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PrimordialFrag"]/comps</xpath>
+			<value>
+				<li Class="CompProperties_Usable">
+					<useJob>UseItem</useJob>
+					<useLabel>absorb {0_label} to reach beyond the domain</useLabel>
+					<useDuration>1000</useDuration>
+				</li>
+				<li Class="CultivatorOfTheRim.CompProperties_EscapeTheDomain" />
+				<li Class="CompProperties_UseEffectDestroySelf" />
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MakaiTech</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/ThingDef[defName="PrimordialFrag"]/tradeTags</xpath>
+			<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PrimordialFrag"]</xpath>
+			<value>
+				<tradeTags />
+			</value>
+			</nomatch>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MakaiTech</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PrimordialFrag"]/tradeTags</xpath>
+			<value>
+				<li>Qi_Source</li>
+				<li>Qi_Source_Tier6</li>
+				<li>Neutral_Qi</li>
+				<li>Immortal_Qi</li>
+				<li>Divine</li>	
+				<li>Heavenly_Qi</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Schematic"]/comps/li[@Class="CompProperties_Book"]/doers/li[@Class="BookOutcomeProperties_GainResearch"]/tabs</xpath>
+		<value>
+			<CTR_Alchemy_ResearchTab />
+			<CTR_Cultivation_ResearchTab />
+		</value>
+	</Operation>
+	
+	<Operation Class="CultivatorOfTheRim.PatchOperationAdd_SettingDependent">
+		<xpath>Defs/FactionDef/caravanTraderKinds</xpath>
+        <key>CTR.CaravanTraderKind</key>
+		<value>
+			<li>Caravan_CultivationResource</li>
+			<li>Caravan_CultivationPill</li>
+			<li>Caravan_CultivationTechnique</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="CultivatorOfTheRim.PatchOperationAdd_SettingDependent">
+		<xpath>Defs/FactionDef/baseTraderKinds</xpath>
+        <key>CTR.BaseTraderKind</key>
+		<value>
+			<li>Caravan_CultivationResource</li>
+			<li>Caravan_CultivationPill</li>
+			<li>Caravan_CultivationTechnique</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="CultivatorOfTheRim.PatchOperationAdd_SettingDependent">
+		<xpath>Defs/ThingDef[@Name="SpiritPlantBase"]/plant/wildTerrainTags</xpath>
+        <key>CTR.SpiritPlantGrowAnywhere</key>
+		<value>
+			<li>Water</li>
+            <li>WaterMarshy</li>
+            <li>River</li>
+            <li>WaterFreshShallow</li>
+            <li>WaterFreshShallowStill</li>
+            <li>WaterFreshShallowMoving</li>
+            <!-- <li>Road</li> -->
+		</value>
+	</Operation>
+
+</Patch>

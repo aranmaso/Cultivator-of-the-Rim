@@ -55,4 +55,28 @@
 	<CTR_BreakthroughDesc>Attempt to Breakthrough: {0}</CTR_BreakthroughDesc>
 	
 	<ITab_Cultivation>Cultivation</ITab_Cultivation>
+
+    <!-- Inner World -->
+    <CTR_InnerWorldInit>{0} has created a miniature world within.</CTR_InnerWorldInit>
+    <CTR_EnterInteriorSpace>enter inner world</CTR_EnterInteriorSpace>
+    <CTR_ExitInteriorSpace>exit inner world</CTR_ExitInteriorSpace>
+    <CTR_EnterWithCarried>enter inner world with {0}</CTR_EnterWithCarried>
+    <CTR_ExitWithCarried>exit inner world with {0}</CTR_ExitWithCarried>
+
+    <CTR_CancelLoading>Cancel Loading</CTR_CancelLoading>
+    <CTR_CancelLoading_Desc>Cancel Loading</CTR_CancelLoading_Desc>
+
+    <CTR_LoadToCargo>Load to Cargo</CTR_LoadToCargo>
+    <CTR_LoadToCargo_Desc>Load to Cargo</CTR_LoadToCargo_Desc>
+
+    <CTR_UnloadAll>Unload All</CTR_UnloadAll>
+    <CTR_UnloadAll_Desc>Unload All</CTR_UnloadAll_Desc>
+
+    <CTR_CargoBayNotLinked>Cargo not linked</CTR_CargoBayNotLinked>
+    <CTR_NoCargo>Cargo is empty</CTR_NoCargo>
+    <CTR_ItemsUnloaded>unload all item</CTR_ItemsUnloaded>
+    <CTR_UnloadFailed>unload failed</CTR_UnloadFailed>
+
+    <!-- Book -->
+    <CTR_ManualBookRequirementUnmet>{0} doesn't met the requirement for learning the technique. require cultivation of {1}</CTR_ManualBookRequirementUnmet>
 </LanguageData>

@@ -40,7 +40,7 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<products>
-			<CTR_QiCondensingPill>0</CTR_QiCondensingPill>
+			<CTR_QiCondensingPillSpawner>1</CTR_QiCondensingPillSpawner>
 		</products>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
@@ -99,7 +99,7 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<products>
-			<CTR_BodyTemperingPill>0</CTR_BodyTemperingPill>
+			<CTR_BodyTemperingPill>1</CTR_BodyTemperingPill>
 		</products>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
@@ -157,7 +157,7 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<products>
-			<CTR_NascentQiPill>0</CTR_NascentQiPill>
+			<CTR_NascentQiPillSpawner>1</CTR_NascentQiPillSpawner>
 		</products>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
@@ -215,7 +215,7 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<products>
-			<CTR_SaintQiPill>0</CTR_SaintQiPill>
+			<CTR_SaintQiPillSpawner>1</CTR_SaintQiPillSpawner>
 		</products>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
@@ -274,7 +274,7 @@
 			</tradeTagsToAllow>		
 		</fixedIngredientFilter>
 		<products>
-			<CTR_ImmortalQiPill>0</CTR_ImmortalQiPill>
+			<CTR_ImmortalQiPillSpawner>1</CTR_ImmortalQiPillSpawner>
 		</products>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
@@ -433,7 +433,7 @@
 	<RecipeDef>
 		<defName>CTR_MakeAlchemy</defName>
 		<label>do alchemy</label>
-		<description>doing unspecified alchemy require \n15 of Raw Resource or Cultivation Resource, \n15 of Spiritual Plant \n\nthe outcome depend on the combination of first ingredient and second ingredient. invalid combination will return a junk pill.</description>
+		<description>doing unspecified alchemy require \n15 of Raw Resource or Cultivation Resource or Medicine, \n15 of Spiritual Plant or Cultivation Pills \n\nthe outcome depend on the combination of first ingredient and second ingredient. invalid combination will return a junk pill.</description>
 		<workerClass>CultivatorOfTheRim.RecipeWorker_MixingIngredient</workerClass>
 		<jobString>mixing alchemy</jobString>
 		<effectWorking>Sculpt</effectWorking>
@@ -459,6 +459,7 @@
 			<li>
 				<filter>
 					<categories>
+						<li>Cultivation_Pill</li>
 						<li>Spirit_PlantProduct</li>
 					</categories>
 				</filter>
@@ -470,6 +471,7 @@
 				<li>Cultivation_Resource</li>
 				<li>Medicine</li>
 				<li>ResourcesRaw</li>
+				<li>Cultivation_Pill</li>
 				<li>Spirit_PlantProduct</li>
 			</categories>		
 		</fixedIngredientFilter>
@@ -537,8 +539,8 @@
 						<result>CTR_StoneSkinPill</result>
 					</li>
 					<li MayRequire="redmattis.sapientanimals">
-						<firstTag>Immortal_Qi</firstTag>
-						<secondTag>Healing_Item</secondTag>
+						<firstTag>Healing_Item</firstTag>
+						<secondTag>Immortal_Qi</secondTag>
 						<result>CTR_AnimalSapientPill</result>
 					</li>
 					<li MayRequire="ludeon.rimworld.biotech">

@@ -1,0 +1,27 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Phaneron's Basic Storage</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="BasicStorageMetalCrate"]/building/fixedStorageSettings/filter/categories</xpath>
+			<value>
+				<li>Cultivation_Root</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[sbz] Neat Storage</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="sbzDisplayShelfBase"]/building/fixedStorageSettings/filter/categories</xpath>
+			<value>
+				<li>Cultivation_Root</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

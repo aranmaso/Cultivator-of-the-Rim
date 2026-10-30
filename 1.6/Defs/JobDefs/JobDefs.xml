@@ -1,0 +1,30 @@
+<Defs>
+
+    <JobDef>
+        <defName>CTR_BreakingThrough</defName>
+        <driverClass>CultivatorOfTheRim.JobDriver_Breakthrough</driverClass>
+        <reportString>TargetA is breaking throught the barrier.</reportString>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    </JobDef>
+
+    <JobDef>
+        <defName>CTR_EnterInnerWorld</defName>
+        <driverClass>CultivatorOfTheRim.JobDriver_EnterInnerWorld</driverClass>
+        <reportString>entier interior</reportString>
+        <casualInterruptible>false</casualInterruptible>
+        <alwaysShowWeapon>false</alwaysShowWeapon>
+        <suspendable>false</suspendable>
+        <playerInterruptible>true</playerInterruptible>
+    </JobDef>
+
+    <JobDef>
+        <defName>CTR_ExitInnerWorld</defName>
+        <driverClass>CultivatorOfTheRim.JobDriver_ExitInnerWorld</driverClass>
+        <reportString>exit interior</reportString>
+        <casualInterruptible>false</casualInterruptible>
+        <alwaysShowWeapon>false</alwaysShowWeapon>
+        <suspendable>false</suspendable>
+        <playerInterruptible>true</playerInterruptible>
+    </JobDef>
+
+</Defs>

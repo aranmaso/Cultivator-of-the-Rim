@@ -80,7 +80,12 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
-				</makeImmuneTo>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
+				</makeImmuneTo>                
 				<statOffsets>
 					<LifespanFactor>2</LifespanFactor>
 					<MeleeHitChance>5</MeleeHitChance>
@@ -139,6 +144,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -200,6 +210,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -262,6 +277,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -324,6 +344,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -386,6 +411,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -448,6 +478,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -510,6 +545,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -572,6 +612,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -634,6 +679,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>3</LifespanFactor>
@@ -803,6 +853,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2</LifespanFactor>
@@ -864,6 +919,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -927,6 +987,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -991,6 +1056,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -1055,6 +1125,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -1119,6 +1194,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -1183,6 +1263,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -1247,6 +1332,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -1311,6 +1401,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>2.5</LifespanFactor>
@@ -1375,6 +1470,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<LifespanFactor>3</LifespanFactor>

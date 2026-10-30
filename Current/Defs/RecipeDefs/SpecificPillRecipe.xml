@@ -52,7 +52,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_FleshHealingPillMaking</researchPrerequisite>
 		<products>
-			<CTR_HealingPill>0</CTR_HealingPill>
+			<CTR_HealingPillSpawner>1</CTR_HealingPillSpawner>
 		</products>		
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -97,7 +97,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_ColdResistPillMaking</researchPrerequisite>
 		<products>
-			<CTR_ColdResistPill>0</CTR_ColdResistPill>
+			<CTR_ColdResistPillSpawner>1</CTR_ColdResistPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -142,7 +142,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_HeatResistPillMaking</researchPrerequisite>
 		<products>
-			<CTR_HeatResistPill>0</CTR_HeatResistPill>
+			<CTR_HeatResistPillSpawner>1</CTR_HeatResistPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -187,7 +187,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_DantianRepairPillMaking</researchPrerequisite>
 		<products>
-			<CTR_DantianRepairPill>0</CTR_DantianRepairPill>
+			<CTR_DantianRepairPillSpawner>1</CTR_DantianRepairPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -232,7 +232,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_ImproveAbsorptionPillMaking</researchPrerequisite>
 		<products>
-			<CTR_ImproveAbsorptionPill>0</CTR_ImproveAbsorptionPill>
+			<CTR_ImproveAbsorptionPillSpawner>1</CTR_ImproveAbsorptionPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -277,7 +277,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_ImproveReflexPillMaking</researchPrerequisite>
 		<products>
-			<CTR_ImproveReflexPill>0</CTR_ImproveReflexPill>
+			<CTR_ImproveReflexPillSpawner>1</CTR_ImproveReflexPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -322,7 +322,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_ImproveGWSPillMaking</researchPrerequisite>
 		<products>
-			<CTR_ImproveGWSPill>0</CTR_ImproveGWSPill>
+			<CTR_ImproveGWSPillSpawner>1</CTR_ImproveGWSPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -367,7 +367,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_LifeSpanPillMaking</researchPrerequisite>
 		<products>
-			<CTR_LifeSpanPill>0</CTR_LifeSpanPill>
+			<CTR_LifeSpanPillSpawner>1</CTR_LifeSpanPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -411,7 +411,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_StoneSkinPillMaking</researchPrerequisite>
 		<products>
-			<CTR_StoneSkinPill>0</CTR_StoneSkinPill>
+			<CTR_StoneSkinPillSpawner>1</CTR_StoneSkinPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -456,7 +456,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_FertilityPillMaking</researchPrerequisite>
 		<products>
-			<CTR_FertilityPill>0</CTR_FertilityPill>
+			<CTR_FertilityPillSpawner>1</CTR_FertilityPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">
@@ -501,7 +501,7 @@
 		</fixedIngredientFilter>
 		<researchPrerequisite>CTR_RebirthPillMaking</researchPrerequisite>
 		<products>
-			<CTR_RebirthPill>0</CTR_RebirthPill>
+			<CTR_RebirthPillSpawner>1</CTR_RebirthPillSpawner>
 		</products>
 		<modExtensions>
 			<li Class="CultivatorOfTheRim.RecipeExtension_Alchemy">

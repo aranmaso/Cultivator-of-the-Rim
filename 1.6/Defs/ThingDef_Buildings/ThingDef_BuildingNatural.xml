@@ -1,0 +1,122 @@
+<Defs>
+	<ThingDef ParentName="RockBase">
+		<defName>CTR_MineableSpiritStone</defName>
+		<label>spirit stone vein</label>
+		<description>Rock containing bits of spirit stone.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(89,83,68)</color>
+			<colorTwo>(0,164,255)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+		</statBases>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>CTR_SpiritStone</mineableThing>
+			<mineableYield>75</mineableYield>
+			<mineableScatterCommonality>0.2</mineableScatterCommonality>
+			<mineableScatterLumpSizeRange>4~12</mineableScatterLumpSizeRange>
+			<veinMineable>true</veinMineable>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="RockBase">
+		<defName>CTR_MineableFireStone</defName>
+		<label>firestone ore</label>
+		<description>Rock containing bits of firestone.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(114,114,114)</color>
+			<colorTwo>(238,142,0)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+		</statBases>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>CTR_FireStone</mineableThing>
+			<mineableYield>40</mineableYield>
+			<mineableScatterCommonality>0.12</mineableScatterCommonality>
+			<mineableScatterLumpSizeRange>6~12</mineableScatterLumpSizeRange>
+			<veinMineable>true</veinMineable>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="RockBase">
+		<defName>CTR_MineableMoonStone</defName>
+		<label>buried moonstone</label>
+		<description>Rock containing bits of moon stone.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(114,114,114)</color>
+			<colorTwo>(102,126,233)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+		</statBases>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>CTR_MoonStone</mineableThing>
+			<mineableYield>10</mineableYield>
+			<mineableScatterCommonality>0.12</mineableScatterCommonality>
+			<mineableScatterLumpSizeRange>3~6</mineableScatterLumpSizeRange>
+			<veinMineable>true</veinMineable>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="RockBase">
+		<defName>CTR_MineableYinCrystal</defName>
+		<label>yin-crystal formation</label>
+		<description>Rock containing bits of yin-crystal.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(114,114,114)</color>
+			<colorTwo>(46,46,46)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+		</statBases>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>CTR_YinCrystal</mineableThing>
+			<mineableYield>10</mineableYield>
+			<mineableScatterCommonality>0.06</mineableScatterCommonality>
+			<mineableScatterLumpSizeRange>1~6</mineableScatterLumpSizeRange>
+			<veinMineable>true</veinMineable>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="RockBase">
+		<defName>CTR_MineableYangCrystal</defName>
+		<label>yang-crystal formation</label>
+		<description>Rock containing bits of yang-crystal.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(114,114,114)</color>
+			<colorTwo>(255,255,255)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+		</statBases>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>CTR_YangCrystal</mineableThing>
+			<mineableYield>10</mineableYield>
+			<mineableScatterCommonality>0.06</mineableScatterCommonality>
+			<mineableScatterLumpSizeRange>1~6</mineableScatterLumpSizeRange>
+			<veinMineable>true</veinMineable>
+		</building>
+	</ThingDef>
+
+</Defs>

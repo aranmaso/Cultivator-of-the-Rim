@@ -53,6 +53,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_SmartTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<statBases>
 		  <MaxHitPoints>100</MaxHitPoints>
@@ -81,6 +85,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_FastTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -109,6 +117,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_ImmunityTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<apparel>
 			<wearPerDay>0.1</wearPerDay>
@@ -140,6 +152,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_FireSpewTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<apparel>
 			<wearPerDay>0.1</wearPerDay>
@@ -204,6 +220,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_JoyTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<apparel>
 			<wearPerDay>0.1</wearPerDay>
@@ -235,6 +255,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_InvisibilityTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<apparel>
 			<wearPerDay>0.1</wearPerDay>
@@ -266,6 +290,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_CurerTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<apparel>
 			<wearPerDay>0.1</wearPerDay>
@@ -297,6 +325,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_ForeseerTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<apparel>
 			<wearPerDay>0.1</wearPerDay>
@@ -328,6 +360,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_FastingTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<apparel>
 			<wearPerDay>0.1</wearPerDay>
@@ -359,6 +395,10 @@
 				</hediffDefs>
 				<severity>1</severity>
 			</li>
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_WorkspeedTalisman</hediffDef>
+                <severity>1</severity>
+            </li>
 		</comps>
 		<apparel>
 			<wearPerDay>0.1</wearPerDay>
@@ -389,7 +429,11 @@
 					<li>CTR_CultivationTalisman</li>
 				</hediffDefs>
 				<severity>1</severity>
-			</li>						
+			</li>		
+            <li Class="CultivatorOfTheRim.CompProperties_TalismanPassive">
+                <hediffDef>CTR_CultivationTalisman</hediffDef>
+                <severity>1</severity>
+            </li>				
 		</comps>
 		<apparel>
 			<wearPerDay>0.1</wearPerDay>

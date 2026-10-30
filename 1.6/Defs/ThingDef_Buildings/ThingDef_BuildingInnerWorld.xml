@@ -1,0 +1,240 @@
+<Defs>
+
+    <TerrainDef>
+        <defName>CTR_InnerWorldFloor</defName>
+        <label>floor</label>
+        <description>it a floor</description>
+        <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+        <edgeType>FadeRough</edgeType>
+        <renderPrecedence>250</renderPrecedence>
+        <pathCost>0</pathCost>
+        <fertility>0</fertility>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+        </affordances>
+        <statBases>
+            <Beauty>2</Beauty>
+            <Cleanliness>0.6</Cleanliness>
+        </statBases>
+        <uiOrder>2540</uiOrder>
+        <color>(0.4,0.4,0.4)</color>
+    </TerrainDef>
+
+    <RoofDef>
+        <defName>CTR_InnerWorldRoof</defName>
+        <label>roof</label>
+        <description>roof</description>
+        <canCollapse>false</canCollapse>
+        <isThickRoof>true</isThickRoof>
+        <isNatural>false</isNatural>
+        <filthLeaving>Filth_RubbleRock</filthLeaving>
+        <soundPunchThrough>Roof_Collapse</soundPunchThrough>
+    </RoofDef>
+
+    <ThingDef ParentName="Wall">
+        <defName>CTR_InnerWorldMapWall</defName>
+        <label>wall</label>
+        <description>wall</description>
+        <selectable>false</selectable>
+        <destroyable>false</destroyable>
+        <useHitPoints>false</useHitPoints>
+        <designationCategory IsNull="True"/>
+        <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+        <graphicData>
+            <texPath>Things/Building/Linked/Wall</texPath>
+            <graphicClass>Graphic_Appearances</graphicClass>
+            <linkType>CornerFiller</linkType>
+            <linkFlags>
+                <li>Wall</li>
+            </linkFlags>
+            <color>(0.6,0.6,0.6)</color>
+        </graphicData>
+        <building>
+            <paintable>false</paintable>
+            <deconstructible>false</deconstructible>
+            <claimable>false</claimable>
+            <neverBuildable>true</neverBuildable>
+        </building>
+        <statBases>
+            <Flammability>0</Flammability>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>CTR_ExitPortal</defName>
+        <label>Exit</label>
+        <description>ShelterShuttle_ExitPortal_description</description>
+        <thingClass>CultivatorOfTheRim.InnerWorldExit</thingClass>
+        <category>Building</category>
+        <useHitPoints>false</useHitPoints>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>0</pathCost>
+        <blockWind>true</blockWind>
+        <fillPercent>1.0</fillPercent>
+        <size>(1,1)</size>
+        <mineable>false</mineable>
+        <designationCategory IsNull="True"/>
+        <!-- <designationCategory>Misc</designationCategory> -->
+        <uiIconScale>1.2</uiIconScale>
+
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>UI/Ming</texPath>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(1,1)</drawSize>
+            <color>(0.2, 1.0, 0.8)</color>
+            <shadowData>
+                <volume>(1.0, 1.2, 1.0)</volume>
+                <offset>(0, 0, 0)</offset>
+            </shadowData>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <!-- <Flammability>0.1</Flammability> -->
+            <WorkToBuild>3000</WorkToBuild>
+            <Mass>50</Mass>
+            <MarketValue>100</MarketValue>
+        </statBases>
+
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <tickerType>Normal</tickerType>
+        <selectable>true</selectable>
+        <neverMultiSelect>false</neverMultiSelect>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <drawerType>RealtimeOnly</drawerType>
+        <repairEffect>ConstructMetal</repairEffect>
+
+        <building>
+            <claimable>false</claimable>
+            <deconstructible>false</deconstructible>
+            <isInert>false</isInert>
+            <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+            <ai_chillDestination>false</ai_chillDestination>
+            <relatedBuildCommands>
+            </relatedBuildCommands>
+        </building>
+
+
+        <comps>
+
+            <li Class="CompProperties_Glower">
+                <glowRadius>40</glowRadius>
+                <overlightRadius>40</overlightRadius>
+                <glowColor>(255,255,255)</glowColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>CTR_InnerWorldInventoryPort</defName>
+        <label>inventory interface</label>
+        <description>A cargo interface terminal that provides direct access to the owner's cargo bay. Items loaded here are directly stored in the shuttle's cargo hold. This terminal allows both loading items from the interior space and unloading items to the interior space, acting as a shared interface to the shuttle's storage.</description>
+        <thingClass>CultivatorOfTheRim.Building_InventoryPort</thingClass>
+        <category>Building</category>
+        <useHitPoints>false</useHitPoints>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>0</pathCost>
+        <blockWind>true</blockWind>
+        <fillPercent>1.0</fillPercent>
+        <size>(1,1)</size>
+        <mineable>false</mineable>
+        <designationCategory IsNull="True"/>
+        <!-- <designationCategory>Misc</designationCategory> -->
+        <uiIconScale>1.2</uiIconScale>
+
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Things/Buildings/AlchemyFurnace_Basic</texPath>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(2,2)</drawSize>
+            <color>(0.7, 0.5, 0.3)</color>
+            <shadowData>
+                <volume>(1.8, 1.0, 1.0)</volume>
+                <offset>(0, 0, 0)</offset>
+            </shadowData>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <!-- <Flammability>0.2</Flammability> -->
+            <WorkToBuild>5000</WorkToBuild>
+            <Mass>80</Mass>
+            <MarketValue>150</MarketValue>
+        </statBases>
+
+        <costList>
+            <Steel>50</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+        <tickerType>Rare</tickerType>
+        <selectable>true</selectable>
+        <neverMultiSelect>false</neverMultiSelect>
+        <rotatable>true</rotatable>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <drawerType>RealtimeOnly</drawerType>
+        <repairEffect>ConstructMetal</repairEffect>
+
+        <building>
+            <claimable>false</claimable>
+            <deconstructible>false</deconstructible>
+            <uninstallWork>2500</uninstallWork>
+            <isInert>false</isInert>
+            <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+            <ai_chillDestination>false</ai_chillDestination>
+        </building>
+
+        <inspectorTabs>
+            <li>ITab_ContentsTransporter</li>
+        </inspectorTabs>
+
+        <comps>
+
+            <li Class="CompProperties_Glower">
+                <glowRadius>4</glowRadius>
+                <glowColor>(255,200,100,0)</glowColor>
+            </li>
+
+
+            <li Class="CompProperties_Forbiddable"/>
+
+
+            <li Class="CompProperties_Transporter">
+                <compClass>CultivatorOfTheRim.CompTransporter_SharedInventory</compClass>
+                <massCapacity>99999</massCapacity>
+                <max1PerGroup>false</max1PerGroup>
+                <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
+                <showMassInInspectString>false</showMassInInspectString>
+                <pawnLoadedSound>Shuttle_PawnLoaded</pawnLoadedSound>
+                <pawnExitSound>Shuttle_PawnExit</pawnExitSound>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

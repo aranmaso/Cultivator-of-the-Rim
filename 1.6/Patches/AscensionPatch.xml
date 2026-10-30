@@ -1,0 +1,80 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ascension</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AS_FireEssenceOre"]/tradeTags</xpath>
+					<value>
+						<li>Fire_Qi</li>
+						<li>Yang_Qi</li>
+						<li>Qi_Source_Tier2</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AS_IceEssenceOre"]/tradeTags</xpath>
+					<value>
+						<li>Cold_Qi</li>
+						<li>Water_Qi</li>
+						<li>Yin_Qi</li>
+						<li>Qi_Source_Tier2</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AS_LuminaCore"]/tradeTags</xpath>
+					<value>
+						<li>Metal_Qi</li>
+						<li>Qi_Source_Tier3</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AS_FireEssenceBar"]/tradeTags</xpath>
+					<value>
+						<li>Fire_Qi</li>
+						<li>Qi_Source_Tier4</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AS_IceEssenceBar"]/tradeTags</xpath>
+					<value>
+						<li>Water_Qi</li>
+						<li>Qi_Source_Tier4</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AS_DragonFeces"]/tradeTags</xpath>
+					<value>
+						<li>Earth_Qi</li>
+						<li>Immortal_Qi</li>
+						<li>Qi_Source_Tier6</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AS_StoneEssence"]/tradeTags</xpath>
+					<value>
+						<li>Earth_Qi</li>
+						<li>Qi_Source_Tier4</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AS_Spiritleaf"]/tradeTags</xpath>
+					<value>
+						<li>Neutral_Qi</li>
+						<li>Pure_Qi</li>
+						<li>Qi_Source_Tier2</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AS_Spiritwood"]/tradeTags</xpath>
+					<value>
+						<li>Wood_Qi</li>
+						<li>Qi_Source_Tier2</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

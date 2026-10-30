@@ -1,0 +1,48 @@
+<Defs>
+
+    <MapGeneratorDef>
+        <defName>CTR_InnerWorldMapGen</defName>
+        <label>interior map</label>
+        <ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>
+        <disableShadows>true</disableShadows>
+        <disableCallAid>true</disableCallAid>
+        <customMapComponents>
+            <li>CultivatorOfTheRim.MapComponent_InnerWorld</li>
+        </customMapComponents>
+        <pocketMapProperties>
+            <biome>CTR_InnerWorldBiome</biome>
+            <temperature>25</temperature>
+            <destroyOnParentMapAbandoned>false</destroyOnParentMapAbandoned>
+        </pocketMapProperties>
+        <genSteps>
+            <li>CTR_InnerWorldGenStep</li>
+        </genSteps>
+    </MapGeneratorDef>
+
+
+    <GenStepDef>
+        <defName>CTR_InnerWorldGenStep</defName>
+        <order>10</order>
+        <genStep Class="CultivatorOfTheRim.GenStep_InnerWorld" />
+    </GenStepDef>
+
+
+    <BiomeDef>
+        <defName>CTR_InnerWorldBiome</defName>
+        <label>inner world</label>
+        <description>. . .</description>
+        <generatesNaturally>false</generatesNaturally>
+        <animalDensity>0</animalDensity>
+        <plantDensity>0</plantDensity>
+        <wildAnimalsCanWanderInto>false</wildAnimalsCanWanderInto>
+        <baseWeatherCommonalities>
+            <Clear>1</Clear>
+        </baseWeatherCommonalities>
+        <diseaseMtbDays>999</diseaseMtbDays>
+        <settlementSelectionWeight>0</settlementSelectionWeight>
+        <movementDifficulty>1</movementDifficulty>
+        <diseases />
+        <disableSkyLighting>true</disableSkyLighting>
+    </BiomeDef>
+
+</Defs>

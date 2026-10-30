@@ -21,10 +21,10 @@
 		<tradeTags>
 			<!-- <li>Technique_Manual</li> -->
 			<!-- <li>Cultivation_Technique</li> -->
-			<li>ExoticMisc</li>
+			<!-- <li>ExoticMisc</li> -->
 		</tradeTags>
 		<thingSetMakerTags>
-			<li>RewardStandardMidFreq</li>
+			<!-- <li>RewardStandardMidFreq</li> -->
 		</thingSetMakerTags>
 		<statBases>
 			<Mass>0.2</Mass>

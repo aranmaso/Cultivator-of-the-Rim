@@ -40,13 +40,36 @@
             <li Class="CompProperties_UseEffectDestroySelf" />
         </comps>
     </ThingDef>
+    <ThingDef ParentName="GeneralPillBase" Name="PillSpawnerBase" Abstract="True">
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_HealingPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <statBases Inherit="False">
+            <WorkToMake>600</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>0</MarketValue>
+            <Mass>0.01</Mass>
+            <Flammability>0.25</Flammability>
+        </statBases>
+        <generateCommonality>0</generateCommonality>
+        <ingestible Inherit="False" IsNull="True"/>
+        <thingCategories Inherit="False" />
+        <thingSetMakerTags Inherit="False" />
+        <comps Inherit="False">
+            <li Class="CompProperties_DestroyAfterDelay">
+                <delayTicks>0</delayTicks>
+            </li>
+        </comps>
+        <tradeTags Inherit="False" />
+    </ThingDef>
 
     <!-- Healing Pill -->
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_HealingPill</defName>
         <label>flesh healing pill</label>
-        <description>a pill used to heal physical wounds. speed up healing process considerably.
-            made from Healing Item and Qi Condensing Item \n\nTags: Pill, Healing Item</description>
+        <description>a pill used to heal physical wounds. speed up healing process considerably. made from Healing Item and Qi Condensing Item \n\nTags: Pill, Healing Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_HealingPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -78,6 +101,18 @@
             <li>Healing_Item</li>
         </tradeTags>
     </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_HealingPillSpawner</defName>
+        <label>flesh healing pill</label>
+        <description>a pill used to heal physical wounds. speed up healing process considerably. made from Healing Item and Qi Condensing Item \n\nTags: Pill, Healing Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_HealingPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_HealingPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase">
         <defName>CTR_HealingPill</defName>
@@ -108,8 +143,7 @@
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_DantianRepairPill</defName>
         <label>dantian healing pill</label>
-        <description>a pill used to heal dantian injury. repair the damanged dantian by 10%. made
-            from Immortal Qi and Qi Condensing item \n\nTags: Pill, Healing Item</description>
+        <description>a pill used to heal dantian injury. repair the damanged dantian by 10%. made from Immortal Qi and Qi Condensing item \n\nTags: Pill, Healing Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_DantianRepairPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -139,13 +173,24 @@
             <li>Healing_Item</li>
         </tradeTags>
     </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_DantianRepairPillSpawner</defName>
+        <label>dantian healing pill</label>
+        <description>a pill used to heal dantian injury. repair the damanged dantian by 10%. made from Immortal Qi and Qi Condensing item \n\nTags: Pill, Healing Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_DantianRepairPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_DantianRepairPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
     <!-- Cold-Resistance Pill -->
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_ColdResistPill</defName>
         <label>cold-resistance pill</label>
-        <description>a pill fused with fire Qi, can wand off coldness for 6 hours once consumed.
-            made from Neutral Qi and Cold Qi \n\nTags: Pill, Utility Item</description>
+        <description>a pill fused with fire Qi, can wand off coldness for 6 hours once consumed. made from Neutral Qi and Cold Qi \n\nTags: Pill, Utility Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_ColdResistPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -177,6 +222,18 @@
             <li>Utility_Item</li>
         </tradeTags>
     </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_ColdResistPillSpawner</defName>
+        <label>cold-resistance pill</label>
+        <description>a pill fused with fire Qi, can wand off coldness for 6 hours once consumed. made from Neutral Qi and Cold Qi \n\nTags: Pill, Utility Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_ColdResistPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_ColdResistPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase">
         <defName>CTR_ColdResistPill</defName>
@@ -204,8 +261,7 @@
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_HeatResistPill</defName>
         <label>heat-resistance pill</label>
-        <description>a pill fused with water Qi, can wand off heat for 6 hours once consumed. made
-            from Neutral Qi and Fire Qi \n\nTags: Pill, Utility Item</description>
+        <description>a pill fused with water Qi, can wand off heat for 6 hours once consumed. made from Neutral Qi and Fire Qi \n\nTags: Pill, Utility Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_HeatResistPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -237,6 +293,18 @@
             <li>Utility_Item</li>
         </tradeTags>
     </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_HeatResistPillSpawner</defName>
+        <label>heat-resistance pill</label>
+        <description>a pill fused with water Qi, can wand off heat for 6 hours once consumed. made from Neutral Qi and Fire Qi \n\nTags: Pill, Utility Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_HeatResistPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_HeatResistPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase">
         <defName>CTR_HeatResistPill</defName>
@@ -264,9 +332,7 @@
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_ImproveAbsorptionPill</defName>
         <label>Qi-Absorption pill</label>
-        <description>a pill that enhance user Qi circulation, improve cultivation speed for 1 day
-            once consumed. made from Qi Source item and Qi Condensing item \n\nTags: Pill,
-            Cultivation Pill, Utility Item</description>
+        <description>a pill that enhance user Qi circulation, improve cultivation speed for 1 day once consumed. made from Qi Source item and Qi Condensing item \n\nTags: Pill,Cultivation Pill, Utility Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_ImproveAbsorptionPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -299,6 +365,18 @@
             <li>Cultivation_Pill</li>
         </tradeTags>
     </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_ImproveAbsorptionPillSpawner</defName>
+        <label>Qi-Absorption pill</label>
+        <description>a pill that enhance user Qi circulation, improve cultivation speed for 1 day once consumed. made from Qi Source item and Qi Condensing item \n\nTags: Pill,Cultivation Pill, Utility Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_ImproveAbsorptionPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_ImproveAbsorptionPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase">
         <defName>CTR_ImproveAbsorptionPill</defName>
@@ -326,8 +404,7 @@
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_ImproveReflexPill</defName>
         <label>Reflex pill</label>
-        <description>a pill that enhance user reflex ability, improve dodge chance for 2 hours once
-            consumed. made from Fire Qi and Metal Qi \n\nTags: Pill, Utility Item</description>
+        <description>a pill that enhance user reflex ability, improve dodge chance for 2 hours once consumed. made from Fire Qi and Metal Qi \n\nTags: Pill, Utility Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_ImproveReflexPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -359,6 +436,18 @@
             <li>Utility_Item</li>
         </tradeTags>
     </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_ImproveReflexPillSpawner</defName>
+        <label>Reflex pill</label>
+        <description>a pill that enhance user reflex ability, improve dodge chance for 2 hours once consumed. made from Fire Qi and Metal Qi \n\nTags: Pill, Utility Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_ImproveReflexPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_ImproveReflexPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase">
         <defName>CTR_ImproveReflexPill</defName>
@@ -387,8 +476,7 @@
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_ImproveGWSPill</defName>
         <label>Working Speed pill</label>
-        <description>a pill that enhance user working speed ability, improve global work speed for 3
-            hours once consumed. made from Metal Qi and Fire Qi \n\nTags: Pill, Utility Item</description>
+        <description>a pill that enhance user working speed ability, improve global work speed for 3 hours once consumed. made from Metal Qi and Fire Qi \n\nTags: Pill, Utility Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_ImproveGWSPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -420,6 +508,18 @@
             <li>Utility_Item</li>
         </tradeTags>
     </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_ImproveGWSPillSpawner</defName>
+        <label>Working Speed pill</label>
+        <description>a pill that enhance user working speed ability, improve global work speed for 3 hours once consumed. made from Metal Qi and Fire Qi \n\nTags: Pill, Utility Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_ImproveGWSPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_ImproveGWSPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase">
         <defName>CTR_ImproveGWSPill</defName>
@@ -447,8 +547,7 @@
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_LifeSpanPill</defName>
         <label>Life Extending pill</label>
-        <description>a pill that increase user lifespan by 10% each time it consumed. up to a
-            maximum of 100%. made from Divine item and Immortal Qi \n\nTags: Pill, Utility Item</description>
+        <description>a pill that increase user lifespan by 10% each time it consumed. up to a maximum of 100%. made from Divine item and Immortal Qi \n\nTags: Pill, Utility Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_LifeSpanPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -479,6 +578,18 @@
         <tradeTags>
             <li>Utility_Item</li>
         </tradeTags>
+    </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_LifeSpanPillSpawner</defName>
+        <label>Life Extending pill</label>
+        <description>a pill that increase user lifespan by 10% each time it consumed. up to a maximum of 100%. made from Divine item and Immortal Qi \n\nTags: Pill, Utility Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_LifeSpanPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_LifeSpanPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
     </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase">
@@ -562,8 +673,7 @@
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_StoneSkinPill</defName>
         <label>Stoneskin pill</label>
-        <description>a pill that clad user body in stoneskin for 3 hours once consumed. made from
-            two Earth Qi \n\nTags: Pill, Defense Item</description>
+        <description>a pill that clad user body in stoneskin for 3 hours once consumed. made from two Earth Qi \n\nTags: Pill, Defense Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_StoneSkinPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -595,6 +705,18 @@
             <li>Defense_Item</li>
         </tradeTags>
     </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_StoneSkinPillSpawner</defName>
+        <label>Stoneskin pill</label>
+        <description>a pill that clad user body in stoneskin for 3 hours once consumed. made from two Earth Qi \n\nTags: Pill, Defense Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_StoneSkinPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_StoneSkinPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase">
         <defName>CTR_StoneSkinPill</defName>
@@ -624,8 +746,7 @@
     <ThingDef ParentName="GeneralPillBase" MayRequire="ludeon.rimworld.biotech">
         <defName>CTR_FertilityPill</defName>
         <label>Fertility pill</label>
-        <description>a pill that improve user fertility for 3 hours. made from Healing item and Yin
-            Qi \n\nTags: Pill, Utility Item</description>
+        <description>a pill that improve user fertility for 3 hours. made from Healing item and Yin Qi \n\nTags: Pill, Utility Item</description>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_FertilityPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -660,6 +781,18 @@
         <tradeTags>
             <li>Defense_Item</li>
         </tradeTags>
+    </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_FertilityPillSpawner</defName>
+        <label>Fertility pill</label>
+        <description>a pill that improve user fertility for 3 hours. made from Healing item and Yin Qi \n\nTags: Pill, Utility Item</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_FertilityPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_FertilityPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
     </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase" MayRequire="ludeon.rimworld.biotech">
@@ -710,9 +843,10 @@
     <ThingDef ParentName="GeneralPillBase">
         <defName>CTR_RebirthPill</defName>
         <label>Cultivation Rebirth pill</label>
-        <description>a pill that grant cultivator a chance to rebirth, condense down all their
-            cultivation back to Qi Gathering first stage. made from Divine item and Fire Qi
-            \n\nTags: Pill, Utility Item</description>
+        <description>a pill that grant cultivator a chance to rebirth, condense down all their cultivation back to Qi Gathering first stage. made from Divine item and Fire Qi \n\nTags: Pill, Utility Item</description>
+        <descriptionHyperlinks>
+            <HediffDef>CTR_RebirthCultivation</HediffDef>
+        </descriptionHyperlinks>
         <graphicData>
             <texPath>Things/Items/Pills/CTR_RebirthPill</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -738,12 +872,23 @@
             <li>Utility_Item</li>
         </tradeTags>
     </ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_RebirthPillSpawner</defName>
+        <label>Cultivation Rebirth pill</label>
+        <description>a pill used to spawn another pill</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_RebirthPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_RebirthPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
     <HediffDef ParentName="CultivationDrugHediffBase">
         <defName>CTR_RebirthCultivation</defName>
         <label>rebirth</label>
-        <description>achieving rebirth through the Rebirth Pill, all cultivation condensed back down
-            to first stage of Qi Gathering, while also retain fraction of benefit with each rebirth.</description>
+        <description>achieving rebirth through the Rebirth Pill, all cultivation condensed back down to first stage of Qi Gathering, while also retain fraction of benefit with each rebirth.</description>
         <hediffClass>CultivatorOfTheRim.Hediff_DynamicStage</hediffClass>
         <defaultLabelColor>(85, 196, 109)</defaultLabelColor>
         <initialSeverity>1</initialSeverity>

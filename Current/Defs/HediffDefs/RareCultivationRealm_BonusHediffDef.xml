@@ -127,5 +127,25 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef ParentName="RareCultivationRealmBase">
+		<defName>CTR_InnerWorldCreation</defName>
+		<label>Inner world</label>
+		<description>with sufficienely high enough cultivation, cultivator can create a miniature universe within themselves.</description>
+		<isBad>false</isBad>
+		<comps>
+            <li Class="CultivatorOfTheRim.HediffCompProperties_InnerWorld">
+                <mapSize>(75,1,75)</mapSize>
+                <mapGeneratorDef>CTR_InnerWorldMapGen</mapGeneratorDef>
+                <exitPortal>CTR_ExitPortal</exitPortal>
+                <inventoryPort>CTR_InnerWorldInventoryPort</inventoryPort>
+                <uiIcon>UI/Ming</uiIcon>
+            </li>
+        </comps>
+		<stages>
+			<li>
+			</li>
+		</stages>
+	</HediffDef>
 
 </Defs>

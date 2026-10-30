@@ -2066,6 +2066,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>1.52</MeleeDamageFactor>
@@ -2137,6 +2142,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>1.54</MeleeDamageFactor>
@@ -2208,6 +2218,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>1.56</MeleeDamageFactor>
@@ -2279,6 +2294,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>1.58</MeleeDamageFactor>
@@ -2350,6 +2370,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>1.75</MeleeDamageFactor>
@@ -2421,6 +2446,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>1.77</MeleeDamageFactor>
@@ -2492,6 +2522,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>1.80</MeleeDamageFactor>
@@ -2563,6 +2598,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>1.82</MeleeDamageFactor>
@@ -2634,6 +2674,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>1.85</MeleeDamageFactor>
@@ -2705,6 +2750,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.00</MeleeDamageFactor>
@@ -2812,6 +2862,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.00</MeleeDamageFactor>
@@ -2883,6 +2938,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.5</MeleeDamageFactor>
@@ -2954,6 +3014,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.55</MeleeDamageFactor>
@@ -3025,6 +3090,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.6</MeleeDamageFactor>
@@ -3096,6 +3166,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.65</MeleeDamageFactor>
@@ -3167,6 +3242,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.7</MeleeDamageFactor>
@@ -3238,6 +3318,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.75</MeleeDamageFactor>
@@ -3309,6 +3394,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.8</MeleeDamageFactor>
@@ -3380,6 +3470,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.85</MeleeDamageFactor>
@@ -3451,6 +3546,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>2.9</MeleeDamageFactor>
@@ -3522,6 +3622,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>3.0</MeleeDamageFactor>
@@ -3630,6 +3735,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>3.0</MeleeDamageFactor>
@@ -3701,6 +3811,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>3.5</MeleeDamageFactor>
@@ -3772,6 +3887,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>4.0</MeleeDamageFactor>
@@ -3843,6 +3963,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>4.5</MeleeDamageFactor>
@@ -3914,6 +4039,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>5.0</MeleeDamageFactor>
@@ -3985,6 +4115,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>6.0</MeleeDamageFactor>
@@ -4056,6 +4191,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>6.5</MeleeDamageFactor>
@@ -4127,6 +4267,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>7.0</MeleeDamageFactor>
@@ -4198,6 +4343,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>7.5</MeleeDamageFactor>
@@ -4269,6 +4419,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>8.0</MeleeDamageFactor>
@@ -4340,6 +4495,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>8.5</MeleeDamageFactor>
@@ -4449,6 +4609,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>8.5</MeleeDamageFactor>
@@ -4520,6 +4685,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>9.0</MeleeDamageFactor>
@@ -4591,6 +4761,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>9.5</MeleeDamageFactor>
@@ -4662,6 +4837,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>10.0</MeleeDamageFactor>
@@ -4733,6 +4913,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>10.5</MeleeDamageFactor>
@@ -4804,6 +4989,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>11.0</MeleeDamageFactor>
@@ -4875,6 +5065,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>11.5</MeleeDamageFactor>
@@ -4946,6 +5141,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>12.0</MeleeDamageFactor>
@@ -5017,6 +5217,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>12.5</MeleeDamageFactor>
@@ -5088,6 +5293,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>13.0</MeleeDamageFactor>
@@ -5159,6 +5369,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>13.5</MeleeDamageFactor>
@@ -5269,6 +5484,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>13.5</MeleeDamageFactor>
@@ -5340,6 +5560,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>14.0</MeleeDamageFactor>
@@ -5411,6 +5636,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>14.5</MeleeDamageFactor>
@@ -5482,6 +5712,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>15.0</MeleeDamageFactor>
@@ -5553,6 +5788,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>15.5</MeleeDamageFactor>
@@ -5624,6 +5864,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>16.0</MeleeDamageFactor>
@@ -5695,6 +5940,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>16.5</MeleeDamageFactor>
@@ -5766,6 +6016,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>17.0</MeleeDamageFactor>
@@ -5837,6 +6092,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>17.5</MeleeDamageFactor>
@@ -5908,6 +6168,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>18.0</MeleeDamageFactor>
@@ -5979,6 +6244,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>18.5</MeleeDamageFactor>
@@ -6090,6 +6360,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>18.5</MeleeDamageFactor>
@@ -6161,6 +6436,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>20.0</MeleeDamageFactor>
@@ -6232,6 +6512,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>21.0</MeleeDamageFactor>
@@ -6303,6 +6588,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>22.0</MeleeDamageFactor>
@@ -6374,6 +6664,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>23.0</MeleeDamageFactor>
@@ -6445,6 +6740,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -6516,6 +6816,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -6587,6 +6892,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -6658,6 +6968,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -6729,6 +7044,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -6800,6 +7120,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -6912,6 +7237,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -6983,6 +7313,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7054,6 +7389,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7125,6 +7465,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7196,6 +7541,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7267,6 +7617,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7338,6 +7693,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7409,6 +7769,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7480,6 +7845,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7551,6 +7921,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7622,6 +7997,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7735,6 +8115,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7806,6 +8191,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7877,6 +8267,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -7948,6 +8343,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -8019,6 +8419,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -8090,6 +8495,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -8161,6 +8571,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -8232,6 +8647,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -8303,6 +8723,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -8374,6 +8799,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -8445,6 +8875,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -8577,6 +9012,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>25.0</MeleeDamageFactor>
@@ -8648,6 +9088,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>27.5</MeleeDamageFactor>
@@ -8719,6 +9164,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>28.0</MeleeDamageFactor>
@@ -8790,6 +9240,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>28.0</MeleeDamageFactor>
@@ -8861,6 +9316,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>28.0</MeleeDamageFactor>
@@ -8932,6 +9392,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>28.0</MeleeDamageFactor>
@@ -9003,6 +9468,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>28.0</MeleeDamageFactor>
@@ -9076,6 +9546,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>28.0</MeleeDamageFactor>
@@ -9149,6 +9624,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>30.0</MeleeDamageFactor>
@@ -9270,6 +9750,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>30.0</MeleeDamageFactor>
@@ -9343,6 +9828,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>32.5</MeleeDamageFactor>
@@ -9416,6 +9906,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>33.0</MeleeDamageFactor>
@@ -9489,6 +9984,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>33.0</MeleeDamageFactor>
@@ -9562,6 +10062,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>35.0</MeleeDamageFactor>
@@ -9684,6 +10189,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>35.0</MeleeDamageFactor>
@@ -9757,6 +10267,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>35.0</MeleeDamageFactor>
@@ -9830,6 +10345,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>40.0</MeleeDamageFactor>
@@ -9903,6 +10423,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>40.0</MeleeDamageFactor>
@@ -9976,6 +10501,11 @@
 					<li>SleepingSickness</li>
 					<li>LungRotExposure</li>
 					<li>LungRot</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
 				</makeImmuneTo>
 				<statOffsets>
 					<MeleeDamageFactor>50.0</MeleeDamageFactor>

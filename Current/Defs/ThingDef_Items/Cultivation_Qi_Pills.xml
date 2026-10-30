@@ -100,6 +100,18 @@
 			<li>Neutral_Qi</li>
 		</tradeTags>		
 	</ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_BodyTemperingPillSpawner</defName>
+		<label>Body Tempering Pill</label>
+		<description>a pill made by experienced alchemist, capable of slightly increasing one body strength \n\nTags:Qi Source, Qi Source Tier1, Pure_Qi, Neutral Qi</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_BodyTemperingPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_BodyTemperingPill</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 	
 	<HediffDef ParentName="CultivationDrugHediffBase">
 		<defName>CTR_BodyTemperingPillAbsorb</defName>
@@ -173,6 +185,18 @@
 			<li>Neutral_Qi</li>
 		</tradeTags>		
 	</ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_QiCondensingPillSpawner</defName>
+		<label>Qi Condensing Pill</label>
+		<description>a pill made by experienced alchemist, capable of slightly increasing one cultivation \n\nTags:Qi Source, Qi Source Tier1, Pure_Qi, Neutral Qi</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_QiCondensingPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_QiCondensingPill</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+    </ThingDef>
 
 	<HediffDef ParentName="CultivationDrugHediffBase">
 		<defName>CTR_QiCondensingPillAbsorb</defName>
@@ -254,6 +278,18 @@
 			<li>Qi_Source_Tier2</li>
 		</tradeTags>
 	</ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_NascentQiPillSpawner</defName>
+		<label>Nascent Qi Pill</label>
+		<description>a Qi Pill that contains the Qi of Nascent Soul level. made by exceptional alchemist, capable of moderately increasing one cultivation \nOnly Golden Core Realm or above can use Nascent Qi \n\n&lt;color=#FF0000&gt;Not for mortal consumption&lt;/color&gt; \n\nTags:Qi Source, Qi Source Tier2, Nascent Qi, Neutral Qi</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_NascentQiPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_NascentQiPill</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+    </ThingDef>
 	
 	<HediffDef ParentName="CultivationDrugHediffBase">
 		<defName>CTR_NascentQiPillAbsorb</defName>
@@ -376,6 +412,18 @@
 			<li>Qi_Source_Tier3</li>
 		</tradeTags>
 	</ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_SaintQiPillSpawner</defName>
+		<label>Saint Qi Pill</label>
+		<description>a Qi Condensing Pill that contain an Saint Qi, made by very exceptional alchemist, capable of significantly increasing one cultivation \nOnly Trancendent Realm or above can use Saint Qi \n\n&lt;color=#FF0000&gt;lethal for mortal consumption&lt;/color&gt; \n\nTags:Qi Source, Qi Source Tier3, Saint Qi, Neutral Qi</description>
+        <descriptionHyperlinks>
+            <ThingDef>CTR_SaintQiPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_SaintQiPill</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+    </ThingDef>
 	
 	<HediffDef ParentName="CultivationDrugHediffBase">
 		<defName>CTR_SaintQiPillAbsorb</defName>
@@ -488,6 +536,18 @@
 			<li>Qi_Source_Tier5</li>
 		</tradeTags>
 	</ThingDef>
+    <ThingDef ParentName="PillSpawnerBase">
+        <defName>CTR_ImmortalQiPillSpawner</defName>
+		<label>Immortal Qi Pill</label>
+		<description>a Qi Condensing Pill that contain an Immortal Qi, made by very exceptional alchemist, capable of drastically increasing one cultivation \nOnly Saint King or above can use Immortal Qi \n\n&lt;color=#FF0000&gt;lethal for mortal consumption&lt;/color&gt; \n\nTags:Qi Source, Qi Source Tier5, Immortal Qi, Neutral Qi</description>
+		<descriptionHyperlinks>
+            <ThingDef>CTR_ImmortalQiPill</ThingDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Items/Pills/CTR_ImmortalQiPill</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+    </ThingDef>
 	
 	<HediffDef ParentName="CultivationDrugHediffBase">
 		<defName>CTR_ImmortalQiPillAbsorb</defName>

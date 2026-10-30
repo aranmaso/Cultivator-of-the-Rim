@@ -942,6 +942,59 @@
 		</comps>
 	</ThingDef>
 	
+	<RulePackDef>
+		<defName>CTR_Namer_SkillBook_InnerWorld</defName>
+		<rulePack>
+			<rulesStrings>
+
+				<li>title->[titleAuthoredNoSubject]</li>
+
+				<li>titleAuthoredNoSubject->The Way of Innerself</li>
+				<li>titleAuthoredNoSubject->The Tome of World Creation</li>
+				<li>titleAuthoredNoSubject->pocket world for dummy</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<ThingDef ParentName="CTR_SkillBookBase">
+		<defName>CTR_SkillBook_InnerWorld</defName>
+		<label>innerworld how-to manual</label>
+		<description>A book which focuses on teaching the way of creating one own innerworld within cultivator body. \n\n require cultivation: &lt;color="#12dade"&gt;[Transcendent+]&lt;/color&gt;</description>
+		<graphicData>
+			<texPath>Things/Items/Manual/ManualBook_Qi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Book">
+				<nameMaker>CTR_Namer_SkillBook_InnerWorld</nameMaker>
+				<descriptionMaker>CTR_Description_Novel</descriptionMaker>
+				<ageYearsRange>1000~10000</ageYearsRange>
+				<openGraphic>
+					<texPath>Things/Item/Book/Textbook/Textbook_Open</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.7</drawSize>
+				</openGraphic>
+				<verticalGraphic>
+					<texPath>Things/Items/Manual/ManualBook</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<addTopAltitudeBias>true</addTopAltitudeBias>
+				</verticalGraphic>
+				<doers>
+					<li Class="CultivatorOfTheRim.BookOutcomeProperties_TechniqueManual">
+						<hediffDef>CTR_RefinementComprehension</hediffDef>
+						<learnChance>0.05</learnChance>
+						<benefitString>Innerworld creation comprehension</benefitString>
+                        <minimumCulLevel>CTR_TranscendentOrAbove</minimumCulLevel>
+                        <unmetString>Transcendent or above</unmetString>
+					</li>
+				</doers>
+			</li>
+		</comps>
+	</ThingDef>
+	
 	
 	
 </Defs>
